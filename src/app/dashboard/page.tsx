@@ -4,7 +4,7 @@ import { useState } from "react"
 import { SmartMoneyPulse } from "@/components/dashboard/smart-money-pulse"
 import { MarketSentiment } from "@/components/dashboard/market-sentiment"
 import { Watchlist } from "@/components/dashboard/watchlist"
-import { BrokerAnalysisCard } from "@/components/dashboard/broker-analysis-card"
+import { VolumeFlowAnalysisCard } from "@/components/dashboard/broker-analysis-card"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Terminal } from "lucide-react"
 import { useMarketData } from "@/components/providers/market-data-provider"
@@ -63,7 +63,7 @@ export default function DashboardPage() {
                 </div>
 
                 <div className="lg:col-span-1">
-                    <BrokerAnalysisCard data={selectedStock} />
+                    <VolumeFlowAnalysisCard data={selectedStock} />
                 </div>
             </div>
         </div>

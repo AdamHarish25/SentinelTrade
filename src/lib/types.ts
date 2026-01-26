@@ -18,11 +18,11 @@ export interface WatchlistItem {
     flow: "Inflow" | "Outflow" | "Neutral";
     accumulationQuality: number; // 0-100
     isStealth: boolean;
-    brokerSummary: {
-        top3Percentage: number; // e.g., 65% controls 
-        retailPercentage: number;
-        avgTxValue: number; // Simulated
-        topBuyers: string[]; // ['YP', 'CC', 'PD']
+    volumeFlowAnalysis: {
+        rvol: number; // Relative Volume
+        priceCompressionScore: number; // 0-100
+        obvTrend: "Up" | "Down" | "Flat";
+        isAbsorption: boolean; // VSA Narrow Spread + High Vol
     };
 }
 

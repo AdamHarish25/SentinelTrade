@@ -1,7 +1,7 @@
 "use client"
 
 import { Watchlist } from "@/components/dashboard/watchlist"
-import { BrokerAnalysisCard } from "@/components/dashboard/broker-analysis-card"
+import { VolumeFlowAnalysisCard } from "@/components/dashboard/broker-analysis-card"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { useMarketData } from "@/components/providers/market-data-provider"
 import { useState } from "react"
@@ -30,7 +30,7 @@ export default function ScannerPage() {
                     />
                 </div>
                 <div className="lg:col-span-1 h-full min-h-0">
-                    <BrokerAnalysisCard data={selectedStock} />
+                    <VolumeFlowAnalysisCard data={selectedStock} />
 
                     <Card className="mt-6 border-border/50 bg-card/50 backdrop-blur">
                         <CardHeader>

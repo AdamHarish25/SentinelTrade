@@ -94,47 +94,51 @@ export async function GET() {
             const change = latest.close - prev.close;
             const changePercent = (change / prev.close) * 100;
 
-            // --- Silent Accumulation Detector Logic ---
-            let accumulationScore = 50; // Base Score
+            // --- Stealth Scanner Logic (Price-Volume Only) ---
 
-            // 1. Volume Factor (Weight: 30%)
-            const volRatio = latest.volume / avgVolume;
-            if (volRatio > 2.5) accumulationScore += 30;
-            else if (volRatio > 1.5) accumulationScore += 15;
-            else if (volRatio < 0.5) accumulationScore -= 10;
+            // 1. RVOL Stability (Proxy for Institutional Accumulation)
+            // Calc RVOL for last 3 days
+            const recentVols = history.slice(0, 3).map(d => d.volume);
+            const avgRecentVol = recentVols.reduce((a, b) => a + b, 0) / 3;
+            // MA20 is based on last 20 days EXCLUDING today usually, but here we used slice(1, 21)
+            const rvol = avgRecentVol / avgVolume;
 
-            // 2. Silence Factor (Price-Volume Divergence) (Weight: 30%)
-            // Penalty for loud moves (>2%), Bonus for sideways (0-1.5%)
-            const absChange = Math.abs(changePercent);
-            if (absChange < 0.5) accumulationScore += 20; // Very Silent
-            else if (absChange < 1.5) accumulationScore += 10; // Silent
-            else if (absChange > 3.0) accumulationScore -= 10; // Too loud/volatile due to retail FOMO?
+            // 2. Price Compression (High - Low) / Close
+            // If range is small but volume is decent, absorption is happening.
+            const dailyRange = (latest.high - latest.low) / latest.close;
+            let priceCompressionScore = 0;
+            if (dailyRange < 0.015) priceCompressionScore = 100; // < 1.5% range
+            else if (dailyRange < 0.03) priceCompressionScore = 50;
 
-            // 3. Trend Factor (Weight: 20%)
-            // If close > prev close, it's net buying usually.
-            if (changePercent > 0) accumulationScore += 10;
+            // 3. OBV Trend (Approximation)
+            // Check if last 3 days had more Up Volume than Down Volume
+            let upVol = 0;
+            let downVol = 0;
+            history.slice(0, 5).forEach((day, i, arr) => {
+                if (i === arr.length - 1) return;
+                const prevDay = arr[i + 1];
+                if (day.close > prevDay.close) upVol += day.volume;
+                else if (day.close < prevDay.close) downVol += day.volume;
+            });
+            const obvTrend = upVol > downVol * 1.5 ? "Up" : downVol > upVol * 1.5 ? "Down" : "Flat";
 
-            // 4. Institutional Factor (Avg Tx Value) (Simulated Weight: 20%)
-            // We simulate this as "Block Trade" probability if Volume is high but price didn't crash.
-            if (latest.volume > avgVolume && changePercent > -1) accumulationScore += 10;
+            // 4. VSA Logic: Narrow Spread + High Volume = Absorption
+            const isAbsorption = rvol > 1.2 && dailyRange < 0.02 && changePercent > -1 && changePercent < 1;
 
-            // Clamp
-            accumulationScore = Math.min(100, Math.max(0, accumulationScore));
+            // Final Accumulation Quality Score
+            let accumulationScore = 50;
+            if (rvol > 1.2 && rvol < 2.5) accumulationScore += 20; // Consistent, not spike
+            if (priceCompressionScore > 80) accumulationScore += 20;
+            if (obvTrend === "Up") accumulationScore += 20;
+            if (isAbsorption) accumulationScore += 15;
+            if (changePercent > 0) accumulationScore += 5;
 
-            const isStealth = accumulationScore > 75 && absChange < 1.5;
+            // Penalties
+            if (changePercent < -2) accumulationScore -= 30; // Drop
+            if (rvol > 4.0) accumulationScore -= 10; // Too loud (selling climax?)
 
-            // Mock Broker Summary (Simulating Top 3 Concentration)
-            // If score is high, assumed high concentration.
-            let top3Pct = 30 + (accumulationScore / 2); // Map score 0-100 to 30-80%
-            // Random jitter
-            top3Pct += (Math.random() * 10) - 5;
-            top3Pct = Math.min(95, Math.max(20, Math.floor(top3Pct)));
-
-            const retailPct = 100 - top3Pct;
-
-            const possibleBuyers = ["YP", "CC", "PD", "AK", "BK", "CS", "KZ"];
-            // Shuffle
-            const topBuyers = possibleBuyers.sort(() => 0.5 - Math.random()).slice(0, 3);
+            accumulationScore = Math.min(100, Math.max(0, Math.floor(accumulationScore)));
+            const isStealth = accumulationScore > 75;
 
             results.push({
                 symbol: ticker.replace(".JK", ""),
@@ -144,13 +148,13 @@ export async function GET() {
                 volume: latest.volume,
                 avgVolume,
                 flow,
-                accumulationQuality: Math.floor(accumulationScore),
+                accumulationQuality: accumulationScore,
                 isStealth,
-                brokerSummary: {
-                    top3Percentage: top3Pct,
-                    retailPercentage: retailPct,
-                    avgTxValue: Math.floor(latest.volume / 1200), // Mock avg size
-                    topBuyers
+                volumeFlowAnalysis: {
+                    rvol: parseFloat(rvol.toFixed(2)),
+                    priceCompressionScore,
+                    obvTrend,
+                    isAbsorption
                 }
             });
         })
