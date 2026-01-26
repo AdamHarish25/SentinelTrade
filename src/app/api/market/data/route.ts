@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { type EODHDResponse, type MarketData, type WatchlistItem } from "@/lib/types";
+import { MOCK_DATA_STORE } from "@/lib/mock-data";
 
-const TICKERS = ["BBCA.JK", "BMRI.JK", "BBRI.JK", "TLKM.JK", "ADRO.JK"];
+const TICKERS = ["BBCA.JK", "BMRI.JK", "BBRI.JK", "TLKM.JK", "ADRO.JK", "GOTO.JK", "UNVR.JK", "ASII.JK"];
 
 function getApiToken() {
     const token = process.env.EODHD_API_TOKEN;
@@ -13,30 +14,37 @@ function getApiToken() {
             const url = new URL(apiString);
             return url.searchParams.get("api_token");
         } catch {
-            // If not a valid URL, maybe it's just the key?
             return apiString;
         }
     }
-    return "demo";
+    return "demo"; // Default to demo if nothing found
 }
 
 async function fetchTickerData(ticker: string, token: string): Promise<EODHDResponse[] | null> {
-    // Use demo URL if token is demo and ticker is foreign, but for JK we need real token.
-    // We'll try to fetch.
-    // API: https://eodhd.com/api/eod/{TEST}.US?api_token={TOKEN}&fmt=json
+    const shouldUseMock = process.env.USE_MOCK_DATA === 'true' || token === 'demo' || token === 'undefined';
+
+    // Check for explicit mock data usage or if using demo key for non-US stocks (EODHD demo limit)
+    if (shouldUseMock) {
+        console.log(`Using Mock Data for ${ticker}`);
+        return MOCK_DATA_STORE[ticker] || null;
+    }
+
     const url = `https://eodhd.com/api/eod/${ticker}?api_token=${token}&fmt=json&order=d&limit=30`;
 
     try {
-        const res = await fetch(url, { next: { revalidate: 300 } }); // Cache for 5 mins
+        const res = await fetch(url, { next: { revalidate: 3600 } }); // Cache for 1 hour
         if (!res.ok) {
-            console.error(`Failed to fetch ${ticker}: ${res.statusText}`);
-            return null;
+            console.warn(`API Fetch Failed for ${ticker} (${res.status}). Falling back to mock.`);
+            return MOCK_DATA_STORE[ticker] || null;
         }
         const data = await res.json();
-        return Array.isArray(data) ? data : null;
+        if (!Array.isArray(data)) {
+            return MOCK_DATA_STORE[ticker] || null;
+        }
+        return data;
     } catch (error) {
         console.error(`Error fetching ${ticker}`, error);
-        return null;
+        return MOCK_DATA_STORE[ticker] || null;
     }
 }
 
