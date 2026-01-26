@@ -86,6 +86,48 @@ export async function GET() {
             const change = latest.close - prev.close;
             const changePercent = (change / prev.close) * 100;
 
+            // --- Silent Accumulation Detector Logic ---
+            let accumulationScore = 50; // Base Score
+
+            // 1. Volume Factor (Weight: 30%)
+            const volRatio = latest.volume / avgVolume;
+            if (volRatio > 2.5) accumulationScore += 30;
+            else if (volRatio > 1.5) accumulationScore += 15;
+            else if (volRatio < 0.5) accumulationScore -= 10;
+
+            // 2. Silence Factor (Price-Volume Divergence) (Weight: 30%)
+            // Penalty for loud moves (>2%), Bonus for sideways (0-1.5%)
+            const absChange = Math.abs(changePercent);
+            if (absChange < 0.5) accumulationScore += 20; // Very Silent
+            else if (absChange < 1.5) accumulationScore += 10; // Silent
+            else if (absChange > 3.0) accumulationScore -= 10; // Too loud/volatile due to retail FOMO?
+
+            // 3. Trend Factor (Weight: 20%)
+            // If close > prev close, it's net buying usually.
+            if (changePercent > 0) accumulationScore += 10;
+
+            // 4. Institutional Factor (Avg Tx Value) (Simulated Weight: 20%)
+            // We simulate this as "Block Trade" probability if Volume is high but price didn't crash.
+            if (latest.volume > avgVolume && changePercent > -1) accumulationScore += 10;
+
+            // Clamp
+            accumulationScore = Math.min(100, Math.max(0, accumulationScore));
+
+            const isStealth = accumulationScore > 75 && absChange < 1.5;
+
+            // Mock Broker Summary (Simulating Top 3 Concentration)
+            // If score is high, assumed high concentration.
+            let top3Pct = 30 + (accumulationScore / 2); // Map score 0-100 to 30-80%
+            // Random jitter
+            top3Pct += (Math.random() * 10) - 5;
+            top3Pct = Math.min(95, Math.max(20, Math.floor(top3Pct)));
+
+            const retailPct = 100 - top3Pct;
+
+            const possibleBuyers = ["YP", "CC", "PD", "AK", "BK", "CS", "KZ"];
+            // Shuffle
+            const topBuyers = possibleBuyers.sort(() => 0.5 - Math.random()).slice(0, 3);
+
             results.push({
                 symbol: ticker.replace(".JK", ""),
                 price: latest.close,
@@ -93,7 +135,15 @@ export async function GET() {
                 changePercent,
                 volume: latest.volume,
                 avgVolume,
-                flow
+                flow,
+                accumulationQuality: Math.floor(accumulationScore),
+                isStealth,
+                brokerSummary: {
+                    top3Percentage: top3Pct,
+                    retailPercentage: retailPct,
+                    avgTxValue: Math.floor(latest.volume / 1200), // Mock avg size
+                    topBuyers
+                }
             });
         })
     );

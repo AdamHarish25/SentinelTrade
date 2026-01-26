@@ -1,14 +1,18 @@
 "use client"
 
+import { useState } from "react"
 import { SmartMoneyPulse } from "@/components/dashboard/smart-money-pulse"
 import { MarketSentiment } from "@/components/dashboard/market-sentiment"
 import { Watchlist } from "@/components/dashboard/watchlist"
+import { BrokerAnalysisCard } from "@/components/dashboard/broker-analysis-card"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Code, Terminal } from "lucide-react"
+import { Terminal } from "lucide-react"
 import { useMarketData } from "@/components/providers/market-data-provider"
+import type { WatchlistItem } from "@/lib/types"
 
 export default function DashboardPage() {
     const { data, isLoading } = useMarketData()
+    const [selectedStock, setSelectedStock] = useState<WatchlistItem | null>(null)
 
     return (
         <div className="space-y-6 animate-in fade-in duration-500">
@@ -40,9 +44,8 @@ export default function DashboardPage() {
                     <CardContent className="flex-1">
                         <div className="h-full rounded-md bg-black/50 p-4 font-mono text-xs text-green-400 border border-border/50 shadow-inner">
                             <p className="text-muted-foreground mb-2">// Detecting Accumulation</p>
-                            <p><span className="text-purple-400">if</span> (Volume {'>'} <span className="text-yellow-400">2.5</span> * MA(<span className="text-yellow-400">20</span>)) {'{'}</p>
-                            <p className="pl-4"><span className="text-purple-400">const</span> <span className="text-blue-400">priceAction</span> = <span className="text-yellow-400">"bullish"</span>;</p>
-                            <p className="pl-4"><span className="text-purple-400">return</span> <span className="text-yellow-400">"SMART_MONEY_ENTRY"</span>;</p>
+                            <p><span className="text-purple-400">if</span> (Vol {'>'} <span className="text-yellow-400">2.5</span> * Avg && Abs(Chg) {'<'} <span className="text-yellow-400">1.5%</span>) {'{'}</p>
+                            <p className="pl-4"><span className="text-purple-400">return</span> <span className="text-yellow-400">"STEALTH_ACCUMULATION"</span>;</p>
                             <p>{'}'}</p>
                         </div>
                     </CardContent>
@@ -51,18 +54,17 @@ export default function DashboardPage() {
 
             <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
                 <div className="lg:col-span-2">
-                    <Watchlist items={data?.watchlist || []} isLoading={isLoading} />
+                    <Watchlist
+                        items={data?.watchlist || []}
+                        isLoading={isLoading}
+                        onSelect={setSelectedStock}
+                        selectedSymbol={selectedStock?.symbol}
+                    />
                 </div>
 
-                <Card className="border-border/50 bg-card/50 backdrop-blur flex items-center justify-center p-6 lg:col-span-1">
-                    <div className="text-center space-y-2">
-                        <div className="mx-auto rounded-full bg-pelorous-blue/10 p-3 w-12 h-12 flex items-center justify-center">
-                            <Code className="h-6 w-6 text-pelorous-blue" />
-                        </div>
-                        <h3 className="text-lg font-medium text-foreground">Fundamental Deep Dive</h3>
-                        <p className="text-sm text-muted-foreground max-w-xs mx-auto">Select a ticker from the watchlist to view comprehensive financial health checks.</p>
-                    </div>
-                </Card>
+                <div className="lg:col-span-1">
+                    <BrokerAnalysisCard data={selectedStock} />
+                </div>
             </div>
         </div>
     )
