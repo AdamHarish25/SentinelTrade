@@ -21,7 +21,8 @@ function getApiToken() {
 }
 
 async function fetchTickerData(ticker: string, token: string): Promise<EODHDResponse[] | null> {
-    const shouldUseMock = process.env.USE_MOCK_DATA === 'true' || token === 'demo' || token === 'undefined';
+    const isMockDisabled = process.env.USE_MOCK_DATA === 'false';
+    const shouldUseMock = process.env.USE_MOCK_DATA === 'true' || (!isMockDisabled && (token === 'demo' || token === 'undefined'));
 
     // Check for explicit mock data usage or if using demo key for non-US stocks (EODHD demo limit)
     if (shouldUseMock) {
@@ -34,16 +35,23 @@ async function fetchTickerData(ticker: string, token: string): Promise<EODHDResp
     try {
         const res = await fetch(url, { next: { revalidate: 3600 } }); // Cache for 1 hour
         if (!res.ok) {
-            console.warn(`API Fetch Failed for ${ticker} (${res.status}). Falling back to mock.`);
+            console.warn(`API Fetch Failed for ${ticker} (${res.status}).`);
+            if (isMockDisabled) return null; // Strict mode: no fallback
+
+            console.warn(`Falling back to mock data for ${ticker}.`);
             return MOCK_DATA_STORE[ticker] || null;
         }
         const data = await res.json();
         if (!Array.isArray(data)) {
+            console.warn(`Invalid data format for ${ticker}.`);
+            if (isMockDisabled) return null;
+
             return MOCK_DATA_STORE[ticker] || null;
         }
         return data;
     } catch (error) {
         console.error(`Error fetching ${ticker}`, error);
+        if (isMockDisabled) return null;
         return MOCK_DATA_STORE[ticker] || null;
     }
 }
@@ -65,12 +73,9 @@ export async function GET() {
                 return;
             }
 
-            // history[0] is the latest (because order=d means descending dates? 
-            // Wait, EODHD default is ascending. 
-            // Adding &order=d makes index 0 the latest.
-
             const latest = history[0];
             const prev = history[1];
+
 
             // Calculate MA(20) of Volume (excluding today/latest to check if today spiked)
             // Or include today? Usually compare Today Volume vs Avg(20).
@@ -141,7 +146,7 @@ export async function GET() {
             const isStealth = accumulationScore > 75;
 
             results.push({
-                symbol: ticker.replace(".JK", ""),
+                symbol: ticker.split(".")[0],
                 price: latest.close,
                 change,
                 changePercent,
