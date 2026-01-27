@@ -28,10 +28,7 @@
 ### **1. VSA (Volume Spread Analysis) Core**
 Implemented a proprietary logic to detect "Smart Money" accumulation:
 *   **Concept:** Institutions buy huge quantities without moving the price (Absorption).
-*   **Formula:**
-    ```typescript
-    const isStealth = (Volume > 2.5 * AvgVol20) && (Math.abs(ChangePercent) < 1.5);
-    ```
+*   **Core Formula:** `isStealth = (Volume > 1.5 * AvgVol20) && (AbsChange < 0.5 * ATR)`
 *   **Scoring System (0-100):**
     *   **Base Score:** 80 points for matching the core signal.
     *   **Bonuses:**
@@ -39,43 +36,44 @@ Implemented a proprietary logic to detect "Smart Money" accumulation:
         *   **Price Compression:** +15 points if daily range is at a 20-day low (Coiling).
     *   **Penalties:** Large price drops or selling climaxes reduce the score.
 
-### **2. Volume Normalization**
-*   **Adjustment:** Converted raw volume from Yahoo Finance into **"Lots"** (Volume / 100) to align with standard IDX trading terminology.
+### **2. Dynamic Volatility (Adaptive TR)**
+*   **Upgrade:** Replaced static 1.5% limit with **Average True Range (ATR)** based threshold.
+*   **Logic:** `Abs(Change) < 0.5 * ATR(14)`.
+*   **Benefit:** Adapts to the "personality" of the stock. Bluechips require tight compression; Commodities are allowed moderate volatility while still flagging abnormal stillness.
 
 ---
 
-## III. The "Quality Gate" (Fundamental Filtering)
+## III. The "Quality Gate" (Anti-Gorengan Filter)
 
-To prevent the scanner from flagging low-quality stocks ("Gorengan"), we implemented a strict Fundamental Filter layer.
+To prevent the scanner from flagging low-quality stocks ("Gorengan"), we implemented a strict Fundamental Filter layer that runs *before* the technical scan.
 
 ### **1. FundamentalService**
-*   **Source:** Created `src/lib/fundamental-service.ts` using mock JSON data (`src/data/fundamental-data.ts`).
-*   **Anti-Gorengan Rules:**
+*   **Source:** Created a Multi-File JSON Join engine (`allCompanies` + `financial_ratio` + `companySummary`).
+*   **Strict Rules:**
     *   **Market Cap:** Must be > Rp 5 Trillion.
-    *   **Financial Health:** Debt-to-Equity (DER) < 2.0.
-    *   **Profitability:** Return on Equity (ROE) > 0 (Positive).
+    *   **Financial Health:** Debt-to-Equity (DER) < 2.0 (Filters out distress).
+    *   **Profitability:** Return on Equity (ROE) > 0 (Filters out money losers).
 
-### **2. Conglomerate & Sector Tagging**
-*   **Context:** Added metadata to track business groups (Astra, Salim, BUMN, Bakrie) and Sectors (Energy, Finance).
-*   **Integration:** This metadata is merged with the live technical data in the API response.
+### **2. Audit Trail & Tagging**
+*   **Visual Logic:** Dashboard now displays specific group tags (Astra, Salim, BUMN, Bakrie) for context.
+*   **Stats:** Added a live "Audit Bar" showing: `Universe Scanned` -> `Quality Passed` -> `Stealth Found`.
 
 ---
 
-## IV. UI/UX Refinement (FinTech Aesthetic)
+## IV. UI/UX Refinement (Mobile-First FinTech)
 
-### **1. Scanner Dashboard (New Layout)**
-*   **Dual View System:**
-    *   **Sentinel Watchlist (Grid):** Displays high-quality stocks with a Stealth Score > 75.
-    *   **Fundamental Explorer (Table):** A sortable list of all other quality assets.
-*   **Interactive Filters:** Added a filter bar to toggle views by Conglomerate (e.g., "Show only Astra Group").
+### **1. Responsive "App-Like" Layout**
+*   **Mobile Sidebar:** Converted the persistent sidebar into a **Sheet / Drawer** triggered by a hamburger menu on mobile.
+*   **Adaptive Header:** Header items (Time, Status) auto-collapse on small screens.
+*   **Scrollable Data:** The "Fundamental Explorer" table now supports horizontal scrolling on mobile, preserving data density without breaking layout.
 
-### **2. Infinite Ticker Tape**
+### **2. Educational Hover Cards**
+*   **Feature:** Integrated `HoverCard` components into the VSA Analysis panel.
+*   **Detail:** Hovering over terms like "RVOL", "Elevated", or "OBV" now reveals detailed definitions and context for the user.
+
+### **3. Infinite Ticker Tape**
 *   **Feature:** A Bloomberg-style running ticker in the header.
 *   **Tech:** Custom CSS Keyframes (`animate-infinite-scroll`) in `globals.css` with a smooth, endless loop that pauses on hover.
-
-### **3. Theme Enforcement**
-*   **Aesthetic:** "Deep Navy" (#0F172A) & "Pelorous Blue" (#4AA6C6).
-*   **Fix:** Hardcoded the color palette variables in `:root` to ensure the Dark Mode theme is always active and consistent.
 
 ---
 
@@ -83,5 +81,5 @@ To prevent the scanner from flagging low-quality stocks ("Gorengan"), we impleme
 *   **Framework:** Next.js 15 (App Router).
 *   **Language:** TypeScript.
 *   **Data Provider:** `yahoo-finance2`.
-*   **Styling:** TailwindCSS + Custom Keyframes.
+*   **Styling:** TailwindCSS + Shadcn UI (Sheet, HoverCard, Dialog).
 *   **State Management:** Server Actions + React Hooks (`useState`, `useMemo`).

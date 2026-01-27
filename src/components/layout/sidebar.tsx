@@ -25,7 +25,7 @@ export function Sidebar() {
     const pathname = usePathname()
 
     return (
-        <div className="flex h-full w-64 flex-col border-r bg-card/50">
+        <div className="hidden md:flex h-full w-64 flex-col border-r bg-card/50">
             <div className="flex h-16 items-center border-b px-6">
                 <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary">
                     <Activity className="h-6 w-6" />

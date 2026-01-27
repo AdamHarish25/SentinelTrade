@@ -1,13 +1,26 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Clock } from "lucide-react"
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet"
+import { Button } from "@/components/ui/button"
+import { Menu, Activity, LayoutDashboard, ScanLine, FlaskConical, List, ScrollText, Clock } from "lucide-react"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { useMarketData } from "@/components/providers/market-data-provider"
 import { Skeleton } from "@/components/ui/skeleton"
+
+const navigation = [
+    { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+    { name: "Smart Money", href: "/dashboard/scanner", icon: ScanLine },
+    { name: "Fundamental Lab", href: "/dashboard/fundamental", icon: FlaskConical },
+    { name: "Watchlist", href: "/dashboard/watchlist", icon: List },
+    { name: "System Logs", href: "/dashboard/logs", icon: ScrollText },
+]
 
 export function Header() {
     const [time, setTime] = useState<string>("")
     const { data, isLoading } = useMarketData()
+    const pathname = usePathname()
 
     useEffect(() => {
         const updateTime = () => {
@@ -26,7 +39,48 @@ export function Header() {
     }, [])
 
     return (
-        <header className="sticky top-0 z-20 flex h-16 w-full items-center gap-4 border-b bg-background/95 backdrop-blur px-6 transition-all">
+        <header className="sticky top-0 z-20 flex h-16 w-full items-center gap-4 border-b bg-background/95 backdrop-blur px-4 md:px-6 transition-all">
+            {/* Mobile Sidebar Trigger */}
+            <div className="md:hidden">
+                <Sheet>
+                    <SheetTrigger asChild>
+                        <Button variant="ghost" size="icon" className="shrink-0">
+                            <Menu className="h-5 w-5" />
+                            <span className="sr-only">Toggle navigation menu</span>
+                        </Button>
+                    </SheetTrigger>
+                    <SheetContent side="left" className="flex flex-col w-64 p-0">
+                        <SheetTitle className="sr-only">Mobile Navigation Menu</SheetTitle>
+                        <div className="flex h-16 items-center border-b px-6">
+                            <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary">
+                                <Activity className="h-6 w-6" />
+                                <span>SentinelTrade</span>
+                            </Link>
+                        </div>
+                        <div className="flex-1 overflow-y-auto py-4">
+                            <nav className="grid gap-1 px-2">
+                                {navigation.map((item) => {
+                                    const isActive = pathname === item.href
+                                    return (
+                                        <Link
+                                            key={item.name}
+                                            href={item.href}
+                                            className={`group flex items-center gap-3 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground ${isActive ? "bg-accent/50 text-accent-foreground" : "text-muted-foreground"}`}
+                                        >
+                                            <item.icon className="h-4 w-4" />
+                                            {item.name}
+                                        </Link>
+                                    )
+                                })}
+                            </nav>
+                        </div>
+                        <div className="p-4 border-t text-xs text-muted-foreground">
+                            <p>SentinelTrade Mobile v1.0</p>
+                        </div>
+                    </SheetContent>
+                </Sheet>
+            </div>
+
             <div className="flex items-center gap-4 flex-1 overflow-hidden mask-linear-fade">
                 {/* Ticker Tape */}
                 <div className="flex items-center gap-8 text-sm text-muted-foreground animate-infinite-scroll hover:[animation-play-state:paused] whitespace-nowrap">
@@ -51,17 +105,17 @@ export function Header() {
                 </div>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 md:gap-4 shrink-0">
                 <div className="flex items-center gap-2 text-sm">
                     <div className={`h-2 w-2 rounded-full animate-pulse ${data?.isMarketOpen ? 'bg-secondary' : 'bg-yellow-500'}`} />
-                    <span className="text-muted-foreground">{data?.isMarketOpen ? 'Market Open' : 'Market Closed'}</span>
+                    <span className="text-muted-foreground hidden sm:inline">{data?.isMarketOpen ? 'Market Open' : 'Market Closed'}</span>
                 </div>
 
-                <div className="h-4 w-px bg-border" />
+                <div className="h-4 w-px bg-border text-muted-foreground/20" />
 
                 <div className="flex items-center gap-2 text-sm font-mono text-muted-foreground">
                     <Clock className="h-4 w-4" />
-                    <span>{time} WIB</span>
+                    <span>{time} <span className="hidden sm:inline">WIB</span></span>
                 </div>
             </div>
         </header>

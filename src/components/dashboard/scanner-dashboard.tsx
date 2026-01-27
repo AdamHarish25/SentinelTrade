@@ -47,43 +47,47 @@ const HotStockCard = ({ stock, onSelect, isSelected }: { stock: WatchlistItem, o
 
 const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: WatchlistItem[], onSelect: any, selectedSymbol?: string }) => (
     <div className="rounded-md border border-border/50 overflow-hidden">
-        <div className="bg-muted/30 px-4 py-2 text-xs font-medium text-muted-foreground grid grid-cols-12 gap-2">
-            <div className="col-span-3">Ticker</div>
-            <div className="col-span-2">Sector</div>
-            <div className="col-span-2 text-right">Price</div>
-            <div className="col-span-3 text-right">Vol (Lots)</div>
-            <div className="col-span-2 text-center">Score</div>
-        </div>
-        <ScrollArea className="h-[400px]">
-            {stocks.map((stock) => (
-                <div
-                    key={stock.symbol}
-                    onClick={() => onSelect(stock)}
-                    className={`px-4 py-3 text-sm grid grid-cols-12 gap-2 items-center cursor-pointer border-b border-border/50 last:border-0 hover:bg-muted/50 ${selectedSymbol === stock.symbol ? 'bg-muted/80' : ''}`}
-                >
-                    <div className="col-span-3 font-bold flex items-center gap-2">
-                        {stock.symbol}
-                        {stock.fundamental?.conglomerate && (
-                            <span className="md:hidden inline-block w-1.5 h-1.5 rounded-full bg-purple-400" />
-                        )}
-                        {stock.isStealth && <Radar className="h-3 w-3 text-pelorous-blue" />}
-                    </div>
-                    <div className="col-span-2 text-xs text-muted-foreground truncate">
-                        {stock.fundamental?.sector || "-"}
-                    </div>
-                    <div className="col-span-2 text-right font-mono">{stock.price.toLocaleString()}</div>
-                    <div className="col-span-3 text-right font-mono text-xs text-muted-foreground">
-                        {stock.volume.toLocaleString()}
-                    </div>
-                    <div className="col-span-2 flex justify-center">
-                        <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border ${stock.accumulationQuality > 50 ? 'border-pelorous-blue/30 text-pelorous-blue bg-pelorous-blue/10' : 'border-border text-muted-foreground'
-                            }`}>
-                            {stock.accumulationQuality}
-                        </div>
-                    </div>
+        <div className="overflow-x-auto">
+            <div className="min-w-[600px]">
+                <div className="bg-muted/30 px-4 py-2 text-xs font-medium text-muted-foreground grid grid-cols-12 gap-2">
+                    <div className="col-span-3">Ticker</div>
+                    <div className="col-span-2">Sector</div>
+                    <div className="col-span-2 text-right">Price</div>
+                    <div className="col-span-3 text-right">Vol (Lots)</div>
+                    <div className="col-span-2 text-center">Score</div>
                 </div>
-            ))}
-        </ScrollArea>
+                <ScrollArea className="h-[400px]">
+                    {stocks.map((stock) => (
+                        <div
+                            key={stock.symbol}
+                            onClick={() => onSelect(stock)}
+                            className={`px-4 py-3 text-sm grid grid-cols-12 gap-2 items-center cursor-pointer border-b border-border/50 last:border-0 hover:bg-muted/50 ${selectedSymbol === stock.symbol ? 'bg-muted/80' : ''}`}
+                        >
+                            <div className="col-span-3 font-bold flex items-center gap-2">
+                                {stock.symbol}
+                                {stock.fundamental?.conglomerate && (
+                                    <span className="md:hidden inline-block w-1.5 h-1.5 rounded-full bg-purple-400" />
+                                )}
+                                {stock.isStealth && <Radar className="h-3 w-3 text-pelorous-blue" />}
+                            </div>
+                            <div className="col-span-2 text-xs text-muted-foreground truncate">
+                                {stock.fundamental?.sector || "-"}
+                            </div>
+                            <div className="col-span-2 text-right font-mono">{stock.price.toLocaleString()}</div>
+                            <div className="col-span-3 text-right font-mono text-xs text-muted-foreground">
+                                {stock.volume.toLocaleString()}
+                            </div>
+                            <div className="col-span-2 flex justify-center">
+                                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border ${stock.accumulationQuality > 50 ? 'border-pelorous-blue/30 text-pelorous-blue bg-pelorous-blue/10' : 'border-border text-muted-foreground'
+                                    }`}>
+                                    {stock.accumulationQuality}
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </ScrollArea>
+            </div>
+        </div>
     </div>
 );
 
@@ -131,7 +135,7 @@ export function ScannerDashboard({ items, isLoading, onSelect, selectedSymbol, o
                         Quality Scanner
                     </CardTitle>
                     <CardDescription className="flex items-center gap-2 mt-1">
-                        <span className="flex items-center gap-1.5 text-xs bg-muted px-2 py-1 rounded">
+                        <span className="flex flex-wrap items-center gap-1.5 text-xs bg-muted px-2 py-1 rounded">
                             <Database className="h-3 w-3" />
                             <span>Universe: {stats.scannedUniverse}</span>
                             <span>→</span>

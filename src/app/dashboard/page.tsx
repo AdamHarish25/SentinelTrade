@@ -16,14 +16,16 @@ export default function DashboardPage() {
 
     return (
         <div className="space-y-6 animate-in fade-in duration-500">
-            <div className="flex items-center justify-between">
+
+            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                 <div>
-                    <h1 className="text-3xl font-bold tracking-tight text-foreground">Market Scanning Engine</h1>
-                    <p className="text-muted-foreground">LQ45 Index Screener & Smart Money Detection</p>
+                    <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Market Scanning Engine</h1>
+                    <p className="text-sm md:text-base text-muted-foreground">LQ45 Index Screener & Smart Money Detection</p>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 self-start md:self-auto">
                     <span className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ${data?.isMarketOpen ? 'bg-green-500/10 text-green-500 ring-green-500/20' : 'bg-yellow-500/10 text-yellow-500 ring-yellow-500/20'}`}>
-                        {data?.isMarketOpen ? 'System Online (Market Open)' : 'System Standby (Market Closed)'}
+                        {data?.isMarketOpen ? 'System Online' : 'System Standby'}
+                        <span className="hidden sm:inline ml-1">({data?.isMarketOpen ? 'Market Open' : 'Market Closed'})</span>
                     </span>
                 </div>
             </div>
