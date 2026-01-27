@@ -78,6 +78,10 @@ export default function DashboardPage() {
                     </div>
                 </div>
             </div>
+
+            <footer className="relative z-10 py-10 border-t border-border/10 text-center text-sm text-muted-foreground">
+                <p>&copy; 2026 SentinelTrade. Data provided by IDX (Delayed 15m). Made with ❤️ by <a className="text-pelorous-blue font-bold hover:text-pelorous-blue/80 transition-colors" href="https://websitejoki.my.id">WebsiteJokiID Team</a></p>
+            </footer>
         </div>
     )
 }
