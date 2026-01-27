@@ -48,7 +48,7 @@ export default function DashboardPage() {
                             <br />
                             <p className="text-muted-foreground mb-2">// VSA Stealth Signal</p>
                             <p><span className="text-purple-400">const</span> isStealth = (</p>
-                            <p className="pl-4">Vol {'>'} <span className="text-yellow-400">2.5</span> * MA20 && </p>
+                            <p className="pl-4">Vol {'>'} <span className="text-yellow-400">1.5</span> * MA20 && </p>
                             <p className="pl-4">Abs(Change) {'<'} <span className="text-yellow-400">1.5%</span></p>
                             <p>);</p>
                         </div>

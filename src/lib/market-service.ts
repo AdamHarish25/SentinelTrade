@@ -126,7 +126,34 @@ export function analyzeTicker(ticker: string, history: EODHDResponse[], isMock: 
     let compressionPoints = 0;
     let penalty = 0;
 
-    const isCoreAbsorption = (latest.volume > 2.5 * avgVolume) && (absChange < 1.5);
+    // Dynamic Volatility Limit (ATR-based)
+    // Calculate Average True Range (14 days)
+    const atrPeriod = 14;
+    let trSum = 0;
+    // Need at least period + 1 days
+    const atrHistory = history.slice(0, atrPeriod + 1);
+
+    if (atrHistory.length >= atrPeriod + 1) {
+        for (let i = 0; i < atrPeriod; i++) {
+            const current = atrHistory[i];
+            const previous = atrHistory[i + 1];
+            const hl = current.high - current.low;
+            const hc = Math.abs(current.high - previous.close);
+            const lc = Math.abs(current.low - previous.close);
+            trSum += Math.max(hl, hc, lc);
+        }
+    }
+    // Fallback if not enough data, use simple daily range average
+    const atr = trSum > 0 ? trSum / atrPeriod : (avgVolume * 0.01); // fallback negligible
+
+    // Convert ATR to Percentage relative to current price to compare with changePercent?
+    // User logic: Abs(Change) < 0.5 * ATR. 
+    // Since 'change' is Absolute Price Difference, we compare that directly to ATR.
+    const priceChangeAbs = Math.abs(change);
+    const dynamicThreshold = 0.5 * atr;
+
+    //multiplier volume = 1.5 (Reduced from 2.5 per user)
+    const isCoreAbsorption = (latest.volume > 1.5 * avgVolume) && (priceChangeAbs < dynamicThreshold);
 
     if (isCoreAbsorption) {
         baseScore = 80;
