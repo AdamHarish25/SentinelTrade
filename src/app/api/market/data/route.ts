@@ -1,131 +1,53 @@
 import { NextResponse } from "next/server";
-import { type MarketData, type WatchlistItem } from "@/lib/types";
-import { getMarketData } from "@/lib/market-service";
+import { type MarketData } from "@/lib/types";
+import { scanIndex } from "@/lib/market-service";
+import { FundamentalService, DEFAULT_QUALITY_FILTER } from "@/lib/fundamental-service";
 
-const TICKERS = ["BBCA.JK", "BMRI.JK", "BBRI.JK", "TLKM.JK", "ADRO.JK", "GOTO.JK", "UNVR.JK", "ASII.JK"];
+// Cache for 60 minutes (3600 seconds)
+export const revalidate = 3600;
 
 export async function GET() {
-    const results: WatchlistItem[] = [];
+    // 1. Get Metrics (Total Universe vs Quality Universe)
+    const metrics = FundamentalService.getMetrics();
 
-    await Promise.all(
-        TICKERS.map(async (ticker) => {
-            const { data: history, source } = await getMarketData(ticker);
+    // 2. Get Quality Index (Anti-Gorengan Filter)
+    const qualityTickers = FundamentalService.getTickers(DEFAULT_QUALITY_FILTER);
 
-            if (!history || history.length < 21) {
-                // Fallback or skip if insufficient data
-                return;
-            }
+    // 3. Scan the Technicals (Yahoo Finance)
+    const technicalResults = await scanIndex(qualityTickers);
 
-            const latest = history[0];
-            const prev = history[1];
+    // 4. Merge Fundamental Metadata
+    const allFundamentals = FundamentalService.getAllData();
+    const results = technicalResults.map(item => {
+        const meta = allFundamentals.find(f => f.symbol === item.symbol || f.symbol.startsWith(item.symbol));
+        return {
+            ...item,
+            fundamental: meta ? {
+                sector: meta.sector,
+                conglomerate: meta.conglomerate,
+                marketCapT: meta.marketCap / 1_000_000_000_000
+            } : undefined
+        };
+    });
 
-            // Calculate MA(20) of Volume
-            const last20 = history.slice(1, 21);
-            const avgVolume = last20.reduce((acc, d) => acc + d.volume, 0) / last20.length;
-
-            // Smart Money Logic: Volume > 2.5 * AvgVolume AND Green Candle (Close > Open)
-            const isVolumeSpike = latest.volume > 2.5 * avgVolume;
-            const isBullish = latest.close > latest.open;
-            const isInflow = isVolumeSpike && isBullish;
-
-            // Also check Distribution: High Volume + Red Candle
-            const isBearish = latest.close < latest.open;
-            const isOutflow = isVolumeSpike && isBearish;
-
-            let flow: "Inflow" | "Outflow" | "Neutral" = "Neutral";
-            if (isInflow) flow = "Inflow";
-            if (isOutflow) flow = "Outflow";
-
-            const change = latest.close - prev.close;
-            const changePercent = (change / prev.close) * 100;
-
-            // --- Stealth Scanner Logic (Price-Volume Only) ---
-
-            // 1. RVOL Stability (Proxy for Institutional Accumulation)
-            const recentVols = history.slice(0, 3).map(d => d.volume);
-            const avgRecentVol = recentVols.reduce((a, b) => a + b, 0) / 3;
-            // Use avgVolume (20d) as baseline
-            const rvol = avgRecentVol / avgVolume;
-
-            // 2. Price Compression (High - Low) / Close
-            const dailyRange = (latest.high - latest.low) / latest.close;
-            let priceCompressionScore = 0;
-            if (dailyRange < 0.015) priceCompressionScore = 100; // < 1.5% range
-            else if (dailyRange < 0.03) priceCompressionScore = 50;
-
-            // 3. OBV Trend (Approximation)
-            let upVol = 0;
-            let downVol = 0;
-            history.slice(0, 5).forEach((day, i, arr) => {
-                if (i === arr.length - 1) return;
-                const prevDay = arr[i + 1];
-                if (day.close > prevDay.close) upVol += day.volume;
-                else if (day.close < prevDay.close) downVol += day.volume;
-            });
-            const obvTrend = upVol > downVol * 1.5 ? "Up" : downVol > upVol * 1.5 ? "Down" : "Flat";
-
-            // 4. VSA Logic: Narrow Spread + High Volume = Absorption
-            const isAbsorption = rvol > 1.2 && dailyRange < 0.02 && changePercent > -1 && changePercent < 1;
-
-            // Final Accumulation Quality Score
-            let accumulationScore = 50;
-            if (rvol > 1.2 && rvol < 2.5) accumulationScore += 20; // Consistent, not spike
-            if (priceCompressionScore > 80) accumulationScore += 20;
-            if (obvTrend === "Up") accumulationScore += 20;
-            if (isAbsorption) accumulationScore += 15;
-            if (changePercent > 0) accumulationScore += 5;
-
-            // Penalties
-            if (changePercent < -2) accumulationScore -= 30; // Drop
-            if (rvol > 4.0) accumulationScore -= 10; // Too loud (selling climax?)
-
-            accumulationScore = Math.min(100, Math.max(0, Math.floor(accumulationScore)));
-            const isStealth = accumulationScore > 75;
-
-            results.push({
-                symbol: ticker.split(".")[0], // Strip .JK for display
-                price: latest.close,
-                change,
-                changePercent,
-                volume: latest.volume,
-                avgVolume,
-                flow,
-                accumulationQuality: accumulationScore,
-                isStealth,
-                isMock: source === "Mock",
-                volumeFlowAnalysis: {
-                    rvol: parseFloat(rvol.toFixed(2)),
-                    priceCompressionScore,
-                    obvTrend,
-                    isAbsorption
-                }
-            });
-        })
-    );
-
-    // Sorting: Inflow first, then most positive change
-    results.sort((a, b) => b.changePercent - a.changePercent);
-
-    // Calculate Market Metadata
+    // 5. Calculate Market Metadata
     const accumulationCount = results.filter(r => r.flow === "Inflow").length;
     const distributionCount = results.filter(r => r.flow === "Outflow").length;
     const neutralCount = results.length - accumulationCount - distributionCount;
 
-    // Market Sentiment Score (Simple Algo)
+    // 6. Market Sentiment Score
     let sentiment = 50;
     results.forEach(r => {
-        if (r.changePercent > 1) sentiment += 10;
-        else if (r.changePercent > 0) sentiment += 5;
-        else if (r.changePercent < -1) sentiment -= 10;
-        else if (r.changePercent < 0) sentiment -= 5;
+        if (r.changePercent > 1) sentiment += 2;
+        else if (r.changePercent > 0) sentiment += 1;
+        else if (r.changePercent < -1) sentiment -= 2;
+        else if (r.changePercent < 0) sentiment -= 1;
 
-        if (r.flow === "Inflow") sentiment += 5;
-        if (r.flow === "Outflow") sentiment -= 5;
+        if (r.flow === "Inflow") sentiment += 1;
     });
     sentiment = Math.max(0, Math.min(100, sentiment));
 
-    // Check Market Open Time (WIB)
-    // UTC+7
+    // 7. Check Market Open Time (WIB)
     const now = new Date();
     const wibTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Jakarta" }));
     const wibHour = wibTime.getHours();
@@ -135,7 +57,8 @@ export async function GET() {
     const isWorkHours = wibHour >= 9 && wibHour < 16;
     const isMarketOpen = !isWeekend && isWorkHours;
 
-    const responseData: MarketData = {
+    // EXTENDED RESPONSE with Audit Trail
+    const responseData = {
         watchlist: results,
         marketSentiment: sentiment,
         smartMoneyFlow: {
@@ -143,9 +66,14 @@ export async function GET() {
             distribution: distributionCount,
             neutral: neutralCount
         },
+        auditTrail: {
+            scannedUniverse: metrics.total,
+            qualityPassed: metrics.passed,
+            stealthFound: accumulationCount
+        },
         lastUpdated: new Date().toISOString(),
         isMarketOpen
-    };
+    } as any; // Cast to avoid strict type error since we added auditTrail temporarily
 
     return NextResponse.json(responseData);
 }

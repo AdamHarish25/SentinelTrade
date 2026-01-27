@@ -12,9 +12,9 @@ interface MarketDataContextType {
 
 const MarketDataContext = createContext<MarketDataContextType | undefined>(undefined)
 
-// Version bumped to invalidate old mock data that didn't have isMock flags
-const CACHE_KEY = "sentinel_market_data_cache_v2_stealth";
-const CACHE_DURATION = 60 * 60 * 1000; // 1 hour
+// Version bumped to apply new 5-min cache strategy
+const CACHE_KEY = "sentinel_market_data_cache_v3_5min";
+const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
 export function MarketDataProvider({ children }: { children: React.ReactNode }) {
     const [data, setData] = useState<MarketData | null>(null)
@@ -22,7 +22,7 @@ export function MarketDataProvider({ children }: { children: React.ReactNode }) 
     const [error, setError] = useState<string | null>(null)
 
     const loadFromCache = (): boolean => {
-        if (typeof window === 'undefined') return false; // Server-side guard
+        if (typeof window === 'undefined') return false;
         try {
             const cached = localStorage.getItem(CACHE_KEY);
             if (cached) {
@@ -39,8 +39,6 @@ export function MarketDataProvider({ children }: { children: React.ReactNode }) 
     };
 
     const fetchData = async (force = false) => {
-        // If not forced and cache is valid, user sees cached data.
-        // We skip network to save API calls (Quota Protection).
         if (!force) {
             const hasCache = loadFromCache();
             if (hasCache) {
@@ -50,7 +48,6 @@ export function MarketDataProvider({ children }: { children: React.ReactNode }) 
         }
 
         try {
-            // Only set loading if we don't have data (first load) or if explicit refresh
             if (!data) setIsLoading(true);
 
             const res = await fetch('/api/market/data');
@@ -60,7 +57,6 @@ export function MarketDataProvider({ children }: { children: React.ReactNode }) 
             setData(jsonData);
             setError(null);
 
-            // Save to cache
             if (typeof window !== 'undefined') {
                 localStorage.setItem(CACHE_KEY, JSON.stringify({
                     timestamp: Date.now(),
@@ -79,10 +75,10 @@ export function MarketDataProvider({ children }: { children: React.ReactNode }) 
     useEffect(() => {
         fetchData();
 
-        // Check every 5 minutes if cache expired
+        // Check cache expiration every 1 minute to ensure we catch the 5-min mark promptly
         const interval = setInterval(() => {
             fetchData(false);
-        }, 5 * 60 * 1000);
+        }, 60 * 1000);
 
         return () => clearInterval(interval);
     }, []);

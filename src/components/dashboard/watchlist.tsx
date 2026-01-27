@@ -76,7 +76,7 @@ export function Watchlist({ items, isLoading, onSelect, selectedSymbol }: Watchl
                                                             <Badge variant="outline" className="h-5 px-1 py-0 text-[10px] bg-pelorous-blue/10 text-pelorous-blue border-pelorous-blue/20">LIVE</Badge>
                                                         </TooltipTrigger>
                                                         <TooltipContent className="bg-deep-navy border-border text-xs">
-                                                            <p>Live Data from Alpha Vantage</p>
+                                                            <p>Live Data from Y-Finance</p>
                                                         </TooltipContent>
                                                     </Tooltip>
                                                 </TooltipProvider>

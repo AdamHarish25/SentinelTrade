@@ -1,0 +1,12 @@
+export const LQ45_TICKERS = [
+    "ACES.JK", "ADRO.JK", "AKRA.JK", "AMRT.JK", "ANTM.JK", "ARTO.JK", "ASII.JK", "BBCA.JK",
+    "BBNI.JK", "BBRI.JK", "BBTN.JK", "BMRI.JK", "BRIS.JK", "BRPT.JK", "BUKA.JK", "CPIN.JK",
+    "EMTK.JK", "ESSA.JK", "EXCL.JK", "GOTO.JK", "HRUM.JK", "ICBP.JK", "INCO.JK", "INDF.JK",
+    "INKP.JK", "INTP.JK", "ITMG.JK", "JPFA.JK", "KLBF.JK", "MAPI.JK", "MBMA.JK", "MDKA.JK",
+    "MEDC.JK", "MERK.JK", "PGAS.JK", "PGEO.JK", "PTBA.JK", "SIDO.JK", "SMGR.JK", "SRTG.JK",
+    "TBIG.JK", "TINS.JK", "TLKM.JK", "TPIA.JK", "UNTR.JK", "UNVR.JK"
+];
+
+export const INDICES = {
+    LQ45: LQ45_TICKERS
+};

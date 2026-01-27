@@ -1,0 +1,127 @@
+[
+    {
+        "KodeEmiten": "BBCA",
+        "Sektor": "Financials",
+        "SubSektor": "Banks"
+    },
+    {
+        "KodeEmiten": "BBRI",
+        "Sektor": "Financials",
+        "SubSektor": "Banks"
+    },
+    {
+        "KodeEmiten": "BMRI",
+        "Sektor": "Financials",
+        "SubSektor": "Banks"
+    },
+    {
+        "KodeEmiten": "BBNI",
+        "Sektor": "Financials",
+        "SubSektor": "Banks"
+    },
+    {
+        "KodeEmiten": "TLKM",
+        "Sektor": "Infrastructure",
+        "SubSektor": "Telecommunication"
+    },
+    {
+        "KodeEmiten": "ASII",
+        "Sektor": "Consumer Cyclicals",
+        "SubSektor": "Automobiles"
+    },
+    {
+        "KodeEmiten": "UNTR",
+        "Sektor": "Industrials",
+        "SubSektor": "Heavy Machinery"
+    },
+    {
+        "KodeEmiten": "ICBP",
+        "Sektor": "Consumer Non-Cyclicals",
+        "SubSektor": "Food & Beverage"
+    },
+    {
+        "KodeEmiten": "INDF",
+        "Sektor": "Consumer Non-Cyclicals",
+        "SubSektor": "Food & Beverage"
+    },
+    {
+        "KodeEmiten": "GOTO",
+        "Sektor": "Technology",
+        "SubSektor": "Software & Services"
+    },
+    {
+        "KodeEmiten": "ADRO",
+        "Sektor": "Energy",
+        "SubSektor": "Coal"
+    },
+    {
+        "KodeEmiten": "PTBA",
+        "Sektor": "Energy",
+        "SubSektor": "Coal"
+    },
+    {
+        "KodeEmiten": "ANTM",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "PGAS",
+        "Sektor": "Energy",
+        "SubSektor": "Oil, Gas & Coal"
+    },
+    {
+        "KodeEmiten": "BUMI",
+        "Sektor": "Energy",
+        "SubSektor": "Coal"
+    },
+    {
+        "KodeEmiten": "DEWA",
+        "Sektor": "Energy",
+        "SubSektor": "Oil, Gas & Coal"
+    },
+    {
+        "KodeEmiten": "ENRG",
+        "Sektor": "Energy",
+        "SubSektor": "Oil, Gas & Coal"
+    },
+    {
+        "KodeEmiten": "FREN",
+        "Sektor": "Infrastructure",
+        "SubSektor": "Telecommunication"
+    },
+    {
+        "KodeEmiten": "UNVR",
+        "Sektor": "Consumer Non-Cyclicals",
+        "SubSektor": "Personal Care"
+    },
+    {
+        "KodeEmiten": "KLBF",
+        "Sektor": "Healthcare",
+        "SubSektor": "Pharmaceuticals"
+    },
+    {
+        "KodeEmiten": "BUKA",
+        "Sektor": "Technology",
+        "SubSektor": "Software & Services"
+    },
+    {
+        "KodeEmiten": "ARTO",
+        "Sektor": "Financials",
+        "SubSektor": "Banks"
+    },
+    {
+        "KodeEmiten": "BRMS",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "MDKA",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "INCO",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    }
+]

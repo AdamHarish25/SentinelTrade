@@ -16,14 +16,26 @@ export interface WatchlistItem {
     volume: number;
     avgVolume: number;
     flow: "Inflow" | "Outflow" | "Neutral";
-    accumulationQuality: number; // 0-100
+    accumulationQuality: number; // Stealth Score (0-100)
     isStealth: boolean;
-    isMock?: boolean; // Added to track data source
+    isMock?: boolean;
     volumeFlowAnalysis: {
-        rvol: number; // Relative Volume
-        priceCompressionScore: number; // 0-100
+        rvol: number;
+        priceCompressionScore: number;
         obvTrend: "Up" | "Down" | "Flat";
-        isAbsorption: boolean; // VSA Narrow Spread + High Vol
+        isAbsorption: boolean;
+    };
+    stealthBreakdown?: {
+        coreSignalPoints: number;
+        obvPoints: number;
+        compressionPoints: number;
+        penalty: number;
+    };
+    // NEW: Fundamental Context for Filtering
+    fundamental?: {
+        sector: string;
+        conglomerate?: string;
+        marketCapT: number; // Trillions
     };
 }
 

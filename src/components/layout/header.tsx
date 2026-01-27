@@ -27,20 +27,20 @@ export function Header() {
 
     return (
         <header className="sticky top-0 z-20 flex h-16 w-full items-center gap-4 border-b bg-background/95 backdrop-blur px-6 transition-all">
-            <div className="flex items-center gap-4 flex-1">
+            <div className="flex items-center gap-4 flex-1 overflow-hidden mask-linear-fade">
                 {/* Ticker Tape */}
-                <div className="flex items-center gap-6 overflow-hidden text-sm text-muted-foreground">
+                <div className="flex items-center gap-8 text-sm text-muted-foreground animate-infinite-scroll hover:[animation-play-state:paused] whitespace-nowrap">
                     {!data || isLoading ? (
                         // Skeleton Loading State
-                        Array.from({ length: 4 }).map((_, i) => (
+                        Array.from({ length: 8 }).map((_, i) => (
                             <div key={i} className="flex items-center gap-2">
                                 <Skeleton className="h-4 w-12" />
                                 <Skeleton className="h-4 w-10" />
                             </div>
                         ))
                     ) : (
-                        data.watchlist.map((item) => (
-                            <div key={item.symbol} className="flex items-center gap-2 animate-in fade-in duration-500">
+                        [...data.watchlist, ...data.watchlist].map((item, index) => (
+                            <div key={`${item.symbol}-${index}`} className="flex items-center gap-2">
                                 <span className="font-bold text-foreground">{item.symbol}</span>
                                 <span className={`font-mono ${item.changePercent >= 0 ? 'text-secondary' : 'text-destructive'}`}>
                                     {item.changePercent > 0 ? '+' : ''}{item.changePercent.toFixed(2)}%
