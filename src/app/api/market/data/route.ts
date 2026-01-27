@@ -1,85 +1,25 @@
 import { NextResponse } from "next/server";
-import { type EODHDResponse, type MarketData, type WatchlistItem } from "@/lib/types";
-import { MOCK_DATA_STORE } from "@/lib/mock-data";
+import { type MarketData, type WatchlistItem } from "@/lib/types";
+import { getMarketData } from "@/lib/market-service";
 
 const TICKERS = ["BBCA.JK", "BMRI.JK", "BBRI.JK", "TLKM.JK", "ADRO.JK", "GOTO.JK", "UNVR.JK", "ASII.JK"];
 
-function getApiToken() {
-    const token = process.env.EODHD_API_TOKEN;
-    if (token) return token;
-
-    const apiString = process.env.EODHD_API;
-    if (apiString && apiString.includes("api_token=")) {
-        try {
-            const url = new URL(apiString);
-            return url.searchParams.get("api_token");
-        } catch {
-            return apiString;
-        }
-    }
-    return "demo"; // Default to demo if nothing found
-}
-
-async function fetchTickerData(ticker: string, token: string): Promise<EODHDResponse[] | null> {
-    const isMockDisabled = process.env.USE_MOCK_DATA === 'false';
-    const shouldUseMock = process.env.USE_MOCK_DATA === 'true' || (!isMockDisabled && (token === 'demo' || token === 'undefined'));
-
-    // Check for explicit mock data usage or if using demo key for non-US stocks (EODHD demo limit)
-    if (shouldUseMock) {
-        console.log(`Using Mock Data for ${ticker}`);
-        return MOCK_DATA_STORE[ticker] || null;
-    }
-
-    const url = `https://eodhd.com/api/eod/${ticker}?api_token=${token}&fmt=json&order=d&limit=30`;
-
-    try {
-        const res = await fetch(url, { next: { revalidate: 3600 } }); // Cache for 1 hour
-        if (!res.ok) {
-            console.warn(`API Fetch Failed for ${ticker} (${res.status}).`);
-            if (isMockDisabled) return null; // Strict mode: no fallback
-
-            console.warn(`Falling back to mock data for ${ticker}.`);
-            return MOCK_DATA_STORE[ticker] || null;
-        }
-        const data = await res.json();
-        if (!Array.isArray(data)) {
-            console.warn(`Invalid data format for ${ticker}.`);
-            if (isMockDisabled) return null;
-
-            return MOCK_DATA_STORE[ticker] || null;
-        }
-        return data;
-    } catch (error) {
-        console.error(`Error fetching ${ticker}`, error);
-        if (isMockDisabled) return null;
-        return MOCK_DATA_STORE[ticker] || null;
-    }
-}
-
 export async function GET() {
-    const token = getApiToken();
-    if (!token) {
-        return NextResponse.json({ error: "API Token missing" }, { status: 500 });
-    }
-
     const results: WatchlistItem[] = [];
 
     await Promise.all(
         TICKERS.map(async (ticker) => {
-            const history = await fetchTickerData(ticker, token);
+            const { data: history, source } = await getMarketData(ticker);
 
             if (!history || history.length < 21) {
-                // Fallback or skip
+                // Fallback or skip if insufficient data
                 return;
             }
 
             const latest = history[0];
             const prev = history[1];
 
-
-            // Calculate MA(20) of Volume (excluding today/latest to check if today spiked)
-            // Or include today? Usually compare Today Volume vs Avg(20).
-            // We'll take slice(1, 21) for previous 20 days.
+            // Calculate MA(20) of Volume
             const last20 = history.slice(1, 21);
             const avgVolume = last20.reduce((acc, d) => acc + d.volume, 0) / last20.length;
 
@@ -102,21 +42,18 @@ export async function GET() {
             // --- Stealth Scanner Logic (Price-Volume Only) ---
 
             // 1. RVOL Stability (Proxy for Institutional Accumulation)
-            // Calc RVOL for last 3 days
             const recentVols = history.slice(0, 3).map(d => d.volume);
             const avgRecentVol = recentVols.reduce((a, b) => a + b, 0) / 3;
-            // MA20 is based on last 20 days EXCLUDING today usually, but here we used slice(1, 21)
+            // Use avgVolume (20d) as baseline
             const rvol = avgRecentVol / avgVolume;
 
             // 2. Price Compression (High - Low) / Close
-            // If range is small but volume is decent, absorption is happening.
             const dailyRange = (latest.high - latest.low) / latest.close;
             let priceCompressionScore = 0;
             if (dailyRange < 0.015) priceCompressionScore = 100; // < 1.5% range
             else if (dailyRange < 0.03) priceCompressionScore = 50;
 
             // 3. OBV Trend (Approximation)
-            // Check if last 3 days had more Up Volume than Down Volume
             let upVol = 0;
             let downVol = 0;
             history.slice(0, 5).forEach((day, i, arr) => {
@@ -146,7 +83,7 @@ export async function GET() {
             const isStealth = accumulationScore > 75;
 
             results.push({
-                symbol: ticker.split(".")[0],
+                symbol: ticker.split(".")[0], // Strip .JK for display
                 price: latest.close,
                 change,
                 changePercent,
@@ -155,6 +92,7 @@ export async function GET() {
                 flow,
                 accumulationQuality: accumulationScore,
                 isStealth,
+                isMock: source === "Mock",
                 volumeFlowAnalysis: {
                     rvol: parseFloat(rvol.toFixed(2)),
                     priceCompressionScore,
@@ -174,7 +112,6 @@ export async function GET() {
     const neutralCount = results.length - accumulationCount - distributionCount;
 
     // Market Sentiment Score (Simple Algo)
-    // Base 50. Add points for Inflow/Uptrend. Subtract for Outflow.
     let sentiment = 50;
     results.forEach(r => {
         if (r.changePercent > 1) sentiment += 10;
@@ -185,7 +122,6 @@ export async function GET() {
         if (r.flow === "Inflow") sentiment += 5;
         if (r.flow === "Outflow") sentiment -= 5;
     });
-    // Clamp 0-100
     sentiment = Math.max(0, Math.min(100, sentiment));
 
     // Check Market Open Time (WIB)

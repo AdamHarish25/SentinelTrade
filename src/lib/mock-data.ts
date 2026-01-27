@@ -45,13 +45,14 @@ const generateMockHistory = (basePrice: number, volatility: number, isAccumulati
     return history;
 };
 
+// Updated with REAL 2025/2026 Price Ranges for IDR Stocks to avoid confusion
 export const MOCK_DATA_STORE: Record<string, EODHDResponse[]> = {
-    "BBCA.JK": generateMockHistory(9850, 0.01, true),   // Stealth Accumulation
-    "BMRI.JK": generateMockHistory(6200, 0.015, false),
-    "BBRI.JK": generateMockHistory(5450, 0.02, false),  // Distribution maybe
-    "TLKM.JK": generateMockHistory(3100, 0.01, true),
-    "ADRO.JK": generateMockHistory(2450, 0.03, false),  // Volatile
-    "GOTO.JK": generateMockHistory(64, 0.05, true),     // Accumulation at lows
-    "UNVR.JK": generateMockHistory(2800, 0.01, false),
-    "ASII.JK": generateMockHistory(4900, 0.015, true)
+    "BBCA.JK": generateMockHistory(7550, 0.01, true),   // Adjusted post-split price
+    "BMRI.JK": generateMockHistory(6500, 0.015, false),
+    "BBRI.JK": generateMockHistory(5650, 0.02, false),
+    "TLKM.JK": generateMockHistory(3200, 0.01, true),
+    "ADRO.JK": generateMockHistory(2350, 0.03, false),
+    "GOTO.JK": generateMockHistory(68, 0.05, true),
+    "UNVR.JK": generateMockHistory(2900, 0.01, false),
+    "ASII.JK": generateMockHistory(5100, 0.015, true)
 };

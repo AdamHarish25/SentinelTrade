@@ -18,6 +18,7 @@ export interface WatchlistItem {
     flow: "Inflow" | "Outflow" | "Neutral";
     accumulationQuality: number; // 0-100
     isStealth: boolean;
+    isMock?: boolean; // Added to track data source
     volumeFlowAnalysis: {
         rvol: number; // Relative Volume
         priceCompressionScore: number; // 0-100

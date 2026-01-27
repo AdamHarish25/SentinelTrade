@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Skeleton } from "@/components/ui/skeleton"
-import { Radar } from "lucide-react"
+import { Radar, Database, Zap } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import type { WatchlistItem } from "@/lib/types"
 
@@ -58,11 +58,34 @@ export function Watchlist({ items, isLoading, onSelect, selectedSymbol }: Watchl
                                     >
                                         <td className="px-6 py-4 font-bold text-foreground flex items-center gap-2">
                                             {item.symbol}
+                                            {item.isMock ? (
+                                                <TooltipProvider>
+                                                    <Tooltip>
+                                                        <TooltipTrigger asChild>
+                                                            <Badge variant="outline" className="h-5 px-1 py-0 text-[10px] bg-yellow-500/10 text-yellow-500 border-yellow-500/20">MOCK</Badge>
+                                                        </TooltipTrigger>
+                                                        <TooltipContent className="bg-deep-navy border-border text-xs">
+                                                            <p>Using Mock Data (API Limit Hit or Mock Mode)</p>
+                                                        </TooltipContent>
+                                                    </Tooltip>
+                                                </TooltipProvider>
+                                            ) : (
+                                                <TooltipProvider>
+                                                    <Tooltip>
+                                                        <TooltipTrigger asChild>
+                                                            <Badge variant="outline" className="h-5 px-1 py-0 text-[10px] bg-pelorous-blue/10 text-pelorous-blue border-pelorous-blue/20">LIVE</Badge>
+                                                        </TooltipTrigger>
+                                                        <TooltipContent className="bg-deep-navy border-border text-xs">
+                                                            <p>Live Data from Alpha Vantage</p>
+                                                        </TooltipContent>
+                                                    </Tooltip>
+                                                </TooltipProvider>
+                                            )}
                                             {item.isStealth && (
                                                 <TooltipProvider>
                                                     <Tooltip>
                                                         <TooltipTrigger asChild>
-                                                            <Radar className="h-4 w-4 text-pelorous-blue animate-pulse" />
+                                                            <Radar className="h-4 w-4 text-pelorous-blue animate-pulse ml-1" />
                                                         </TooltipTrigger>
                                                         <TooltipContent className="bg-deep-navy border-border text-xs max-w-[200px]">
                                                             <p>Stealth Accumulation Detected. High Broker Concentration in Sideways Market.</p>
