@@ -44,7 +44,7 @@ export interface QualityFilterParams {
 }
 
 export const DEFAULT_QUALITY_FILTER: QualityFilterParams = {
-    minMarketCapT: 5,
+    minMarketCapT: 2,
     maxDER: 2.0,
     minROE: 0,
     maxPER: 100,
@@ -82,7 +82,6 @@ export class FundamentalService {
             else if (["BBRI", "BMRI", "BBNI", "TLKM", "PGAS", "PTBA", "ANTM", "TINS"].includes(ticker)) conglomerate = "BUMN";
             else if (["BUMI", "DEWA", "ENRG"].includes(ticker)) conglomerate = "Bakrie";
             else if (["GOTO", "ARTO"].includes(ticker)) conglomerate = "Goto";
-            else if (["FREN"].includes(ticker)) conglomerate = "Sinarmas";
 
             // Map to Internal Profile
             return {

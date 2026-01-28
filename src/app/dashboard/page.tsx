@@ -63,7 +63,7 @@ export default function DashboardPage() {
                     <CardContent className="flex-1">
                         <div className="h-full rounded-md bg-black/50 p-4 font-mono text-xs text-green-400 border border-border/50 shadow-inner overflow-hidden">
                             <p className="text-muted-foreground mb-2">// Quality Gate (Anti-Gorengan)</p>
-                            <p>if (Cap {'<'} <span className="text-yellow-400">5T</span> || DER {'>'} <span className="text-red-400">2.0</span>) return;</p>
+                            <p>if (Cap {'<'} <span className="text-yellow-400">2T</span> || DER {'>'} <span className="text-red-400">2.0</span>) return;</p>
                             <br />
 
                             <p className="text-muted-foreground mb-2">// VSA Stealth Signal</p>
