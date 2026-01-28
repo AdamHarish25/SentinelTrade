@@ -71,7 +71,7 @@ const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: Watchlist
                             className={`px-4 py-3 text-sm grid grid-cols-12 gap-2 items-center cursor-pointer border-b border-border/50 last:border-0 hover:bg-muted/50 ${selectedSymbol === stock.symbol ? 'bg-muted/80' : ''}`}
                         >
                             <div className="col-span-2 font-bold flex items-center gap-2">
-                                <p className="truncate">
+                                <div className="truncate flex items-center">
                                     {stock.symbol}
                                     {stock.isStealth && (
                                         <TooltipProvider>
@@ -108,7 +108,7 @@ const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: Watchlist
                                             </Tooltip>
                                         </TooltipProvider>
                                     )}
-                                </p>
+                                </div>
                                 {stock.fundamental?.conglomerate && (
                                     <span className="md:hidden inline-block w-1.5 h-1.5 rounded-full bg-purple-400 shrink-0" />
                                 )}
