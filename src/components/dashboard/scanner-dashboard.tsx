@@ -24,7 +24,7 @@ const HotStockCard = ({ stock, onSelect, isSelected }: { stock: WatchlistItem, o
                 </div>
                 <div className="text-xs text-muted-foreground flex items-center gap-2 mt-1">
                     {stock.price.toLocaleString()} IDR
-                    <Badge variant={stock.flow === 'Inflow' ? 'secondary' : stock.flow === 'Outflow' ? 'destructive' : 'default'} className={`text-[9px] h-4 px-1 py-0 ${stock.flow === 'Neutral' ? 'bg-zinc-grey text-slate-900 border-transparent' : ''}`}>
+                    <Badge variant={stock.flow === 'Inflow' ? 'secondary' : stock.flow === 'Outflow' ? 'destructive' : 'default'} className={`text-[9px] h-4 px-1 py-0 ${stock.flow === 'Neutral' ? 'bg-zinc-grey border-transparent' : ''}`}>
                         {stock.flow}
                     </Badge>
                 </div>

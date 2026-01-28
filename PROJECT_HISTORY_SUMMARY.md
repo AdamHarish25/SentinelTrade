@@ -1,6 +1,6 @@
 # SentinelTrade Development Log & Feature Summary
 
-**Date:** January 27, 2026
+**Date:** January 28, 2026
 **Role:** Senior Full-stack Engineer & Quant Developer
 **Objective:** Evolve SentinelTrade from a simple dashboard into a professional-grade "Quality-First" Stock Screener with Smart Money detection.
 
@@ -85,9 +85,24 @@ To prevent the scanner from flagging low-quality stocks ("Gorengan"), we impleme
 
 ---
 
-## V. Technical Summary
-*   **Framework:** Next.js 15 (App Router).
+## V. Enhanced UX & Data Compliance (Search & Flow)
+
+### **1. Global Search & Filtering**
+*   **Feature:** Implemented a unified search bar across both the Main Dashboard and Smart Money Scanner.
+*   **Logic:** Real-time filtering capable of searching by **Ticker Symbol**, **Sector Name**, or **Conglomerate Group** (e.g., "BUMN", "Astra").
+
+### **2. Flow & Status Visibility**
+*   **Flow Indicators:** Extended the "Bandarmology" Flow indicator (Inflow/Outflow/Neutral) to the main Explorer Table for immediate trend visibility.
+*   **Compliance Tagging:** Added specific visual cues (Badges & Tooltips) for **Delisted** or **Merged** companies. Stocks returning mock/historical data are now clearly labeled "MOCK" with a "Delisted / Merged" tooltip to differentiate them from LIVE data.
+
+### **3. Stability Improvements**
+*   **Hydration Fixes:** Resolved critical HTML nesting errors (Invalid `<div>` inside `<p>`) in the scanner dashboard to ensure stable rendering.
+
+---
+
+## VI. Technical Summary
+*   **Framework:** Next.js 16 (App Router) + Turbopack.
 *   **Language:** TypeScript.
 *   **Data Provider:** `yahoo-finance2`.
-*   **Styling:** TailwindCSS + Shadcn UI (Sheet, HoverCard, Dialog).
+*   **Styling:** TailwindCSS + Shadcn UI (Sheet, HoverCard, Dialog, Tooltip).
 *   **State Management:** Server Actions + React Hooks (`useState`, `useMemo`).
