@@ -58,6 +58,14 @@ To prevent the scanner from flagging low-quality stocks ("Gorengan"), we impleme
 *   **Visual Logic:** Dashboard now displays specific group tags (Astra, Salim, BUMN, Bakrie) for context.
 *   **Stats:** Added a live "Audit Bar" showing: `Universe Scanned` -> `Quality Passed` -> `Stealth Found`.
 
+### **3. Live Fundamental Data Sync**
+*   **Feature:** Created a maintenance script (`scripts/update-financials.mjs`) to fetch real-time financial ratios (ROE, DER, PER, Market Cap) from Yahoo Finance.
+*   **Logic:**
+    *   Reads the curated `financial_ratio.json` whitelist.
+    *   Fetches live data for each ticker sequentially to respect API rate limits.
+    *   Updates the JSON file in-place.
+*   **Philosophy:** Preserves the "Fast vs. Real" separation. The app remains lightning-fast by reading JSON, while the JSON itself can be refreshed on-demand to stay accurate with quarterly reports.
+
 ---
 
 ## IV. UI/UX Refinement (Mobile-First FinTech)
