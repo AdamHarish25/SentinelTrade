@@ -22,7 +22,12 @@ const HotStockCard = ({ stock, onSelect, isSelected }: { stock: WatchlistItem, o
                         <Badge variant="outline" className="text-[9px] h-4 px-1 border-white/10 text-muted-foreground">{stock.fundamental.conglomerate}</Badge>
                     )}
                 </div>
-                <div className="text-xs text-muted-foreground">{stock.price.toLocaleString()} IDR</div>
+                <div className="text-xs text-muted-foreground flex items-center gap-2 mt-1">
+                    {stock.price.toLocaleString()} IDR
+                    <Badge variant={stock.flow === 'Inflow' ? 'secondary' : stock.flow === 'Outflow' ? 'destructive' : 'default'} className={`text-[9px] h-4 px-1 py-0 ${stock.flow === 'Neutral' ? 'bg-zinc-grey text-slate-900 border-transparent' : ''}`}>
+                        {stock.flow}
+                    </Badge>
+                </div>
             </div>
             <Badge className="bg-pelorous-blue/20 text-pelorous-blue border-pelorous-blue/50">
                 {stock.accumulationQuality} / 100
@@ -51,10 +56,11 @@ const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: Watchlist
         <div className="overflow-x-auto">
             <div className="min-w-[600px]">
                 <div className="bg-muted/30 px-4 py-2 text-xs font-medium text-muted-foreground grid grid-cols-12 gap-2">
-                    <div className="col-span-3">Ticker</div>
+                    <div className="col-span-2">Ticker</div>
                     <div className="col-span-2">Sector</div>
                     <div className="col-span-2 text-right">Price</div>
-                    <div className="col-span-3 text-right">Vol (Lots)</div>
+                    <div className="col-span-2 text-center">Flow</div>
+                    <div className="col-span-2 text-right">Vol (Lots)</div>
                     <div className="col-span-2 text-center">Score</div>
                 </div>
                 <ScrollArea className="h-[400px]">
@@ -64,14 +70,14 @@ const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: Watchlist
                             onClick={() => onSelect(stock)}
                             className={`px-4 py-3 text-sm grid grid-cols-12 gap-2 items-center cursor-pointer border-b border-border/50 last:border-0 hover:bg-muted/50 ${selectedSymbol === stock.symbol ? 'bg-muted/80' : ''}`}
                         >
-                            <div className="col-span-3 font-bold flex items-center gap-2">
-                                <p>
+                            <div className="col-span-2 font-bold flex items-center gap-2">
+                                <p className="truncate">
                                     {stock.symbol}
                                     {stock.isStealth && (
                                         <TooltipProvider>
                                             <Tooltip>
                                                 <TooltipTrigger asChild>
-                                                    <Radar className="h-4 w-4 text-pelorous-blue animate-pulse ml-1" />
+                                                    <Radar className="h-4 w-4 text-pelorous-blue animate-pulse ml-1 inline" />
                                                 </TooltipTrigger>
                                                 <TooltipContent className="bg-deep-navy border-border text-xs max-w-[200px]">
                                                     <p>Stealth Accumulation Detected. High Broker Concentration in Sideways Market.</p>
@@ -79,17 +85,44 @@ const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: Watchlist
                                             </Tooltip>
                                         </TooltipProvider>
                                     )}
+                                    {stock.isMock ? (
+                                        <TooltipProvider>
+                                            <Tooltip>
+                                                <TooltipTrigger asChild>
+                                                    <Badge variant="outline" className="h-4 px-1 py-0 text-[9px] bg-yellow-500/10 text-yellow-500 border-yellow-500/20 ml-1">MOCK</Badge>
+                                                </TooltipTrigger>
+                                                <TooltipContent className="bg-deep-navy border-border text-xs">
+                                                    <p>Delisted / Merged / Mock Data</p>
+                                                </TooltipContent>
+                                            </Tooltip>
+                                        </TooltipProvider>
+                                    ) : (
+                                        <TooltipProvider>
+                                            <Tooltip>
+                                                <TooltipTrigger asChild>
+                                                    <Badge variant="outline" className="h-4 px-1 py-0 text-[9px] bg-pelorous-blue/10 text-pelorous-blue border-pelorous-blue/20 ml-1">LIVE</Badge>
+                                                </TooltipTrigger>
+                                                <TooltipContent className="bg-deep-navy border-border text-xs">
+                                                    <p>Live Data from Y-Finance</p>
+                                                </TooltipContent>
+                                            </Tooltip>
+                                        </TooltipProvider>
+                                    )}
                                 </p>
                                 {stock.fundamental?.conglomerate && (
-                                    <span className="md:hidden inline-block w-1.5 h-1.5 rounded-full bg-purple-400" />
+                                    <span className="md:hidden inline-block w-1.5 h-1.5 rounded-full bg-purple-400 shrink-0" />
                                 )}
-                                {stock.isStealth && <Radar className="h-3 w-3 text-pelorous-blue" />}
                             </div>
                             <div className="col-span-2 text-xs text-muted-foreground truncate">
                                 {stock.fundamental?.sector || "-"}
                             </div>
                             <div className="col-span-2 text-right font-mono">{stock.price.toLocaleString()}</div>
-                            <div className="col-span-3 text-right font-mono text-xs text-muted-foreground">
+                            <div className="col-span-2 text-center">
+                                <Badge variant={stock.flow === 'Inflow' ? 'secondary' : stock.flow === 'Outflow' ? 'destructive' : 'default'} className={`text-[10px] h-5 px-1 ${stock.flow === 'Neutral' ? 'bg-zinc-grey text-slate-900 border-transparent' : ''}`}>
+                                    {stock.flow}
+                                </Badge>
+                            </div>
+                            <div className="col-span-2 text-right font-mono text-xs text-muted-foreground">
                                 {stock.volume.toLocaleString()}
                             </div>
                             <div className="col-span-2 flex justify-center">

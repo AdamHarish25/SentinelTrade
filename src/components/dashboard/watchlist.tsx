@@ -65,7 +65,7 @@ export function Watchlist({ items, isLoading, onSelect, selectedSymbol }: Watchl
                                                             <Badge variant="outline" className="h-5 px-1 py-0 text-[10px] bg-yellow-500/10 text-yellow-500 border-yellow-500/20">MOCK</Badge>
                                                         </TooltipTrigger>
                                                         <TooltipContent className="bg-deep-navy border-border text-xs">
-                                                            <p>Using Mock Data (API Limit Hit or Mock Mode)</p>
+                                                            <p>Delisted / Merged / Mock Data</p>
                                                         </TooltipContent>
                                                     </Tooltip>
                                                 </TooltipProvider>
@@ -99,7 +99,7 @@ export function Watchlist({ items, isLoading, onSelect, selectedSymbol }: Watchl
                                             {item.changePercent > 0 ? '+' : ''}{item.changePercent.toFixed(2)}%
                                         </td>
                                         <td className="px-6 py-4 text-center">
-                                            <Badge variant={item.flow === 'Inflow' ? 'default' : item.flow === 'Outflow' ? 'destructive' : 'secondary'} className={item.flow === 'Neutral' ? 'bg-zinc-grey text-slate-900' : ''}>
+                                            <Badge variant={item.flow === 'Inflow' ? 'secondary' : item.flow === 'Outflow' ? 'destructive' : 'default'} className={item.flow === 'Neutral' ? 'bg-zinc-grey text-slate-900' : ''}>
                                                 {item.flow}
                                             </Badge>
                                         </td>
