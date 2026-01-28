@@ -98,5 +98,29 @@
     {
         "KodeEmiten": "INCO",
         "NamaEmiten": "Vale Indonesia Tbk"
+    },
+    {
+        "KodeEmiten": "PSAB",
+        "NamaEmiten": "J Resources Asia Pacific Tbk"
+    },
+    {
+        "KodeEmiten": "ARCI",
+        "NamaEmiten": "Archi Indonesia Tbk"
+    },
+    {
+        "KodeEmiten": "HRTA",
+        "NamaEmiten": "Hartadinata Abadi Tbk"
+    },
+    {
+        "KodeEmiten": "SUPA",
+        "NamaEmiten": "Superbank Indonesia Tbk"
+    },
+    {
+        "KodeEmiten": "INET",
+        "NamaEmiten": "Sinergi Inti Andalan Prima Tbk"
+    },
+    {
+        "KodeEmiten": "ADMR",
+        "NamaEmiten": "Alamtri Minerals Indonesia Tbk"
     }
 ]

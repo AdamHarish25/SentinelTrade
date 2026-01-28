@@ -123,5 +123,35 @@
         "KodeEmiten": "INCO",
         "Sektor": "Basic Materials",
         "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "PSAB",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "ARCI",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "HRTA",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "SUPA",
+        "Sektor": "Financials",
+        "SubSektor": "Digital Banks"
+    },
+    {
+        "KodeEmiten": "INET",
+        "Sektor": "Technology",
+        "SubSektor": "Contractors"
+    },
+    {
+        "KodeEmiten": "ADMR",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
     }
 ]
