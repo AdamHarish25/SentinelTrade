@@ -68,8 +68,8 @@
         "NamaEmiten": "Energi Mega Persada Tbk"
     },
     {
-        "KodeEmiten": "FREN",
-        "NamaEmiten": "Smartfren Telecom Tbk"
+        "KodeEmiten": "MBMA",
+        "NamaEmiten": "Merdeka Battery Materials Tbk"
     },
     {
         "KodeEmiten": "UNVR",
@@ -122,5 +122,13 @@
     {
         "KodeEmiten": "ADMR",
         "NamaEmiten": "Alamtri Minerals Indonesia Tbk"
+    },
+    {
+        "KodeEmiten": "NCKL",
+        "NamaEmiten": "Trimegah Bangun Persada Tbk"
+    },
+    {
+        "KodeEmiten": "DKFT",
+        "NamaEmiten": "Central Omega Resources Tbk"
     }
 ]

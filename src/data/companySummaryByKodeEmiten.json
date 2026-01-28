@@ -153,5 +153,20 @@
         "KodeEmiten": "ADMR",
         "Sektor": "Basic Materials",
         "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "MBMA",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "NCKL",
+        "Sektor": "Basic Materials",
+        "SubSektor": "Metals & Minerals"
+    },
+    {
+        "KodeEmiten": "DKFT",
+        "Sektor": "Consumer Non-Cyclicals",
+        "SubSektor": "Food & Beverage"
     }
 ]

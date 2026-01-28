@@ -3,217 +3,231 @@
         "KodeEmiten": "BBCA",
         "der": 0.2,
         "roe": 21.47,
-        "per": 16.05,
-        "marketCap": 924350513414144
+        "per": 15.36,
+        "marketCap": 884295312867328
     },
     {
         "KodeEmiten": "BBRI",
         "der": 1.5,
         "roe": 16.94,
-        "per": 10.3,
-        "marketCap": 578955350376448
+        "per": 9.89,
+        "marketCap": 556221518053376
     },
     {
         "KodeEmiten": "BMRI",
         "der": 1.8,
         "roe": 18.35,
-        "per": 8.72,
-        "marketCap": 448933335662592
+        "per": 8.3,
+        "marketCap": 427466652909568
     },
     {
         "KodeEmiten": "TLKM",
         "der": 0.5,
         "roe": 18.31,
-        "per": 17.99,
-        "marketCap": 390305153024000
+        "per": 16.02,
+        "marketCap": 347708372025344
     },
     {
         "KodeEmiten": "ASII",
         "der": 0.37,
         "roe": 14.55,
-        "per": 7.81,
-        "marketCap": 255046381993984
-    },
-    {
-        "KodeEmiten": "BRMS",
-        "der": 0.13,
-        "roe": 4.59,
-        "per": 232.5,
-        "marketCap": 183610338443264
+        "per": 7.68,
+        "marketCap": 250998022995968
     },
     {
         "KodeEmiten": "BBNI",
         "der": 1.9,
         "roe": 12.26,
-        "per": 8.27,
-        "marketCap": 167655591903232
+        "per": 8.07,
+        "marketCap": 163557337464832
+    },
+    {
+        "KodeEmiten": "BRMS",
+        "der": 0.13,
+        "roe": 4.59,
+        "per": 198.38,
+        "marketCap": 156671364038656
     },
     {
         "KodeEmiten": "BUMI",
         "der": 0.12,
         "roe": 0.48,
         "per": 4,
-        "marketCap": 127739373813760
+        "marketCap": 109172607680512
     },
     {
         "KodeEmiten": "ANTM",
         "der": 0.11,
         "roe": 10,
-        "per": 14.93,
-        "marketCap": 110781827907584
+        "per": 14.15,
+        "marketCap": 105014441803776
     },
     {
         "KodeEmiten": "ICBP",
         "der": 0.66,
         "roe": 10.97,
-        "per": 15.87,
-        "marketCap": 95919194243072
+        "per": 15.25,
+        "marketCap": 92129070153728
     },
     {
         "KodeEmiten": "UNTR",
         "der": 0.19,
         "roe": 16.17,
-        "per": 6.05,
-        "marketCap": 93246692786176
+        "per": 5.75,
+        "marketCap": 88616139227136
     },
     {
         "KodeEmiten": "ADMR",
         "der": 0.36,
         "roe": 20.18,
-        "per": 17.39,
-        "marketCap": 90758774259712
+        "per": 16.45,
+        "marketCap": 85852898197504
+    },
+    {
+        "KodeEmiten": "NCKL",
+        "der": 0.24,
+        "roe": 25.31,
+        "per": 10.73,
+        "marketCap": 85743074541568
+    },
+    {
+        "KodeEmiten": "MBMA",
+        "der": 0.38,
+        "roe": 3.49,
+        "per": 161.86,
+        "marketCap": 78836658077696
     },
     {
         "KodeEmiten": "UNVR",
         "der": 0.48,
         "roe": 108.81,
-        "per": 21.46,
-        "marketCap": 78589001203712
+        "per": 20.52,
+        "marketCap": 75155502006272
     },
     {
         "KodeEmiten": "MDKA",
         "der": 0.67,
         "roe": 1.49,
         "per": 80,
-        "marketCap": 78375385300992
+        "marketCap": 74468827332608
     },
     {
         "KodeEmiten": "INCO",
         "der": 0,
         "roe": 2.16,
-        "per": 68.03,
-        "marketCap": 71670530310144
+        "per": 64.53,
+        "marketCap": 67981606387712
     },
     {
         "KodeEmiten": "GOTO",
         "der": 0.15,
         "roe": -6.33,
         "per": -20,
-        "marketCap": 68796945530880
+        "marketCap": 64563286376448
     },
     {
         "KodeEmiten": "ADRO",
         "der": 0.14,
         "roe": 6.79,
-        "per": 9.93,
-        "marketCap": 66762133471232
+        "per": 9.41,
+        "marketCap": 63263681282048
     },
     {
         "KodeEmiten": "INDF",
         "der": 0.66,
         "roe": 10.85,
-        "per": 7.58,
-        "marketCap": 58828854919168
+        "per": 7.61,
+        "marketCap": 59048368013312
     },
     {
         "KodeEmiten": "PGAS",
         "der": 0.33,
         "roe": 12.08,
-        "per": 9.98,
-        "marketCap": 52361657581568
+        "per": 9.8,
+        "marketCap": 51391997411328
     },
     {
         "KodeEmiten": "KLBF",
         "der": 0.02,
         "roe": 14.55,
-        "per": 14.82,
-        "marketCap": 51521299415040
+        "per": 14.29,
+        "marketCap": 49705572630528
     },
     {
         "KodeEmiten": "ARCI",
         "der": 1.19,
         "roe": 28.34,
-        "per": 34.72,
-        "marketCap": 50091473764352
+        "per": 33.41,
+        "marketCap": 48198848610304
     },
     {
         "KodeEmiten": "ENRG",
         "der": 0.54,
         "roe": 11.31,
-        "per": 22.42,
-        "marketCap": 43998202822656
+        "per": 19.07,
+        "marketCap": 37411648176128
     },
     {
         "KodeEmiten": "SUPA",
         "der": 0,
         "roe": -0.38,
         "per": 0,
-        "marketCap": 34732578439168
+        "marketCap": 31376774529024
     },
     {
         "KodeEmiten": "PTBA",
         "der": 0.2,
         "roe": 15.96,
-        "per": 9.12,
-        "marketCap": 29822183014400
-    },
-    {
-        "KodeEmiten": "DEWA",
-        "der": 0.67,
-        "roe": 4.15,
-        "per": 158.77,
-        "marketCap": 27260581052416
+        "per": 8.66,
+        "marketCap": 28325317705728
     },
     {
         "KodeEmiten": "ARTO",
         "der": 0.1,
         "roe": 2.81,
-        "per": 108.67,
-        "marketCap": 25712769630208
+        "per": 100.47,
+        "marketCap": 23772182609920
     },
     {
-        "KodeEmiten": "PSAB",
-        "der": 0.64,
-        "roe": 9.9,
-        "per": 31.05,
-        "marketCap": 16537499992064
+        "KodeEmiten": "DEWA",
+        "der": 0.67,
+        "roe": 4.15,
+        "per": 135.07,
+        "marketCap": 23191837736960
     },
     {
         "KodeEmiten": "BUKA",
         "der": 0,
         "roe": 7.82,
-        "per": 7.56,
-        "marketCap": 16400644046848
+        "per": 7.33,
+        "marketCap": 15884900892672
+    },
+    {
+        "KodeEmiten": "PSAB",
+        "der": 0.64,
+        "roe": 9.9,
+        "per": 29.56,
+        "marketCap": 15743699648512
     },
     {
         "KodeEmiten": "HRTA",
         "der": 1.4,
         "roe": 28.48,
-        "per": 15.5,
-        "marketCap": 11098682032128
+        "per": 14.99,
+        "marketCap": 10730261708800
     },
     {
         "KodeEmiten": "INET",
         "der": 0.03,
         "roe": 6.43,
-        "per": 322.3,
-        "marketCap": 9590578085888
+        "per": 274.82,
+        "marketCap": 8177680121856
     },
     {
-        "KodeEmiten": "FREN",
-        "der": 2.5,
-        "roe": -5,
-        "per": -10,
-        "marketCap": 4000000000000
+        "KodeEmiten": "DKFT",
+        "der": 0.51,
+        "roe": 58.63,
+        "per": 8.92,
+        "marketCap": 4631327932416
     }
 ]
