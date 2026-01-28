@@ -48,11 +48,8 @@ export default function DashboardPage() {
                             <p className="text-muted-foreground mb-2">// Quality Gate (Anti-Gorengan)</p>
                             <p>if (Cap {'<'} <span className="text-yellow-400">5T</span> || DER {'>'} <span className="text-red-400">2.0</span>) return;</p>
                             <br />
-                            <p className="text-muted-foreground mb-2">// VSA Stealth Signal</p>
-                            <p><span className="text-purple-400">const</span> isStealth = (</p>
-                            <p className="pl-4">Vol {'>'} <span className="text-yellow-400">1.5</span> * MA20 && </p>
-                            <p className="pl-4">Abs(Change) {'<'} <span className="text-yellow-400">1.5%</span></p>
-                            <p>);</p>
+
+                            Using VSA Algorithm v2.0 to detect silent volume spikes on a sideways market
                         </div>
                     </CardContent>
                 </Card>
