@@ -49,13 +49,35 @@ export async function GET() {
 
     // 7. Check Market Open Time (WIB)
     const now = new Date();
-    const wibTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Jakarta" }));
-    const wibHour = wibTime.getHours();
-    const wibDay = wibTime.getDay(); // 0 is Sun, 6 is Sat
+    // Use Intl to get correct Jakarta time values
+    const options: Intl.DateTimeFormatOptions = { timeZone: "Asia/Jakarta", hour: 'numeric', minute: 'numeric', weekday: 'short', hour12: false };
+    const formatter = new Intl.DateTimeFormat('en-US', options);
+    const parts = formatter.formatToParts(now);
 
-    const isWeekend = wibDay === 0 || wibDay === 6;
-    const isWorkHours = wibHour >= 9 && wibHour < 16;
-    const isMarketOpen = !isWeekend && isWorkHours;
+    let hour = 0, minute = 0, weekday = "";
+    parts.forEach(p => {
+        if (p.type === 'hour') hour = parseInt(p.value);
+        if (p.type === 'minute') minute = parseInt(p.value);
+        if (p.type === 'weekday') weekday = p.value;
+    });
+
+    const currentTime = hour * 60 + minute;
+    let isMarketOpen = false;
+
+    // Sat/Sun Closed
+    if (weekday !== "Sat" && weekday !== "Sun") {
+        if (weekday === "Fri") {
+            // Friday: 09:00-11:30 & 14:00-16:00
+            const session1 = currentTime >= 9 * 60 && currentTime < 11 * 60 + 30;
+            const session2 = currentTime >= 14 * 60 && currentTime < 16 * 60;
+            isMarketOpen = session1 || session2;
+        } else {
+            // Mon-Thu: 09:00-12:00 & 13:30-16:00
+            const session1 = currentTime >= 9 * 60 && currentTime < 12 * 60;
+            const session2 = currentTime >= 13 * 60 + 30 && currentTime < 16 * 60;
+            isMarketOpen = session1 || session2;
+        }
+    }
 
     // EXTENDED RESPONSE with Audit Trail
     const responseData = {

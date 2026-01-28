@@ -19,19 +19,54 @@ const navigation = [
 
 export function Header() {
     const [time, setTime] = useState<string>("")
+    const [isMarketOpen, setIsMarketOpen] = useState<boolean>(false)
     const { data, isLoading } = useMarketData()
     const pathname = usePathname()
 
     useEffect(() => {
         const updateTime = () => {
-            const now = new Date().toLocaleTimeString("en-US", {
+            const now = new Date()
+
+            // 1. Display Time (WIB)
+            const timeStr = now.toLocaleTimeString("en-US", {
                 timeZone: "Asia/Jakarta",
                 hour12: false,
                 hour: "2-digit",
                 minute: "2-digit",
                 second: "2-digit",
             })
-            setTime(now)
+            setTime(timeStr)
+
+            // 2. Logic: Market Status (WIB)
+            const options: Intl.DateTimeFormatOptions = { timeZone: "Asia/Jakarta", hour: 'numeric', minute: 'numeric', weekday: 'short', hour12: false };
+            const formatter = new Intl.DateTimeFormat('en-US', options);
+            const parts = formatter.formatToParts(now);
+
+            let hour = 0, minute = 0, weekday = "";
+            parts.forEach(p => {
+                if (p.type === 'hour') hour = parseInt(p.value);
+                if (p.type === 'minute') minute = parseInt(p.value);
+                if (p.type === 'weekday') weekday = p.value;
+            });
+
+            const currentTime = hour * 60 + minute;
+            let isOpen = false;
+
+            // Schedule: 
+            // Mon-Thu: 09:00-12:00 & 13:30-16:00
+            // Fri: 09:00-11:30 & 14:00-16:00
+            if (weekday !== "Sat" && weekday !== "Sun") {
+                if (weekday === "Fri") {
+                    const session1 = currentTime >= 9 * 60 && currentTime < 11 * 60 + 30; // 09:00 - 11:30
+                    const session2 = currentTime >= 14 * 60 && currentTime < 16 * 60;      // 14:00 - 16:00
+                    isOpen = session1 || session2;
+                } else {
+                    const session1 = currentTime >= 9 * 60 && currentTime < 12 * 60;       // 09:00 - 12:00
+                    const session2 = currentTime >= 13 * 60 + 30 && currentTime < 16 * 60; // 13:30 - 16:00
+                    isOpen = session1 || session2;
+                }
+            }
+            setIsMarketOpen(isOpen)
         }
         updateTime()
         const interval = setInterval(updateTime, 1000)
@@ -107,8 +142,8 @@ export function Header() {
 
             <div className="flex items-center gap-2 md:gap-4 shrink-0">
                 <div className="flex items-center gap-2 text-sm">
-                    <div className={`h-2 w-2 rounded-full animate-pulse ${data?.isMarketOpen ? 'bg-secondary' : 'bg-yellow-500'}`} />
-                    <span className="text-muted-foreground hidden sm:inline">{data?.isMarketOpen ? 'Market Open' : 'Market Closed'}</span>
+                    <div className={`h-2 w-2 rounded-full animate-pulse ${isMarketOpen ? 'bg-secondary' : 'bg-yellow-500'}`} />
+                    <span className="text-muted-foreground hidden sm:inline">{isMarketOpen ? 'Market Open' : 'Market Closed'}</span>
                 </div>
 
                 <div className="h-4 w-px bg-border text-muted-foreground/20" />
