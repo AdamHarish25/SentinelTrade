@@ -6,24 +6,41 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { useMarketData } from "@/components/providers/market-data-provider"
 import { useState } from "react"
 import type { WatchlistItem } from "@/lib/types"
+import { SearchBar } from "@/components/ui/search-bar"
 
 export default function ScannerPage() {
     const { data, isLoading } = useMarketData()
     const [selectedStock, setSelectedStock] = useState<WatchlistItem | null>(null)
+    const [searchQuery, setSearchQuery] = useState("")
+
+    const filteredWatchlist = data?.watchlist?.filter(item =>
+        item.symbol.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.fundamental?.sector || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.fundamental?.conglomerate || "").toLowerCase().includes(searchQuery.toLowerCase())
+    ) || []
 
     return (
         <div className="space-y-6 h-full flex flex-col">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
                     <h1 className="text-3xl font-bold tracking-tight text-foreground">Smart Money Scanner</h1>
                     <p className="text-muted-foreground">Advanced detection of institutional accumulation and distribution.</p>
+                </div>
+                <div className="w-full md:w-auto">
+                    <SearchBar
+                        placeholder="Search scanner..."
+                        className="w-full md:w-64 bg-card/50"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        onClear={() => setSearchQuery("")}
+                    />
                 </div>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 flex-1 min-h-0">
                 <div className="lg:col-span-2 h-full flex flex-col min-h-0">
                     <Watchlist
-                        items={data?.watchlist || []}
+                        items={filteredWatchlist}
                         isLoading={isLoading}
                         onSelect={setSelectedStock}
                         selectedSymbol={selectedStock?.symbol}

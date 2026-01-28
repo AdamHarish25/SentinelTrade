@@ -9,10 +9,18 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Terminal } from "lucide-react"
 import { useMarketData } from "@/components/providers/market-data-provider"
 import type { WatchlistItem } from "@/lib/types"
+import { SearchBar } from "@/components/ui/search-bar"
 
 export default function DashboardPage() {
     const { data, isLoading, refresh } = useMarketData()
     const [selectedStock, setSelectedStock] = useState<WatchlistItem | null>(null)
+    const [searchQuery, setSearchQuery] = useState("")
+
+    const filteredWatchlist = data?.watchlist?.filter(item =>
+        item.symbol.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.fundamental?.sector || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.fundamental?.conglomerate || "").toLowerCase().includes(searchQuery.toLowerCase())
+    ) || []
 
     return (
         <div className="space-y-6 animate-in fade-in duration-500">
@@ -22,11 +30,20 @@ export default function DashboardPage() {
                     <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Market Scanning Engine</h1>
                     <p className="text-sm md:text-base text-muted-foreground">LQ45 Index Screener & Smart Money Detection</p>
                 </div>
-                <div className="flex items-center gap-2 self-start md:self-auto">
-                    <span className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ${data?.isMarketOpen ? 'bg-green-500/10 text-green-500 ring-green-500/20' : 'bg-yellow-500/10 text-yellow-500 ring-yellow-500/20'}`}>
-                        {data?.isMarketOpen ? 'System Online' : 'System Standby'}
-                        <span className="hidden sm:inline ml-1">({data?.isMarketOpen ? 'Market Open' : 'Market Closed'})</span>
-                    </span>
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 self-start md:self-auto">
+                    <SearchBar
+                        placeholder="Search ticker, sector..."
+                        className="w-full sm:w-64 bg-card/50"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        onClear={() => setSearchQuery("")}
+                    />
+                    <div className="flex items-center gap-2">
+                        <span className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ${data?.isMarketOpen ? 'bg-green-500/10 text-green-500 ring-green-500/20' : 'bg-yellow-500/10 text-yellow-500 ring-yellow-500/20'}`}>
+                            {data?.isMarketOpen ? 'System Online' : 'System Standby'}
+                            <span className="hidden sm:inline ml-1">({data?.isMarketOpen ? 'Market Open' : 'Market Closed'})</span>
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -49,7 +66,11 @@ export default function DashboardPage() {
                             <p>if (Cap {'<'} <span className="text-yellow-400">5T</span> || DER {'>'} <span className="text-red-400">2.0</span>) return;</p>
                             <br />
 
-                            Using VSA Algorithm v2.0 to detect silent volume spikes on a sideways market
+                            <p className="text-muted-foreground mb-2">// VSA Stealth Signal</p>
+                            <p><span className="text-purple-400">const</span> isStealth = (</p>
+                            <p className="pl-4">Vol {'>'} <span className="text-yellow-400">1.5</span> * MA20 && </p>
+                            <p className="pl-4">Abs(Change) {'<'} <span className="text-yellow-400">1.5%</span></p>
+                            <p>);</p>
                         </div>
                     </CardContent>
                 </Card>
@@ -58,7 +79,7 @@ export default function DashboardPage() {
             <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
                 <div className="lg:col-span-2">
                     <ScannerDashboard
-                        items={data?.watchlist || []}
+                        items={filteredWatchlist}
                         isLoading={isLoading}
                         onSelect={setSelectedStock}
                         selectedSymbol={selectedStock?.symbol}
