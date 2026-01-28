@@ -1,172 +1,4782 @@
 [
     {
-        "KodeEmiten": "BBCA",
-        "Sektor": "Financials",
-        "SubSektor": "Banks"
+        "KodeEmiten": "AADI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
     },
     {
-        "KodeEmiten": "BBRI",
-        "Sektor": "Financials",
-        "SubSektor": "Banks"
+        "KodeEmiten": "AALI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
     },
     {
-        "KodeEmiten": "BMRI",
-        "Sektor": "Financials",
-        "SubSektor": "Banks"
+        "KodeEmiten": "ABBA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
     },
     {
-        "KodeEmiten": "BBNI",
-        "Sektor": "Financials",
-        "SubSektor": "Banks"
+        "KodeEmiten": "ABDA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
     },
     {
-        "KodeEmiten": "TLKM",
-        "Sektor": "Infrastructure",
-        "SubSektor": "Telecommunication"
+        "KodeEmiten": "ABMM",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
     },
     {
-        "KodeEmiten": "ASII",
-        "Sektor": "Consumer Cyclicals",
-        "SubSektor": "Automobiles"
+        "KodeEmiten": "ACES",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
     },
     {
-        "KodeEmiten": "UNTR",
-        "Sektor": "Industrials",
-        "SubSektor": "Heavy Machinery"
+        "KodeEmiten": "ACRO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
     },
     {
-        "KodeEmiten": "ICBP",
-        "Sektor": "Consumer Non-Cyclicals",
-        "SubSektor": "Food & Beverage"
+        "KodeEmiten": "ACST",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
     },
     {
-        "KodeEmiten": "INDF",
-        "Sektor": "Consumer Non-Cyclicals",
-        "SubSektor": "Food & Beverage"
+        "KodeEmiten": "ADCP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
     },
     {
-        "KodeEmiten": "GOTO",
-        "Sektor": "Technology",
-        "SubSektor": "Software & Services"
+        "KodeEmiten": "ADES",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
     },
     {
-        "KodeEmiten": "ADRO",
-        "Sektor": "Energy",
-        "SubSektor": "Coal"
+        "KodeEmiten": "ADHI",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
     },
     {
-        "KodeEmiten": "PTBA",
-        "Sektor": "Energy",
-        "SubSektor": "Coal"
+        "KodeEmiten": "ADMF",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
     },
     {
-        "KodeEmiten": "ANTM",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "PGAS",
-        "Sektor": "Energy",
-        "SubSektor": "Oil, Gas & Coal"
-    },
-    {
-        "KodeEmiten": "BUMI",
-        "Sektor": "Energy",
-        "SubSektor": "Coal"
-    },
-    {
-        "KodeEmiten": "DEWA",
-        "Sektor": "Energy",
-        "SubSektor": "Oil, Gas & Coal"
-    },
-    {
-        "KodeEmiten": "ENRG",
-        "Sektor": "Energy",
-        "SubSektor": "Oil, Gas & Coal"
-    },
-    {
-        "KodeEmiten": "FREN",
-        "Sektor": "Infrastructure",
-        "SubSektor": "Telecommunication"
-    },
-    {
-        "KodeEmiten": "UNVR",
-        "Sektor": "Consumer Non-Cyclicals",
-        "SubSektor": "Personal Care"
-    },
-    {
-        "KodeEmiten": "KLBF",
-        "Sektor": "Healthcare",
-        "SubSektor": "Pharmaceuticals"
-    },
-    {
-        "KodeEmiten": "BUKA",
-        "Sektor": "Technology",
-        "SubSektor": "Software & Services"
-    },
-    {
-        "KodeEmiten": "ARTO",
-        "Sektor": "Financials",
-        "SubSektor": "Banks"
-    },
-    {
-        "KodeEmiten": "BRMS",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "MDKA",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "INCO",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "PSAB",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "ARCI",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "HRTA",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
-    },
-    {
-        "KodeEmiten": "SUPA",
-        "Sektor": "Financials",
-        "SubSektor": "Digital Banks"
-    },
-    {
-        "KodeEmiten": "INET",
-        "Sektor": "Technology",
-        "SubSektor": "Contractors"
+        "KodeEmiten": "ADMG",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
     },
     {
         "KodeEmiten": "ADMR",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
     },
     {
-        "KodeEmiten": "MBMA",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
+        "KodeEmiten": "ADRO",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
     },
     {
-        "KodeEmiten": "NCKL",
-        "Sektor": "Basic Materials",
-        "SubSektor": "Metals & Minerals"
+        "KodeEmiten": "AEGS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "AGAR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "AGII",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "AGRO",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "AGRS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "AHAP",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "AIMS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "AISA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "AKKU",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "AKPI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "AKRA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "AKSI",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "ALDO",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ALII",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ALKA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ALMI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ALTO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "AMAG",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "AMAN",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "AMAR",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "AMFG",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "AMIN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "AMMN",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "AMMS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "AMOR",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Investasi"
+    },
+    {
+        "KodeEmiten": "AMRT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "ANDI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "ANJT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "ANTM",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "APEX",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "APIC",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "APII",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "APLI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "APLN",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "ARCI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "AREA",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "ARGO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "ARII",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ARKA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "ARKO",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "ARMY",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "ARNA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "ARTA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "ARTI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ARTO",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "ASBI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "ASDM",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "ASGR",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "ASHA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "ASII",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Perusahaan Holding Multi Sektor"
+    },
+    {
+        "KodeEmiten": "ASJT",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "ASLC",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "ASLI",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "ASMI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "ASPI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "ASRI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "ASRM",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "ASSA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "ATAP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "ATIC",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "ATLA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "AUTO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "AVIA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "AWAN",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "AXIO",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "AYAM",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "AYLS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BABP",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BABY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "BACA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BAIK",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "BAJA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BALI",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "BANK",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BAPA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BAPI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BATA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "BATR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BAUT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "BAYU",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "BBCA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBHI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBKP",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBLD",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "BBMD",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBNI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBRI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBRM",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BBSI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBSS",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BBTN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BBYB",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BCAP",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "BCIC",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BCIP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BDKR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "BDMN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BEBS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BEEF",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BEER",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BEKS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BELI",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "BELL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "BESS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BEST",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BFIN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "BGTG",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BHAT",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "BHIT",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Perusahaan Holding Multi Sektor"
+    },
+    {
+        "KodeEmiten": "BIKA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BIKE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rekreasi"
+    },
+    {
+        "KodeEmiten": "BIMA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "BINA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BINO",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "BIPI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BIPP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BIRD",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "BISI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BJBR",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BJTM",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BKDP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BKSL",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BKSW",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BLES",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BLTA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "BLTZ",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "BLUE",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "BMAS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BMBL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "BMHS",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "BMRI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BMSR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BMTR",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "BNBA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BNBR",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Perusahaan Holding Multi Sektor"
+    },
+    {
+        "KodeEmiten": "BNGA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BNII",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BNLI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BOAT",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BOBA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BOGA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "BOLA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "BOLT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "BOSS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BPFI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "BPII",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "BPTR",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "BRAM",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "BREN",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "BRIS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BRMS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BRNA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BRPT",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BRRC",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BSBK",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BSDE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "BSIM",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BSML",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BSSR",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BSWD",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BTEK",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BTEL",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "BTON",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "BTPN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BTPS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BUAH",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "BUDI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BUKA",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "BUKK",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "BULL",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BUMI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "BUVA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "BVIC",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "BWPT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "BYAN",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "CAKK",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "CAMP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CANI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "CARE",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "CARS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "CASA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "CASH",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "CASS",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "CBDK",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CBMF",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "CBPE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CBRE",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "CBUT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CCSI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "CEKA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CENT",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "CFIN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "CGAS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "CHEM",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "CHIP",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "CINT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "CITA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "CITY",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CLAY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "CLEO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CLPI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "CMNP",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "CMNT",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "CMPP",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "CMRY",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CNKO",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "CNMA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "CNTX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "COAL",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "COCO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "COWL",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CPIN",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CPRI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CPRO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CRAB",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CRSN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "CSAP",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "CSIS",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CSMI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "CSRA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "CTBN",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "CTRA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "CTTH",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "CUAN",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "CYBR",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "DAAZ",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "DADA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "DART",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "DATA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "DAYA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "DCII",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "DEAL",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "DEFI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "DEPO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "DEWA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "DEWI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "DFAM",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "DGIK",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "DGNS",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "DGWG",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "DIGI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "DILD",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "DIVA",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
     },
     {
         "KodeEmiten": "DKFT",
-        "Sektor": "Consumer Non-Cyclicals",
-        "SubSektor": "Food & Beverage"
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "DKHH",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "DLTA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "DMAS",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "DMMX",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "DMND",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "DNAR",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "DNET",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "DOID",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "DOOH",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "DOSS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rekreasi"
+    },
+    {
+        "KodeEmiten": "DPNS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "DPUM",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "DRMA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "DSFI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "DSNG",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "DSSA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "DUCK",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "DUTI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "DVLA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "DWGL",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "DYAN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "EAST",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "ECII",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "EDGE",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "EKAD",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ELIT",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "ELPI",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "ELSA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ELTY",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "EMDE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "EMTK",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "ENAK",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "ENRG",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ENVY",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "ENZO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "EPAC",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "EPMT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "ERAA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "ERAL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "ERTX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "ESIP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ESSA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ESTA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "ESTI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "ETWA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "EURO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "EXCL",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "FAPA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "FAST",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "FASW",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "FILM",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "FIMP",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "FIRE",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "FISH",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "FITT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "FLMC",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "FMII",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "FOLK",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Perusahaan Holding Multi Sektor"
+    },
+    {
+        "KodeEmiten": "FOOD",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "FORE",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "FORU",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "FORZ",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "FPNI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "FUJI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "FUTR",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "FWCT",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "GAMA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "GDST",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "GDYR",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "GEMA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "GEMS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "GGRM",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Rokok"
+    },
+    {
+        "KodeEmiten": "GGRP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "GHON",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "GIAA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "GJTL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "GLOB",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "GLVA",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "GMFI",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "GMTD",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "GOLD",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "GOLF",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "GOLL",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "GOOD",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "GOTO",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "GPRA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "GPSO",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "GRIA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "GRPH",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "GRPM",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "GSMF",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "GTBO",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "GTRA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "GTSI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "GULA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "GUNA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "GWSA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "GZCO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "HADE",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "HAIS",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "HAJJ",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "HALO",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "HATM",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "HBAT",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "HDFA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "HDIT",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "HDTX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "HEAL",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "HELI",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "HERO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "HEXA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "HGII",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "HILL",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "HITS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "HKMU",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "HMSP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Rokok"
+    },
+    {
+        "KodeEmiten": "HOKI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "HOME",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "HOMI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "HOPE",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "HOTL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "HRME",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "HRTA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "HRUM",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "HUMI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "HYGN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "IATA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "IBFN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "IBOS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "IBST",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "ICBP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "ICON",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "IDEA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "IDPR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "IFII",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "IFSH",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "IGAR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "IIKP",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rekreasi"
+    },
+    {
+        "KodeEmiten": "IKAI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "IKAN",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "IKBI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "IKPM",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "IMAS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "IMJS",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "IMPC",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "INAF",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "INAI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INCF",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INCI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INCO",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INDF",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "INDO",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "INDR",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "INDS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "INDX",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "INDY",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "INET",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "INKP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INOV",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "INPC",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "INPP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "INPS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "INRU",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INTA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "INTD",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "INTP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "IOTF",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "IPAC",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "IPCC",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "IPCM",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "IPOL",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "IPPE",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "IPTV",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "IRRA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "IRSX",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "ISAP",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "ISAT",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "ISEA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "ISSP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ITIC",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Rokok"
+    },
+    {
+        "KodeEmiten": "ITMA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ITMG",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "JARR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "JAST",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "JATI",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "JAWA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "JAYA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "JECC",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "JGLE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "JIHD",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "JKON",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "JKSW",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "JMAS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "JPFA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "JRPT",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "JSKY",
+        "Sektor": "Energi",
+        "SubSektor": "Energi Alternatif"
+    },
+    {
+        "KodeEmiten": "JSMR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "JSPT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "JTPE",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "KAEF",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "KAQI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "KARW",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "KAYU",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "KBAG",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "KBLI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KBLM",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KBLV",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "KBRI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "KDSI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "KDTN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "KEEN",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "KEJU",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "KETR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "KIAS",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KICI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "KIJA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "KING",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "KINO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "KIOS",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "KJEN",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "KKES",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "KKGI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "KLAS",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "KLBF",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "KLIN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "KMDS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "KMTR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "KOBX",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KOCI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "KOIN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KOKA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "KONI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "KOPI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "KOTA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "KPAL",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KPAS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "KPIG",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "KRAH",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "KRAS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "KREN",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "KRYA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "KSIX",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "KUAS",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "LABA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "LABS",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "LAJU",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "LAND",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "LAPD",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "LCGP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "LCKM",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "LEAD",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "LFLO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "LIFE",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "LINK",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "LION",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "LIVE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "LMAS",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "LMAX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "LMPI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "LMSH",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "LOPI",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "LPCK",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "LPGI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "LPIN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "LPKR",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "LPLI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "LPPF",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "LPPS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "LRNA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "LSIP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "LTLS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "LUCK",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "LUCY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "MABA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "MAGP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MAHA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MAIN",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MAMI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "MANG",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "MAPA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "MAPB",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "MAPI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "MARI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "MARK",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "MASA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "MASB",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "MAXI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MAYA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "MBAP",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MBMA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "MBSS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MBTO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "MCAS",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "MCOL",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MCOR",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "MDIA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "MDIY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "MDKA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "MDKI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "MDLA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "MDLN",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MDRN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "MEDC",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MEDS",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "MEGA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "MEJA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "MENN",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "MERK",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "META",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "MFIN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "MFMI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "MGLV",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "MGNA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "MGRO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MHKI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "MICE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "MIDI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "MIKA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "MINA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "MINE",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "MIRA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "MITI",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "MKAP",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MKNT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "MKPI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MKTR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MLBI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MLIA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "MLPL",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "MLPT",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "MMIX",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "MMLP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MNCN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "MOLI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "MORA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "MPIX",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "MPMX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "MPOW",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "MPPA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "MPRO",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MPXL",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "MRAT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "MREI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "MSIE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MSIN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "MSJA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "MSKY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "MSTI",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "MTDL",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "MTEL",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "MTFN",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MTLA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MTMH",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "MTPS",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "MTRA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "MTSM",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MTWI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "MUTU",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "MYOH",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "MYOR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "MYRX",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "MYTX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "NAIK",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "NANO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "NASA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "NASI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "NATO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "NAYZ",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "NCKL",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "NELY",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "NEST",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "NETV",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "NFCX",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "NICE",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "NICK",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "NICL",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "NIKL",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "NINE",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "NIPS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "NIRO",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "NISP",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "NOBU",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "NPGF",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "NRCA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "NSSS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "NTBK",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "NUSA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "NZIA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "OASA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "OBAT",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "OBMD",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "OCAP",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "OILS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "OKAS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "OLIV",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "OMED",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "OMRE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "OPMS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PACK",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PADA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "PADI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Investasi"
+    },
+    {
+        "KodeEmiten": "PALM",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "PAMG",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PANI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PANR",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PANS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Investasi"
+    },
+    {
+        "KodeEmiten": "PART",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "PBID",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PBRX",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "PBSA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "PCAR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "PDES",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PDPP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PEGE",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "PEHA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "PEVE",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "PGAS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "PGEO",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "PGJO",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "PGLI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PGUN",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "PICO",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PIPA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "PJAA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PKPK",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "PLAN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PLAS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "PLIN",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PMJS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "PMMP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "PNBN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "PNBS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "PNGO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "PNIN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "PNLF",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "PNSE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "POLA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "POLI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "POLL",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "POLU",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "POLY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "POOL",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "PORT",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Infrastruktur Transportasi"
+    },
+    {
+        "KodeEmiten": "POSA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "POWR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "PPGL",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "PPRE",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "PPRI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PPRO",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PRAS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "PRAY",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "PRDA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "PRIM",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "PSAB",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PSDN",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "PSGO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "PSKT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PSSI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "PTBA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "PTDU",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "PTIS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "PTMP",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "PTMR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PTPP",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "PTPS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "PTPW",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "PTRO",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "PTSN",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
+    },
+    {
+        "KodeEmiten": "PTSP",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "PUDP",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PURA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "PURE",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "PURI",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PWON",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "PYFA",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "PZZA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "RAAM",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "RAFI",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "RAJA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "RALS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "RANC",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "RATU",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "RBMS",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RCCC",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "RDTX",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "REAL",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RELF",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RELI",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Investasi"
+    },
+    {
+        "KodeEmiten": "RGAS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "RICY",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "RIGS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "RIMO",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RISE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RMKE",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "RMKO",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "ROCK",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RODA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "RONY",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "ROTI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "RSCH",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "RSGK",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "RUIS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "RUNS",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "SAFE",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "SAGE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "SAME",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "SAMF",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SAPX",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "SATU",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "SBAT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "SBMA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SCCO",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "SCMA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "SCNP",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "SCPI",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "SDMU",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "SDPC",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "SDRA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Bank"
+    },
+    {
+        "KodeEmiten": "SEMA",
+        "Sektor": "Energi",
+        "SubSektor": "Energi Alternatif"
+    },
+    {
+        "KodeEmiten": "SFAN",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "SGER",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SGRO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SHID",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "SHIP",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SICO",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SIDO",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "SILO",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "SIMA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SIMP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SINI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "SIPD",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SKBM",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SKLT",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SKRN",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "SKYB",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "SLIS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "SMAR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SMBR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SMCB",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SMDM",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "SMDR",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "SMGA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SMGR",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SMIL",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "SMKL",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SMKM",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "SMLE",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SMMA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "SMMT",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SMRA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "SMRU",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SMSM",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "SNLK",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "SOCI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SOFA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "SOHO",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "SOLA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SONA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "SOSS",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "SOTS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "SOUL",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SPMA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SPRE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "SPTO",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "SQMI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SRAJ",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "SRIL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "SRSN",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SRTG",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "SSIA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "SSMS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SSTM",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "STAA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "STAR",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "STRK",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "STTP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "SUGI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SULI",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SUNI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SUPR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "SURE",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "SURI",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Jasa & Peralatan Kesehatan"
+    },
+    {
+        "KodeEmiten": "SWAT",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "SWID",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Jasa Konsumen"
+    },
+    {
+        "KodeEmiten": "TALF",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TAMA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "TAMU",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "TAPG",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TARA",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "TAXI",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "TAYS",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TBIG",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "TBLA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TBMS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TCID",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "TCPI",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "TDPM",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TEBE",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "TECH",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "TELE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "TFAS",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "TFCO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "TGKA",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TGRA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Utilitas"
+    },
+    {
+        "KodeEmiten": "TGUK",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TIFA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "TINS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TIRA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "TIRT",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TKIM",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TLDN",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TLKM",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "TMAS",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "TMPO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "TNCA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "TOBA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "TOOL",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "TOPS",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "TOSK",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "TOTL",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "TOTO",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "TOWR",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Telekomunikasi"
+    },
+    {
+        "KodeEmiten": "TOYS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rekreasi"
+    },
+    {
+        "KodeEmiten": "TPIA",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TPMA",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "TRAM",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "TRGU",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "TRIL",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "TRIM",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Investasi"
+    },
+    {
+        "KodeEmiten": "TRIN",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "TRIO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "TRIS",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "TRJA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "TRON",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "TRST",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "TRUE",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "TRUK",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Logistik & Pengantaran"
+    },
+    {
+        "KodeEmiten": "TRUS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "TSPC",
+        "Sektor": "Kesehatan",
+        "SubSektor": "Farmasi & Riset Kesehatan"
+    },
+    {
+        "KodeEmiten": "TUGU",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "TYRE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "UANG",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "UCID",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "UDNG",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "UFOE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "ULTJ",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "UNIC",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "UNIQ",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "UNIT",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Pakaian & Barang Mewah"
+    },
+    {
+        "KodeEmiten": "UNSP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "UNTD",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rekreasi"
+    },
+    {
+        "KodeEmiten": "UNTR",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "UNVR",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "URBN",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "UVCR",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "VAST",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "VERN",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "VICI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Produk Rumah Tangga Tidak Tahan Lama"
+    },
+    {
+        "KodeEmiten": "VICO",
+        "Sektor": "Keuangan",
+        "SubSektor": "Perusahaan Holding & Investasi"
+    },
+    {
+        "KodeEmiten": "VINS",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "VISI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Jasa Perindustrian"
+    },
+    {
+        "KodeEmiten": "VIVA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Media & Hiburan"
+    },
+    {
+        "KodeEmiten": "VKTR",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Otomotif & Komponen Otomotif"
+    },
+    {
+        "KodeEmiten": "VOKS",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "VRNA",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "VTNY",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "WAPO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "WEGE",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "WEHA",
+        "Sektor": "Transportasi & Logistik",
+        "SubSektor": "Transportasi"
+    },
+    {
+        "KodeEmiten": "WGSH",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "WICO",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Perdagangan Ritel Barang Primer"
+    },
+    {
+        "KodeEmiten": "WIDI",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Barang Perindustrian"
+    },
+    {
+        "KodeEmiten": "WIFI",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "WIIM",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Rokok"
+    },
+    {
+        "KodeEmiten": "WIKA",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "WINE",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "WINR",
+        "Sektor": "Properti & Real Estat",
+        "SubSektor": "Properti & Real Estat"
+    },
+    {
+        "KodeEmiten": "WINS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "WIRG",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Lunak & Jasa TI"
+    },
+    {
+        "KodeEmiten": "WMPP",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "WMUU",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "WOMF",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Pembiayaan"
+    },
+    {
+        "KodeEmiten": "WOOD",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Barang Rumah Tangga"
+    },
+    {
+        "KodeEmiten": "WOWS",
+        "Sektor": "Energi",
+        "SubSektor": "Minyak, Gas & Batu Bara"
+    },
+    {
+        "KodeEmiten": "WSBP",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "WSKT",
+        "Sektor": "Infrastruktur",
+        "SubSektor": "Konstruksi Bangunan"
+    },
+    {
+        "KodeEmiten": "WTON",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "YELO",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "YOII",
+        "Sektor": "Keuangan",
+        "SubSektor": "Asuransi"
+    },
+    {
+        "KodeEmiten": "YPAS",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "YULE",
+        "Sektor": "Keuangan",
+        "SubSektor": "Jasa Investasi"
+    },
+    {
+        "KodeEmiten": "YUPI",
+        "Sektor": "Barang Konsumen Primer",
+        "SubSektor": "Makanan & Minuman"
+    },
+    {
+        "KodeEmiten": "ZATA",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "ZBRA",
+        "Sektor": "Perindustrian",
+        "SubSektor": "Perusahaan Holding Multi Sektor"
+    },
+    {
+        "KodeEmiten": "ZINC",
+        "Sektor": "Barang Baku",
+        "SubSektor": "Barang Baku"
+    },
+    {
+        "KodeEmiten": "ZONE",
+        "Sektor": "Barang Konsumen Non-Primer",
+        "SubSektor": "Perdagangan Ritel"
+    },
+    {
+        "KodeEmiten": "ZYRX",
+        "Sektor": "Teknologi",
+        "SubSektor": "Perangkat Keras & Peralatan Teknologi"
     }
 ]

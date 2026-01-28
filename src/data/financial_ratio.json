@@ -1,45 +1,143 @@
 [
     {
+        "KodeEmiten": "BREN",
+        "der": 2.4,
+        "roe": 22.04,
+        "per": 448.75,
+        "marketCap": 1083668432945152
+    },
+    {
         "KodeEmiten": "BBCA",
-        "der": 0.2,
+        "der": 4.57,
         "roe": 21.47,
-        "per": 15.36,
-        "marketCap": 884295312867328
+        "per": 15.25,
+        "marketCap": 878132974321664
+    },
+    {
+        "KodeEmiten": "DSSA",
+        "der": 0.67,
+        "roe": 18.53,
+        "per": 146.55,
+        "marketCap": 610263514480640
     },
     {
         "KodeEmiten": "BBRI",
-        "der": 1.5,
+        "der": 4.95,
         "roe": 16.94,
-        "per": 9.89,
-        "marketCap": 556221518053376
+        "per": 9.81,
+        "marketCap": 551674758299648
+    },
+    {
+        "KodeEmiten": "TPIA",
+        "der": 0.83,
+        "roe": 42.02,
+        "per": 20.9,
+        "marketCap": 549299809157120
+    },
+    {
+        "KodeEmiten": "BYAN",
+        "der": 0.36,
+        "roe": 35.43,
+        "per": 30.97,
+        "marketCap": 519166687707136
+    },
+    {
+        "KodeEmiten": "DCII",
+        "der": 0.29,
+        "roe": 36.15,
+        "per": 432.41,
+        "marketCap": 498381663240192
+    },
+    {
+        "KodeEmiten": "AMMN",
+        "der": 1.26,
+        "roe": -4.88,
+        "per": 44.59,
+        "marketCap": 494936797478912
     },
     {
         "KodeEmiten": "BMRI",
-        "der": 1.8,
+        "der": 5.95,
         "roe": 18.35,
-        "per": 8.3,
-        "marketCap": 427466652909568
+        "per": 8.25,
+        "marketCap": 424666669776896
     },
     {
         "KodeEmiten": "TLKM",
         "der": 0.5,
         "roe": 18.31,
-        "per": 16.02,
-        "marketCap": 347708372025344
+        "per": 15.79,
+        "marketCap": 342755268100096
+    },
+    {
+        "KodeEmiten": "MORA",
+        "der": 0.72,
+        "roe": 4.06,
+        "per": 1216.03,
+        "marketCap": 317456534994944
     },
     {
         "KodeEmiten": "ASII",
         "der": 0.37,
         "roe": 14.55,
-        "per": 7.68,
-        "marketCap": 250998022995968
+        "per": 7.65,
+        "marketCap": 249985937440768
+    },
+    {
+        "KodeEmiten": "BRPT",
+        "der": 1.08,
+        "roe": 35.88,
+        "per": 21.03,
+        "marketCap": 215520217399296
+    },
+    {
+        "KodeEmiten": "SRAJ",
+        "der": 3.89,
+        "roe": -7.25,
+        "per": 3021.79,
+        "marketCap": 198883091152896
+    },
+    {
+        "KodeEmiten": "PANI",
+        "der": 0.02,
+        "roe": 6.78,
+        "per": 173.68,
+        "marketCap": 173470524637184
+    },
+    {
+        "KodeEmiten": "CUAN",
+        "der": 2.02,
+        "roe": 33.18,
+        "per": 73.85,
+        "marketCap": 171438820556800
+    },
+    {
+        "KodeEmiten": "IMPC",
+        "der": 0.38,
+        "roe": 23.72,
+        "per": 274.19,
+        "marketCap": 168015412854784
+    },
+    {
+        "KodeEmiten": "BNLI",
+        "der": 5.04,
+        "roe": 8.38,
+        "per": 44.29,
+        "marketCap": 163539520061440
     },
     {
         "KodeEmiten": "BBNI",
-        "der": 1.9,
+        "der": 5.59,
         "roe": 12.26,
-        "per": 8.07,
-        "marketCap": 163557337464832
+        "per": 7.94,
+        "marketCap": 160949369569280
+    },
+    {
+        "KodeEmiten": "FILM",
+        "der": 0.07,
+        "roe": -6.83,
+        "per": null,
+        "marketCap": 157869710245888
     },
     {
         "KodeEmiten": "BRMS",
@@ -49,25 +147,60 @@
         "marketCap": 156671364038656
     },
     {
+        "KodeEmiten": "DNET",
+        "der": 0.43,
+        "roe": 8.18,
+        "per": 105.66,
+        "marketCap": 123400794144768
+    },
+    {
+        "KodeEmiten": "MPRO",
+        "der": 0.3,
+        "roe": -5.41,
+        "per": -529.11,
+        "marketCap": 114338757083136
+    },
+    {
         "KodeEmiten": "BUMI",
         "der": 0.12,
         "roe": 0.48,
-        "per": 4,
+        "per": 38.2,
         "marketCap": 109172607680512
+    },
+    {
+        "KodeEmiten": "MLPT",
+        "der": 0.35,
+        "roe": 46.25,
+        "per": 338.87,
+        "marketCap": 107812503945216
     },
     {
         "KodeEmiten": "ANTM",
         "der": 0.11,
-        "roe": 10,
-        "per": 14.15,
-        "marketCap": 105014441803776
+        "roe": 7.9999,
+        "per": 14.02,
+        "marketCap": 104053216378880
+    },
+    {
+        "KodeEmiten": "BRIS",
+        "der": 2.13,
+        "roe": 16,
+        "per": 13.16,
+        "marketCap": 98255320907776
+    },
+    {
+        "KodeEmiten": "HMSP",
+        "der": 0.02,
+        "roe": 22.25,
+        "per": 15.78,
+        "marketCap": 93636050026496
     },
     {
         "KodeEmiten": "ICBP",
         "der": 0.66,
         "roe": 10.97,
-        "per": 15.25,
-        "marketCap": 92129070153728
+        "per": 15.15,
+        "marketCap": 91545978011648
     },
     {
         "KodeEmiten": "UNTR",
@@ -87,15 +220,43 @@
         "KodeEmiten": "NCKL",
         "der": 0.24,
         "roe": 25.31,
-        "per": 10.73,
-        "marketCap": 85743074541568
+        "per": 10.69,
+        "marketCap": 85427839041536
+    },
+    {
+        "KodeEmiten": "CASA",
+        "der": 0.45,
+        "roe": 1.44,
+        "per": 759.8,
+        "marketCap": 84438218178560
+    },
+    {
+        "KodeEmiten": "SMMA",
+        "der": 0.4,
+        "roe": 11.31,
+        "per": 26.88,
+        "marketCap": 80550954008576
+    },
+    {
+        "KodeEmiten": "RISE",
+        "der": 0.23,
+        "roe": 2.25,
+        "per": 1421.2,
+        "marketCap": 80345055625216
     },
     {
         "KodeEmiten": "MBMA",
         "der": 0.38,
         "roe": 3.49,
-        "per": 161.86,
-        "marketCap": 78836658077696
+        "per": 162.97,
+        "marketCap": 79376632774656
+    },
+    {
+        "KodeEmiten": "MDKA",
+        "der": 0.67,
+        "roe": 1.49,
+        "per": -40.93,
+        "marketCap": 75933788667904
     },
     {
         "KodeEmiten": "UNVR",
@@ -105,60 +266,214 @@
         "marketCap": 75155502006272
     },
     {
-        "KodeEmiten": "MDKA",
-        "der": 0.67,
-        "roe": 1.49,
-        "per": 80,
-        "marketCap": 74468827332608
+        "KodeEmiten": "PTRO",
+        "der": 2.77,
+        "roe": 5.8,
+        "per": 42.99,
+        "marketCap": 73628162981888
+    },
+    {
+        "KodeEmiten": "AMRT",
+        "der": 0.11,
+        "roe": 17.88,
+        "per": 23.55,
+        "marketCap": 72252632596480
+    },
+    {
+        "KodeEmiten": "ISAT",
+        "der": 1.44,
+        "roe": 13.56,
+        "per": 15.65,
+        "marketCap": 72241811292160
+    },
+    {
+        "KodeEmiten": "CPIN",
+        "der": 0.23,
+        "roe": 15.43,
+        "per": 15.29,
+        "marketCap": 71495283900416
     },
     {
         "KodeEmiten": "INCO",
         "der": 0,
         "roe": 2.16,
-        "per": 64.53,
-        "marketCap": 67981606387712
+        "per": 62.78,
+        "marketCap": 66137144426496
+    },
+    {
+        "KodeEmiten": "EXCL",
+        "der": 1.91,
+        "roe": -7.22,
+        "per": 18.73,
+        "marketCap": 65341807919104
     },
     {
         "KodeEmiten": "GOTO",
         "der": 0.15,
         "roe": -6.33,
-        "per": -20,
+        "per": -0.94,
         "marketCap": 64563286376448
     },
     {
         "KodeEmiten": "ADRO",
         "der": 0.14,
         "roe": 6.79,
-        "per": 9.41,
-        "marketCap": 63263681282048
+        "per": 9.45,
+        "marketCap": 63555218964480
+    },
+    {
+        "KodeEmiten": "BELI",
+        "der": 0.38,
+        "roe": -31.39,
+        "per": -20.4,
+        "marketCap": 61944354570240
+    },
+    {
+        "KodeEmiten": "AADI",
+        "der": 0.28,
+        "roe": 22.77,
+        "per": 4.89,
+        "marketCap": 59375049768960
     },
     {
         "KodeEmiten": "INDF",
         "der": 0.66,
         "roe": 10.85,
-        "per": 7.61,
-        "marketCap": 59048368013312
+        "per": 7.58,
+        "marketCap": 58828854919168
+    },
+    {
+        "KodeEmiten": "MASA",
+        "der": 0.23,
+        "roe": 8.9086,
+        "per": 108.23,
+        "marketCap": 56921115200000
+    },
+    {
+        "KodeEmiten": "EMTK",
+        "der": 0.02,
+        "roe": 20.1,
+        "per": 7.28,
+        "marketCap": 54669539803136
+    },
+    {
+        "KodeEmiten": "PGUN",
+        "der": 0.21,
+        "roe": 9.2,
+        "per": 340.7,
+        "marketCap": 54366119657472
+    },
+    {
+        "KodeEmiten": "TCPI",
+        "der": 0.59,
+        "roe": 9.44,
+        "per": 274.15,
+        "marketCap": 51500000739328
     },
     {
         "KodeEmiten": "PGAS",
         "der": 0.33,
         "roe": 12.08,
-        "per": 9.8,
-        "marketCap": 51391997411328
+        "per": 9.7,
+        "marketCap": 50907169423360
+    },
+    {
+        "KodeEmiten": "INKP",
+        "der": 0.73,
+        "roe": 8.11,
+        "per": 5.78,
+        "marketCap": 50880145522688
+    },
+    {
+        "KodeEmiten": "MYOR",
+        "der": 0.51,
+        "roe": 17.17,
+        "per": 17.89,
+        "marketCap": 50598435094528
+    },
+    {
+        "KodeEmiten": "SUPR",
+        "der": 0.19,
+        "roe": 16.56,
+        "per": 46.3,
+        "marketCap": 49882865860608
     },
     {
         "KodeEmiten": "KLBF",
         "der": 0.02,
         "roe": 14.55,
-        "per": 14.29,
-        "marketCap": 49705572630528
+        "per": 14.23,
+        "marketCap": 49478606258176
+    },
+    {
+        "KodeEmiten": "VKTR",
+        "der": 0.19,
+        "roe": 0.18,
+        "per": 8500,
+        "marketCap": 48343749230592
     },
     {
         "KodeEmiten": "ARCI",
         "der": 1.19,
         "roe": 28.34,
-        "per": 33.41,
-        "marketCap": 48198848610304
+        "per": 33.06,
+        "marketCap": 47694148009984
+    },
+    {
+        "KodeEmiten": "PGEO",
+        "der": 0.38,
+        "roe": 6.55,
+        "per": 21.81,
+        "marketCap": 47460894375936
+    },
+    {
+        "KodeEmiten": "NSSS",
+        "der": 0.94,
+        "roe": 46.45,
+        "per": 64.85,
+        "marketCap": 46770084118528
+    },
+    {
+        "KodeEmiten": "GEMS",
+        "der": 0.24,
+        "roe": 41.98,
+        "per": 10.01,
+        "marketCap": 46470589841408
+    },
+    {
+        "KodeEmiten": "MTEL",
+        "der": 0.54,
+        "roe": 6.37,
+        "per": 20.53,
+        "marketCap": 46375622410240
+    },
+    {
+        "KodeEmiten": "BNGA",
+        "der": 5.72,
+        "roe": 12.87,
+        "per": 6.39,
+        "marketCap": 44755102728192
+    },
+    {
+        "KodeEmiten": "CMRY",
+        "der": 0,
+        "roe": 29.01,
+        "per": 21.8,
+        "marketCap": 42847289999360
+    },
+    {
+        "KodeEmiten": "TBIG",
+        "der": 2.87,
+        "roe": 11.9,
+        "per": 31.43,
+        "marketCap": 40932737024000
+    },
+    {
+        "KodeEmiten": "MEGA",
+        "der": 5.02,
+        "roe": 12.55,
+        "per": 13.53,
+        "marketCap": 38275410558976
     },
     {
         "KodeEmiten": "ENRG",
@@ -168,25 +483,207 @@
         "marketCap": 37411648176128
     },
     {
-        "KodeEmiten": "SUPA",
+        "KodeEmiten": "MEDC",
+        "der": 1.65,
+        "roe": 8.12,
+        "per": 12.45,
+        "marketCap": 36531028885504
+    },
+    {
+        "KodeEmiten": "BUVA",
+        "der": 0.33,
+        "roe": 8.52,
+        "per": 340,
+        "marketCap": 35571644760064
+    },
+    {
+        "KodeEmiten": "SILO",
+        "der": 0.18,
+        "roe": 11.96,
+        "per": 32.29,
+        "marketCap": 33120709509120
+    },
+    {
+        "KodeEmiten": "MIKA",
         "der": 0,
-        "roe": -0.38,
-        "per": 0,
-        "marketCap": 31376774529024
+        "roe": 18.44,
+        "per": 26.37,
+        "marketCap": 32960730365952
+    },
+    {
+        "KodeEmiten": "TOWR",
+        "der": 1.72,
+        "roe": 15.43,
+        "per": 8.28,
+        "marketCap": 32799446794240
+    },
+    {
+        "KodeEmiten": "NISP",
+        "der": 6.19,
+        "roe": 11.79,
+        "per": 6.61,
+        "marketCap": 32238141964288
+    },
+    {
+        "KodeEmiten": "JPFA",
+        "der": 0.63,
+        "roe": 20.72,
+        "per": 9.61,
+        "marketCap": 32092366831616
+    },
+    {
+        "KodeEmiten": "ARKO",
+        "der": 1.95,
+        "roe": 10.14,
+        "per": 644.08,
+        "marketCap": 30895622848512
+    },
+    {
+        "KodeEmiten": "TAPG",
+        "der": 0.1,
+        "roe": 38.08,
+        "per": 7.08,
+        "marketCap": 29679547318272
+    },
+    {
+        "KodeEmiten": "BBHI",
+        "der": 0.95,
+        "roe": 7.45,
+        "per": 51.58,
+        "marketCap": 29444498522112
+    },
+    {
+        "KodeEmiten": "GGRM",
+        "der": 0.04,
+        "roe": 1.77,
+        "per": 26.55,
+        "marketCap": 29053729898496
+    },
+    {
+        "KodeEmiten": "RMKE",
+        "der": 0.3,
+        "roe": 13.54,
+        "per": 126.86,
+        "marketCap": 28765625253888
     },
     {
         "KodeEmiten": "PTBA",
         "der": 0.2,
         "roe": 15.96,
-        "per": 8.66,
-        "marketCap": 28325317705728
+        "per": 8.69,
+        "marketCap": 28440461836288
     },
     {
-        "KodeEmiten": "ARTO",
-        "der": 0.1,
-        "roe": 2.81,
-        "per": 100.47,
-        "marketCap": 23772182609920
+        "KodeEmiten": "BINA",
+        "der": 5.12,
+        "roe": 0.12,
+        "per": 4978.49,
+        "marketCap": 28403736510464
+    },
+    {
+        "KodeEmiten": "AVIA",
+        "der": 0,
+        "roe": 17.05,
+        "per": 16.24,
+        "marketCap": 27318829449216
+    },
+    {
+        "KodeEmiten": "SOHO",
+        "der": 0,
+        "roe": 20.63,
+        "per": 47.39,
+        "marketCap": 26525615259648
+    },
+    {
+        "KodeEmiten": "JSMR",
+        "der": 1.19,
+        "roe": 8.91,
+        "per": 6.54,
+        "marketCap": 25910600269824
+    },
+    {
+        "KodeEmiten": "BKSL",
+        "der": 0.14,
+        "roe": 0.41,
+        "per": 402.63,
+        "marketCap": 25659462123520
+    },
+    {
+        "KodeEmiten": "PNBN",
+        "der": 2.92,
+        "roe": 4.86,
+        "per": 9.56,
+        "marketCap": 25509719179264
+    },
+    {
+        "KodeEmiten": "AKRA",
+        "der": 0.36,
+        "roe": 19.11,
+        "per": 10.42,
+        "marketCap": 25145706020864
+    },
+    {
+        "KodeEmiten": "ITMG",
+        "der": 0.05,
+        "roe": 12.65,
+        "per": 6.21,
+        "marketCap": 24745357606912
+    },
+    {
+        "KodeEmiten": "MSIN",
+        "der": 0.04,
+        "roe": 6.44,
+        "per": 54.01,
+        "marketCap": 24513175617536
+    },
+    {
+        "KodeEmiten": "TINS",
+        "der": 0.34,
+        "roe": 11.9,
+        "per": 27.85,
+        "marketCap": 24503107190784
+    },
+    {
+        "KodeEmiten": "BDMN",
+        "der": 3.69,
+        "roe": 7.18,
+        "per": 6.64,
+        "marketCap": 24433882300416
+    },
+    {
+        "KodeEmiten": "JARR",
+        "der": 0.96,
+        "roe": 18.98,
+        "per": 73.86,
+        "marketCap": 24276648329216
+    },
+    {
+        "KodeEmiten": "CARE",
+        "der": 0.36,
+        "roe": -0.27,
+        "per": -70.3,
+        "marketCap": 24106250534912
+    },
+    {
+        "KodeEmiten": "SRTG",
+        "der": 0.03,
+        "roe": -8.48,
+        "per": 5,
+        "marketCap": 23779956752384
+    },
+    {
+        "KodeEmiten": "TKIM",
+        "der": 0.28,
+        "roe": 15.18,
+        "per": 3.41,
+        "marketCap": 23349176565760
+    },
+    {
+        "KodeEmiten": "INTP",
+        "der": 0.13,
+        "roe": 9.31,
+        "per": 11.04,
+        "marketCap": 23290867351552
     },
     {
         "KodeEmiten": "DEWA",
@@ -196,11 +693,193 @@
         "marketCap": 23191837736960
     },
     {
+        "KodeEmiten": "ARTO",
+        "der": 2.15,
+        "roe": 2.81,
+        "per": 97.83,
+        "marketCap": 23148422496256
+    },
+    {
+        "KodeEmiten": "MDIY",
+        "der": 0.55,
+        "roe": 31.12,
+        "per": 21.12,
+        "marketCap": 22797304725504
+    },
+    {
+        "KodeEmiten": "BTPN",
+        "der": 3.07,
+        "roe": 4.89,
+        "per": 9.81,
+        "marketCap": 22569405120512
+    },
+    {
+        "KodeEmiten": "MKPI",
+        "der": 0,
+        "roe": 14.85,
+        "per": 20.99,
+        "marketCap": 22495902040064
+    },
+    {
+        "KodeEmiten": "KPIG",
+        "der": 0.22,
+        "roe": 2.35,
+        "per": 29.89,
+        "marketCap": 21968661250048
+    },
+    {
+        "KodeEmiten": "FAPA",
+        "der": 1.21,
+        "roe": 27.46,
+        "per": 22.6,
+        "marketCap": 21781186347008
+    },
+    {
+        "KodeEmiten": "BNBR",
+        "der": 0.38,
+        "roe": -4.69,
+        "per": 8.09,
+        "marketCap": 21677102596096
+    },
+    {
+        "KodeEmiten": "HEAL",
+        "der": 0.47,
+        "roe": 8.41,
+        "per": 48.55,
+        "marketCap": 21051352285184
+    },
+    {
+        "KodeEmiten": "BSIM",
+        "der": 4.24,
+        "roe": 4.28,
+        "per": 65.46,
+        "marketCap": 20406226386944
+    },
+    {
+        "KodeEmiten": "MAPI",
+        "der": 0.48,
+        "roe": 14.83,
+        "per": 10.77,
+        "marketCap": 19837000613888
+    },
+    {
+        "KodeEmiten": "RAJA",
+        "der": 0.68,
+        "roe": 15.45,
+        "per": 48.3,
+        "marketCap": 19402309238784
+    },
+    {
+        "KodeEmiten": "BSDE",
+        "der": 0.29,
+        "roe": 6.89,
+        "per": 6.34,
+        "marketCap": 19135757025280
+    },
+    {
+        "KodeEmiten": "CITA",
+        "der": 0.07,
+        "roe": 39.71,
+        "per": 6.4,
+        "marketCap": 19049337585664
+    },
+    {
+        "KodeEmiten": "MAPA",
+        "der": 0.23,
+        "roe": 18.56,
+        "per": 13.21,
+        "marketCap": 18812640428032
+    },
+    {
+        "KodeEmiten": "FASW",
+        "der": 0.74,
+        "roe": -21.39,
+        "per": -12.02,
+        "marketCap": 17555842400256
+    },
+    {
+        "KodeEmiten": "SCMA",
+        "der": 0,
+        "roe": 6.93,
+        "per": 25.68,
+        "marketCap": 17390061486080
+    },
+    {
+        "KodeEmiten": "APIC",
+        "der": 0.57,
+        "roe": 3.77,
+        "per": 178.57,
+        "marketCap": 17355312726016
+    },
+    {
+        "KodeEmiten": "PWON",
+        "der": 0.21,
+        "roe": 10.24,
+        "per": 8.11,
+        "marketCap": 17337456525312
+    },
+    {
+        "KodeEmiten": "SMGR",
+        "der": 0.23,
+        "roe": 0.4,
+        "per": 150.41,
+        "marketCap": 17283942449152
+    },
+    {
+        "KodeEmiten": "BBTN",
+        "der": 12.32,
+        "roe": 9.68,
+        "per": 5.24,
+        "marketCap": 16911505031168
+    },
+    {
+        "KodeEmiten": "INDY",
+        "der": 0.81,
+        "roe": -0.48,
+        "per": 8.51,
+        "marketCap": 16908749373440
+    },
+    {
+        "KodeEmiten": "LIFE",
+        "der": 0,
+        "roe": 3.43,
+        "per": 60.79,
+        "marketCap": 16852499562496
+    },
+    {
+        "KodeEmiten": "SSMS",
+        "der": 1.74,
+        "roe": 40.87,
+        "per": 13.52,
+        "marketCap": 16383000707072
+    },
+    {
+        "KodeEmiten": "SMAR",
+        "der": 0.73,
+        "roe": 8.93,
+        "per": 8.71,
+        "marketCap": 16012477988864
+    },
+    {
+        "KodeEmiten": "BNII",
+        "der": 5.16,
+        "roe": 5.12,
+        "per": 10.34,
+        "marketCap": 16005191434240
+    },
+    {
+        "KodeEmiten": "POLU",
+        "der": 0.18,
+        "roe": 7.17,
+        "per": 1617.09,
+        "marketCap": 15900000387072
+    },
+    {
         "KodeEmiten": "BUKA",
         "der": 0,
         "roe": 7.82,
-        "per": 7.33,
-        "marketCap": 15884900892672
+        "per": 7.28,
+        "marketCap": 15781752471552
     },
     {
         "KodeEmiten": "PSAB",
@@ -210,11 +889,368 @@
         "marketCap": 15743699648512
     },
     {
+        "KodeEmiten": "SIDO",
+        "der": 0,
+        "roe": 34.36,
+        "per": 12.8,
+        "marketCap": 15486899191808
+    },
+    {
+        "KodeEmiten": "DSNG",
+        "der": 0.4,
+        "roe": 15.46,
+        "per": 9.58,
+        "marketCap": 15316772978688
+    },
+    {
+        "KodeEmiten": "ULTJ",
+        "der": 0,
+        "roe": 16.42,
+        "per": 12.54,
+        "marketCap": 15129345261568
+    },
+    {
+        "KodeEmiten": "CTRA",
+        "der": 0.3,
+        "roe": 10.83,
+        "per": 6.08,
+        "marketCap": 15106591162368
+    },
+    {
+        "KodeEmiten": "BBKP",
+        "der": 6.37,
+        "roe": -34,
+        "per": -1.9,
+        "marketCap": 14467340435456
+    },
+    {
+        "KodeEmiten": "HRUM",
+        "der": 0.33,
+        "roe": 1.41,
+        "per": 40.6,
+        "marketCap": 14362991394816
+    },
+    {
+        "KodeEmiten": "STAA",
+        "der": 0.26,
+        "roe": 31.08,
+        "per": 8.73,
+        "marketCap": 14283418107904
+    },
+    {
+        "KodeEmiten": "AALI",
+        "der": 0,
+        "roe": 6.3,
+        "per": 10.05,
+        "marketCap": 14242694561792
+    },
+    {
+        "KodeEmiten": "SGRO",
+        "der": 0.39,
+        "roe": 22.01,
+        "per": 10.22,
+        "marketCap": 14185251471360
+    },
+    {
+        "KodeEmiten": "CMNT",
+        "der": 3.06,
+        "roe": -21.22,
+        "per": -65.07,
+        "marketCap": 13957285806080
+    },
+    {
+        "KodeEmiten": "JRPT",
+        "der": 0,
+        "roe": 12.46,
+        "per": 10.95,
+        "marketCap": 13635772481536
+    },
+    {
+        "KodeEmiten": "BBSI",
+        "der": 0.73,
+        "roe": 4.24,
+        "per": 94.98,
+        "marketCap": 13633223393280
+    },
+    {
+        "KodeEmiten": "WIFI",
+        "der": 0.45,
+        "roe": 8.82,
+        "per": 17.84,
+        "marketCap": 13324458655744
+    },
+    {
+        "KodeEmiten": "NICL",
+        "der": 0,
+        "roe": 65.79,
+        "per": 24.06,
+        "marketCap": 13135021867008
+    },
+    {
+        "KodeEmiten": "GOOD",
+        "der": 0.49,
+        "roe": 18.07,
+        "per": 21.53,
+        "marketCap": 12981024849920
+    },
+    {
+        "KodeEmiten": "MCOL",
+        "der": 0.12,
+        "roe": 8.84,
+        "per": 15.73,
+        "marketCap": 12942238023680
+    },
+    {
+        "KodeEmiten": "STTP",
+        "der": 0.11,
+        "roe": 18.39,
+        "per": 10.86,
+        "marketCap": 12870750306304
+    },
+    {
+        "KodeEmiten": "BIPI",
+        "der": 1.21,
+        "roe": 0.41,
+        "per": 89.19,
+        "marketCap": 12614618841088
+    },
+    {
+        "KodeEmiten": "AUTO",
+        "der": 0.04,
+        "roe": 13.86,
+        "per": 6.02,
+        "marketCap": 12483108536320
+    },
+    {
+        "KodeEmiten": "ALII",
+        "der": 0.17,
+        "roe": 22.23,
+        "per": 41.23,
+        "marketCap": 12423252672512
+    },
+    {
+        "KodeEmiten": "MFIN",
+        "der": 0.72,
+        "roe": 10.9005,
+        "per": 30.11,
+        "marketCap": 12288192000000
+    },
+    {
+        "KodeEmiten": "TSPC",
+        "der": 0.1,
+        "roe": 16.38,
+        "per": 8.14,
+        "marketCap": 12221733142528
+    },
+    {
+        "KodeEmiten": "SHIP",
+        "der": 1.06,
+        "roe": 8.41,
+        "per": 49.02,
+        "marketCap": 12075867832320
+    },
+    {
+        "KodeEmiten": "MLBI",
+        "der": 0.09,
+        "roe": 84.3,
+        "per": 10.68,
+        "marketCap": 11799200006144
+    },
+    {
+        "KodeEmiten": "CYBR",
+        "der": 0.22,
+        "roe": 45.16,
+        "per": 204.9,
+        "marketCap": 11482382204928
+    },
+    {
+        "KodeEmiten": "PRAY",
+        "der": 0.5,
+        "roe": 4.42,
+        "per": 75.76,
+        "marketCap": 11167537823744
+    },
+    {
+        "KodeEmiten": "POWR",
+        "der": 0.48,
+        "roe": 8.25,
+        "per": 11.06,
+        "marketCap": 11160111808512
+    },
+    {
+        "KodeEmiten": "ESSA",
+        "der": 0,
+        "roe": 8.02,
+        "per": 20.09,
+        "marketCap": 11111399161856
+    },
+    {
+        "KodeEmiten": "TRIO",
+        "der": -1.03,
+        "roe": 0,
+        "per": -87.59,
+        "marketCap": 11091143700000
+    },
+    {
+        "KodeEmiten": "BMAS",
+        "der": 2.3,
+        "roe": -4.08,
+        "per": 153.92,
+        "marketCap": 10952111030272
+    },
+    {
+        "KodeEmiten": "BFIN",
+        "der": 1.23,
+        "roe": 15.3,
+        "per": 6.73,
+        "marketCap": 10828355993600
+    },
+    {
+        "KodeEmiten": "MIDI",
+        "der": 0.13,
+        "roe": 14.95,
+        "per": 15.97,
+        "marketCap": 10699294113792
+    },
+    {
         "KodeEmiten": "HRTA",
         "der": 1.4,
         "roe": 28.48,
-        "per": 14.99,
-        "marketCap": 10730261708800
+        "per": 14.86,
+        "marketCap": 10638155841536
+    },
+    {
+        "KodeEmiten": "ADMF",
+        "der": 1.52,
+        "roe": 10.75,
+        "per": 6.85,
+        "marketCap": 10360269570048
+    },
+    {
+        "KodeEmiten": "BSSR",
+        "der": 0,
+        "roe": 27.11,
+        "per": 7.41,
+        "marketCap": 10178185396224
+    },
+    {
+        "KodeEmiten": "CLEO",
+        "der": 0.2,
+        "roe": 22.02,
+        "per": 22.66,
+        "marketCap": 10032000270336
+    },
+    {
+        "KodeEmiten": "SMSM",
+        "der": 0.04,
+        "roe": 30.18,
+        "per": 8.9,
+        "marketCap": 9991301890048
+    },
+    {
+        "KodeEmiten": "BANK",
+        "der": 0.05,
+        "roe": 4.18,
+        "per": 65.93,
+        "marketCap": 9650544050176
+    },
+    {
+        "KodeEmiten": "CMNP",
+        "der": 0.4,
+        "roe": 5.05,
+        "per": 10.07,
+        "marketCap": 9374896488448
+    },
+    {
+        "KodeEmiten": "BTPS",
+        "der": 0.29,
+        "roe": 13.01,
+        "per": 7.55,
+        "marketCap": 9359699476480
+    },
+    {
+        "KodeEmiten": "SINI",
+        "der": -2.07,
+        "roe": 0,
+        "per": -58.82,
+        "marketCap": 9235199950848
+    },
+    {
+        "KodeEmiten": "EDGE",
+        "der": 0.87,
+        "roe": 8,
+        "per": 66.1,
+        "marketCap": 9050719780864
+    },
+    {
+        "KodeEmiten": "ADES",
+        "der": 0,
+        "roe": 27.58,
+        "per": 13.42,
+        "marketCap": 8936936701952
+    },
+    {
+        "KodeEmiten": "PLIN",
+        "der": 0.05,
+        "roe": 8.87,
+        "per": 8.9,
+        "marketCap": 8874741465088
+    },
+    {
+        "KodeEmiten": "SIMP",
+        "der": 0.36,
+        "roe": 12.27,
+        "per": 4.04,
+        "marketCap": 8758239952896
+    },
+    {
+        "KodeEmiten": "PNLF",
+        "der": 2.58,
+        "roe": 5.04,
+        "per": 5.24,
+        "marketCap": 8645960007680
+    },
+    {
+        "KodeEmiten": "BJBR",
+        "der": 10.71,
+        "roe": 7.27,
+        "per": 8.65,
+        "marketCap": 8627583713280
+    },
+    {
+        "KodeEmiten": "CNMA",
+        "der": 0.37,
+        "roe": 15.3,
+        "per": 13.14,
+        "marketCap": 8501189935104
+    },
+    {
+        "KodeEmiten": "SGER",
+        "der": 0.87,
+        "roe": 12.7,
+        "per": 30.41,
+        "marketCap": 8494865448960
+    },
+    {
+        "KodeEmiten": "TLDN",
+        "der": 0.26,
+        "roe": 40.22,
+        "per": 6.62,
+        "marketCap": 8350512185344
+    },
+    {
+        "KodeEmiten": "INPP",
+        "der": 0.31,
+        "roe": 8.78,
+        "per": 18.51,
+        "marketCap": 8274658721792
+    },
+    {
+        "KodeEmiten": "BJTM",
+        "der": 7.49,
+        "roe": 11.06,
+        "per": 5.85,
+        "marketCap": 8258523758592
     },
     {
         "KodeEmiten": "INET",
@@ -224,10 +1260,5337 @@
         "marketCap": 8177680121856
     },
     {
+        "KodeEmiten": "WIKA",
+        "der": 3.87,
+        "roe": -52.37,
+        "per": -17.95,
+        "marketCap": 8133880578048
+    },
+    {
+        "KodeEmiten": "GMFI",
+        "der": -2.45,
+        "roe": 0,
+        "per": 5.85,
+        "marketCap": 8114291605504
+    },
+    {
+        "KodeEmiten": "LINK",
+        "der": 1.74,
+        "roe": -30.17,
+        "per": -3.24,
+        "marketCap": 8062132289536
+    },
+    {
+        "KodeEmiten": "LSIP",
+        "der": 0,
+        "roe": 15.21,
+        "per": 4.17,
+        "marketCap": 8013457391616
+    },
+    {
+        "KodeEmiten": "NATO",
+        "der": 0,
+        "roe": -0.05,
+        "per": 5599.41,
+        "marketCap": 8001111457792
+    },
+    {
+        "KodeEmiten": "BBMD",
+        "der": 2.21,
+        "roe": 6.59,
+        "per": 23.15,
+        "marketCap": 7937375338496
+    },
+    {
+        "KodeEmiten": "TMAS",
+        "der": 0.58,
+        "roe": 24.84,
+        "per": 12.65,
+        "marketCap": 7904770916352
+    },
+    {
+        "KodeEmiten": "ABMM",
+        "der": 1.15,
+        "roe": 8.26,
+        "per": 6.75,
+        "marketCap": 7901583769600
+    },
+    {
+        "KodeEmiten": "DMND",
+        "der": 0,
+        "roe": 6.56,
+        "per": 19.64,
+        "marketCap": 7811395747840
+    },
+    {
+        "KodeEmiten": "CLAY",
+        "der": 96.25,
+        "roe": -36.32,
+        "per": 48.58,
+        "marketCap": 7684299423744
+    },
+    {
+        "KodeEmiten": "GIAA",
+        "der": -5.61,
+        "roe": 0,
+        "per": 2.27,
+        "marketCap": 7592905015296
+    },
+    {
+        "KodeEmiten": "DAAZ",
+        "der": 1.34,
+        "roe": 21.0476,
+        "per": 22.03,
+        "marketCap": 7488749961216
+    },
+    {
+        "KodeEmiten": "DUTI",
+        "der": 0,
+        "roe": 4.21,
+        "per": 21.93,
+        "marketCap": 7474000166912
+    },
+    {
+        "KodeEmiten": "ELPI",
+        "der": 0.14,
+        "roe": 13.17,
+        "per": 28.37,
+        "marketCap": 7449059786752
+    },
+    {
+        "KodeEmiten": "LPKR",
+        "der": 0.28,
+        "roe": 1.74,
+        "per": 18.82,
+        "marketCap": 7442118213632
+    },
+    {
+        "KodeEmiten": "BULL",
+        "der": 0.58,
+        "roe": 8.42,
+        "per": 30.93,
+        "marketCap": 7251396395008
+    },
+    {
+        "KodeEmiten": "BHAT",
+        "der": 0.45,
+        "roe": 0.15,
+        "per": null,
+        "marketCap": 7174999769088
+    },
+    {
+        "KodeEmiten": "IBST",
+        "der": 0.53,
+        "roe": 17.68,
+        "per": 18.08,
+        "marketCap": 7159796465664
+    },
+    {
+        "KodeEmiten": "MTDL",
+        "der": 0.23,
+        "roe": 19.59,
+        "per": 9.42,
+        "marketCap": 7059208667136
+    },
+    {
+        "KodeEmiten": "SMCB",
+        "der": 0.14,
+        "roe": 6.22,
+        "per": 9.34,
+        "marketCap": 6990021001216
+    },
+    {
+        "KodeEmiten": "ACES",
+        "der": 0.16,
+        "roe": 12.58,
+        "per": 8.62,
+        "marketCap": 6860000198656
+    },
+    {
+        "KodeEmiten": "SSIA",
+        "der": 0.16,
+        "roe": 2.91,
+        "per": 531.14,
+        "marketCap": 6822611648512
+    },
+    {
+        "KodeEmiten": "DMAS",
+        "der": 0.11,
+        "roe": 11.03,
+        "per": 8.84,
+        "marketCap": 6506744905728
+    },
+    {
+        "KodeEmiten": "NETV",
+        "der": 0.43,
+        "roe": 0,
+        "per": -12.38,
+        "marketCap": 6452240973824
+    },
+    {
+        "KodeEmiten": "ERAA",
+        "der": 0.93,
+        "roe": 12.11,
+        "per": 6.24,
+        "marketCap": 6408094875648
+    },
+    {
+        "KodeEmiten": "SMRA",
+        "der": 0.82,
+        "roe": 10.44,
+        "per": 6.47,
+        "marketCap": 6372307501056
+    },
+    {
+        "KodeEmiten": "PALM",
+        "der": 0.62,
+        "roe": -4.76,
+        "per": -7.74,
+        "marketCap": 6324615643136
+    },
+    {
+        "KodeEmiten": "UANG",
+        "der": 0.97,
+        "roe": 15.27,
+        "per": 3.19,
+        "marketCap": 6322250055680
+    },
+    {
+        "KodeEmiten": "JSPT",
+        "der": 0.82,
+        "roe": 9.5,
+        "per": 24.32,
+        "marketCap": 6260586971136
+    },
+    {
+        "KodeEmiten": "BOGA",
+        "der": 0.56,
+        "roe": -5.71,
+        "per": -2848.56,
+        "marketCap": 6256800563200
+    },
+    {
+        "KodeEmiten": "GOLF",
+        "der": 0.06,
+        "roe": 0.89,
+        "per": 79.6,
+        "marketCap": 6235763507200
+    },
+    {
+        "KodeEmiten": "EPMT",
+        "der": 0.02,
+        "roe": 10,
+        "per": 8.18,
+        "marketCap": 6202785792000
+    },
+    {
+        "KodeEmiten": "NIRO",
+        "der": 0.49,
+        "roe": -12.46,
+        "per": -37.37,
+        "marketCap": 6082491056128
+    },
+    {
+        "KodeEmiten": "PBSA",
+        "der": 0.01,
+        "roe": 31.7,
+        "per": 25.97,
+        "marketCap": 6029999865856
+    },
+    {
+        "KodeEmiten": "BALI",
+        "der": 1.35,
+        "roe": 7.03,
+        "per": 33.82,
+        "marketCap": 6019926720512
+    },
+    {
+        "KodeEmiten": "UDNG",
+        "der": 0.01,
+        "roe": -1.06,
+        "per": null,
+        "marketCap": 6002637275136
+    },
+    {
+        "KodeEmiten": "TOBA",
+        "der": 1.63,
+        "roe": -38.78,
+        "per": 6.09,
+        "marketCap": 5986617131008
+    },
+    {
+        "KodeEmiten": "KRAS",
+        "der": 2.84,
+        "roe": 15.31,
+        "per": 7.24,
+        "marketCap": 5881304973312
+    },
+    {
+        "KodeEmiten": "MAYA",
+        "der": 7.74,
+        "roe": 0.1,
+        "per": 125.84,
+        "marketCap": 5861600133120
+    },
+    {
+        "KodeEmiten": "SMDR",
+        "der": 0.6,
+        "roe": 10.67,
+        "per": 7.07,
+        "marketCap": 5829713461248
+    },
+    {
+        "KodeEmiten": "WSKT",
+        "der": 9.96,
+        "roe": -48.6765,
+        "per": -1.48,
+        "marketCap": 5825642400000
+    },
+    {
+        "KodeEmiten": "ANJT",
+        "der": 0.35,
+        "roe": 7.63,
+        "per": 10.56,
+        "marketCap": 5769180741632
+    },
+    {
+        "KodeEmiten": "DATA",
+        "der": 1.11,
+        "roe": 39.67,
+        "per": 51.59,
+        "marketCap": 5720000430080
+    },
+    {
+        "KodeEmiten": "AGII",
+        "der": 0.97,
+        "roe": 2.32,
+        "per": 66.06,
+        "marketCap": 5688654299136
+    },
+    {
+        "KodeEmiten": "SAME",
+        "der": 0.27,
+        "roe": 1.37,
+        "per": 116.01,
+        "marketCap": 5592818122752
+    },
+    {
+        "KodeEmiten": "OMED",
+        "der": 0.08,
+        "roe": 14.6,
+        "per": 15.27,
+        "marketCap": 5571953033216
+    },
+    {
+        "KodeEmiten": "BESS",
+        "der": 0.03,
+        "roe": 15.51,
+        "per": 58.69,
+        "marketCap": 5504728825856
+    },
+    {
+        "KodeEmiten": "AGRO",
+        "der": 2.71,
+        "roe": 1.69,
+        "per": 90.38,
+        "marketCap": 5343946473472
+    },
+    {
+        "KodeEmiten": "BPII",
+        "der": 0.86,
+        "roe": 8.37,
+        "per": 41.73,
+        "marketCap": 5288021721088
+    },
+    {
+        "KodeEmiten": "GTSI",
+        "der": 0.46,
+        "roe": 8.67,
+        "per": 57.34,
+        "marketCap": 5188679106560
+    },
+    {
+        "KodeEmiten": "BBYB",
+        "der": 4.06,
+        "roe": 12.34,
+        "per": 10.78,
+        "marketCap": 5179986935808
+    },
+    {
+        "KodeEmiten": "TFCO",
+        "der": 0.01,
+        "roe": 1.75,
+        "per": 57.03,
+        "marketCap": 5064229912576
+    },
+    {
+        "KodeEmiten": "SOTS",
+        "der": 0.89,
+        "roe": -9.21,
+        "per": -22.1,
+        "marketCap": 5025019985920
+    },
+    {
+        "KodeEmiten": "YULE",
+        "der": 0.01,
+        "roe": 9.14,
+        "per": 97.53,
+        "marketCap": 5015826071552
+    },
+    {
+        "KodeEmiten": "KIJA",
+        "der": 0.59,
+        "roe": 8.23,
+        "per": 32.48,
+        "marketCap": 4937345400832
+    },
+    {
+        "KodeEmiten": "FISH",
+        "der": 0.73,
+        "roe": 6.87,
+        "per": 30.51,
+        "marketCap": 4919999856640
+    },
+    {
+        "KodeEmiten": "DRMA",
+        "der": 0.16,
+        "roe": 24.2,
+        "per": 8.43,
+        "marketCap": 4917646852096
+    },
+    {
+        "KodeEmiten": "INDS",
+        "der": 0.08,
+        "roe": 2.57,
+        "per": 70.95,
+        "marketCap": 4889060048896
+    },
+    {
+        "KodeEmiten": "CASS",
+        "der": 0.05,
+        "roe": 48.14,
+        "per": 10.21,
+        "marketCap": 4820854374400
+    },
+    {
+        "KodeEmiten": "MTLA",
+        "der": 0.19,
+        "roe": 7.36,
+        "per": 12.24,
+        "marketCap": 4746178461696
+    },
+    {
+        "KodeEmiten": "MGLV",
+        "der": 0.05,
+        "roe": -0.55,
+        "per": 591.45,
+        "marketCap": 4743159611392
+    },
+    {
+        "KodeEmiten": "HUMI",
+        "der": 0.61,
+        "roe": 6.85,
+        "per": 31.03,
+        "marketCap": 4695085023232
+    },
+    {
+        "KodeEmiten": "ELSA",
+        "der": 0.05,
+        "roe": 13.9,
+        "per": 6.73,
+        "marketCap": 4634547585024
+    },
+    {
+        "KodeEmiten": "CTBN",
+        "der": 0,
+        "roe": 23.8,
+        "per": 9.3,
+        "marketCap": 4622145552384
+    },
+    {
         "KodeEmiten": "DKFT",
         "der": 0.51,
         "roe": 58.63,
-        "per": 8.92,
-        "marketCap": 4631327932416
+        "per": 8.87,
+        "marketCap": 4603760869376
+    },
+    {
+        "KodeEmiten": "TRIM",
+        "der": 1.54,
+        "roe": 29.81,
+        "per": 9.54,
+        "marketCap": 4585498869760
+    },
+    {
+        "KodeEmiten": "TRIN",
+        "der": 1.55,
+        "roe": -20.73,
+        "per": -5.7,
+        "marketCap": 4551457898496
+    },
+    {
+        "KodeEmiten": "TGKA",
+        "der": 0.08,
+        "roe": 16.86,
+        "per": 11.74,
+        "marketCap": 4518984024064
+    },
+    {
+        "KodeEmiten": "MASB",
+        "der": 6.57,
+        "roe": 5.34,
+        "per": 21.25,
+        "marketCap": 4514474622976
+    },
+    {
+        "KodeEmiten": "ROTI",
+        "der": 0.46,
+        "roe": 12.19,
+        "per": 17.65,
+        "marketCap": 4390476316672
+    },
+    {
+        "KodeEmiten": "MSTI",
+        "der": 0.05,
+        "roe": 26.11,
+        "per": 8.25,
+        "marketCap": 4379485667328
+    },
+    {
+        "KodeEmiten": "IMAS",
+        "der": 3.1,
+        "roe": 3.41,
+        "per": 10.67,
+        "marketCap": 4373748645888
+    },
+    {
+        "KodeEmiten": "MPMX",
+        "der": 0.01,
+        "roe": 8.98,
+        "per": 7.9,
+        "marketCap": 4357924585472
+    },
+    {
+        "KodeEmiten": "PYFA",
+        "der": 6.91,
+        "roe": -49.88,
+        "per": -9.58,
+        "marketCap": 4337363845120
+    },
+    {
+        "KodeEmiten": "MYRX",
+        "der": 0.52,
+        "roe": -0.0928,
+        "per": 0,
+        "marketCap": 4336157700000
+    },
+    {
+        "KodeEmiten": "BWPT",
+        "der": 1.5,
+        "roe": 14.63,
+        "per": 12.18,
+        "marketCap": 4294886817792
+    },
+    {
+        "KodeEmiten": "RONY",
+        "der": 8.56,
+        "roe": -59.73,
+        "per": 13330.39,
+        "marketCap": 4275000049664
+    },
+    {
+        "KodeEmiten": "SMMT",
+        "der": 0.84,
+        "roe": 10.37,
+        "per": 59.12,
+        "marketCap": 4264125005824
+    },
+    {
+        "KodeEmiten": "META",
+        "der": 0.16,
+        "roe": 0.7477,
+        "per": 147.98,
+        "marketCap": 4228989000000
+    },
+    {
+        "KodeEmiten": "ASSA",
+        "der": 1.35,
+        "roe": 18.5,
+        "per": 11.13,
+        "marketCap": 4226352414720
+    },
+    {
+        "KodeEmiten": "BIRD",
+        "der": 0.25,
+        "roe": 10.62,
+        "per": 6.66,
+        "marketCap": 4216038359040
+    },
+    {
+        "KodeEmiten": "SURE",
+        "der": 4.16,
+        "roe": -51.2,
+        "per": -32.22,
+        "marketCap": 4193215053824
+    },
+    {
+        "KodeEmiten": "SDRA",
+        "der": 3.22,
+        "roe": 0.56,
+        "per": 26.4,
+        "marketCap": 4143197716480
+    },
+    {
+        "KodeEmiten": "CENT",
+        "der": 7.49,
+        "roe": -577.24,
+        "per": -1.56,
+        "marketCap": 4116217331712
+    },
+    {
+        "KodeEmiten": "IFSH",
+        "der": 0.04,
+        "roe": 9.47,
+        "per": 64.94,
+        "marketCap": 4038609600512
+    },
+    {
+        "KodeEmiten": "TUGU",
+        "der": 0.07,
+        "roe": 5.06,
+        "per": 8.75,
+        "marketCap": 3982244708352
+    },
+    {
+        "KodeEmiten": "JTPE",
+        "der": 0.01,
+        "roe": 23.47,
+        "per": 14.52,
+        "marketCap": 3939928637440
+    },
+    {
+        "KodeEmiten": "CPRO",
+        "der": 0.43,
+        "roe": 10.44,
+        "per": 9.57,
+        "marketCap": 3931777269760
+    },
+    {
+        "KodeEmiten": "VICI",
+        "der": 0.08,
+        "roe": 15.46,
+        "per": 24.18,
+        "marketCap": 3924179812352
+    },
+    {
+        "KodeEmiten": "TBLA",
+        "der": 1.97,
+        "roe": 9.51,
+        "per": 4.71,
+        "marketCap": 3904655589376
+    },
+    {
+        "KodeEmiten": "LPCK",
+        "der": 0.08,
+        "roe": 4.31,
+        "per": 14.9,
+        "marketCap": 3902361042944
+    },
+    {
+        "KodeEmiten": "BSWD",
+        "der": 0.94,
+        "roe": 1.07,
+        "per": 105.71,
+        "marketCap": 3891754434560
+    },
+    {
+        "KodeEmiten": "MINA",
+        "der": 0,
+        "roe": -4.08,
+        "per": -94.7,
+        "marketCap": 3878437519360
+    },
+    {
+        "KodeEmiten": "ROCK",
+        "der": 0.09,
+        "roe": 1.24,
+        "per": 128.21,
+        "marketCap": 3875000025088
+    },
+    {
+        "KodeEmiten": "NOBU",
+        "der": 7.93,
+        "roe": 12.13,
+        "per": 8.33,
+        "marketCap": 3851398676480
+    },
+    {
+        "KodeEmiten": "RDTX",
+        "der": 0.13,
+        "roe": 11.26,
+        "per": 10.89,
+        "marketCap": 3823680094208
+    },
+    {
+        "KodeEmiten": "AMAR",
+        "der": 0.41,
+        "roe": 7.1,
+        "per": 16.04,
+        "marketCap": 3818898849792
+    },
+    {
+        "KodeEmiten": "GGRP",
+        "der": 0.04,
+        "roe": -5.34,
+        "per": 1.45,
+        "marketCap": 3802972291072
+    },
+    {
+        "KodeEmiten": "PSGO",
+        "der": 0.41,
+        "roe": 15.95,
+        "per": 9.61,
+        "marketCap": 3770000080896
+    },
+    {
+        "KodeEmiten": "KEEN",
+        "der": 0.53,
+        "roe": 2.2,
+        "per": 68.11,
+        "marketCap": 3757970292736
+    },
+    {
+        "KodeEmiten": "GJTL",
+        "der": 0.54,
+        "roe": 10.26,
+        "per": 3.77,
+        "marketCap": 3728317087744
+    },
+    {
+        "KodeEmiten": "CBRE",
+        "der": 1.52,
+        "roe": -56.63,
+        "per": 11.22,
+        "marketCap": 3698524946432
+    },
+    {
+        "KodeEmiten": "STAR",
+        "der": 0.05,
+        "roe": 1.75,
+        "per": 406.91,
+        "marketCap": 3672000430080
+    },
+    {
+        "KodeEmiten": "ARNA",
+        "der": 0.05,
+        "roe": 22.98,
+        "per": 9.01,
+        "marketCap": 3667955810304
+    },
+    {
+        "KodeEmiten": "WIIM",
+        "der": 0.17,
+        "roe": 19.35,
+        "per": 9.71,
+        "marketCap": 3653360943104
+    },
+    {
+        "KodeEmiten": "MAPB",
+        "der": 0.33,
+        "roe": -11.54,
+        "per": -29.9,
+        "marketCap": 3629642940416
+    },
+    {
+        "KodeEmiten": "IRSX",
+        "der": 0,
+        "roe": 11.94,
+        "per": 53.04,
+        "marketCap": 3624102789120
+    },
+    {
+        "KodeEmiten": "PBID",
+        "der": 0.03,
+        "roe": 14.49,
+        "per": 9.01,
+        "marketCap": 3615000100864
+    },
+    {
+        "KodeEmiten": "HEXA",
+        "der": 0.94,
+        "roe": 17.78,
+        "per": 6.49,
+        "marketCap": 3569999937536
+    },
+    {
+        "KodeEmiten": "UNIC",
+        "der": 0.01,
+        "roe": 9.06,
+        "per": 7.63,
+        "marketCap": 3555398254592
+    },
+    {
+        "KodeEmiten": "ARGO",
+        "der": 6.28,
+        "roe": -12.11,
+        "per": -706.15,
+        "marketCap": 3507644792832
+    },
+    {
+        "KodeEmiten": "SSTM",
+        "der": 0.58,
+        "roe": -10.18,
+        "per": 75.93,
+        "marketCap": 3501018578944
+    },
+    {
+        "KodeEmiten": "INPC",
+        "der": 5.51,
+        "roe": 1.86,
+        "per": 43.03,
+        "marketCap": 3498650370048
+    },
+    {
+        "KodeEmiten": "BUKK",
+        "der": 2.01,
+        "roe": 9.08,
+        "per": 6.22,
+        "marketCap": 3498598989824
+    },
+    {
+        "KodeEmiten": "AGRS",
+        "der": 2.69,
+        "roe": 3.62,
+        "per": 18.2,
+        "marketCap": 3494100074496
+    },
+    {
+        "KodeEmiten": "SMDM",
+        "der": 0.01,
+        "roe": 0.58,
+        "per": 208.57,
+        "marketCap": 3483660713984
+    },
+    {
+        "KodeEmiten": "MMLP",
+        "der": 0.34,
+        "roe": 1.5,
+        "per": 56.11,
+        "marketCap": 3479012900864
+    },
+    {
+        "KodeEmiten": "SOCI",
+        "der": 0.46,
+        "roe": 4.23,
+        "per": 12.21,
+        "marketCap": 3473027891200
+    },
+    {
+        "KodeEmiten": "MBSS",
+        "der": 0.07,
+        "roe": 11.13,
+        "per": 8.54,
+        "marketCap": 3465052684288
+    },
+    {
+        "KodeEmiten": "SKRN",
+        "der": 0.85,
+        "roe": 31.8,
+        "per": 16.15,
+        "marketCap": 3459347906560
+    },
+    {
+        "KodeEmiten": "APLN",
+        "der": 0.41,
+        "roe": 5.47,
+        "per": 5.56,
+        "marketCap": 3427598336000
+    },
+    {
+        "KodeEmiten": "TOTL",
+        "der": 0,
+        "roe": 32.55,
+        "per": 9.01,
+        "marketCap": 3427049930752
+    },
+    {
+        "KodeEmiten": "FPNI",
+        "der": 0,
+        "roe": 0.18,
+        "per": null,
+        "marketCap": 3395512434688
+    },
+    {
+        "KodeEmiten": "MNCN",
+        "der": 0.06,
+        "roe": 4.21,
+        "per": 3.72,
+        "marketCap": 3386153369600
+    },
+    {
+        "KodeEmiten": "KEJU",
+        "der": 0.28,
+        "roe": 23.98,
+        "per": 8.5,
+        "marketCap": 3318749855744
+    },
+    {
+        "KodeEmiten": "BACA",
+        "der": 3.01,
+        "roe": 1.52,
+        "per": 36.17,
+        "marketCap": 3312202022912
+    },
+    {
+        "KodeEmiten": "BHIT",
+        "der": 0.27,
+        "roe": 1.88,
+        "per": 18.57,
+        "marketCap": 3258167066624
+    },
+    {
+        "KodeEmiten": "CBUT",
+        "der": 2.03,
+        "roe": 10.29,
+        "per": 36.33,
+        "marketCap": 3203124953088
+    },
+    {
+        "KodeEmiten": "DAYA",
+        "der": 3.3,
+        "roe": 90.6,
+        "per": 43.91,
+        "marketCap": 3158813966336
+    },
+    {
+        "KodeEmiten": "SAMF",
+        "der": 0.52,
+        "roe": 18.31,
+        "per": 11.87,
+        "marketCap": 3157000192000
+    },
+    {
+        "KodeEmiten": "MYOH",
+        "der": 0.11,
+        "roe": 15.29,
+        "per": 21.29,
+        "marketCap": 3155026771968
+    },
+    {
+        "KodeEmiten": "PNIN",
+        "der": 2.51,
+        "roe": 4.74,
+        "per": 3.13,
+        "marketCap": 3152950853632
+    },
+    {
+        "KodeEmiten": "ASRI",
+        "der": 0.53,
+        "roe": 0.48,
+        "per": 61.63,
+        "marketCap": 3124256309248
+    },
+    {
+        "KodeEmiten": "ASLI",
+        "der": 0.09,
+        "roe": -3.36,
+        "per": 291.23,
+        "marketCap": 3112499937280
+    },
+    {
+        "KodeEmiten": "PORT",
+        "der": 0.87,
+        "roe": 12.96,
+        "per": 24.07,
+        "marketCap": 3109405851648
+    },
+    {
+        "KodeEmiten": "ISSP",
+        "der": 0.43,
+        "roe": 10.65,
+        "per": 5.72,
+        "marketCap": 3094619357184
+    },
+    {
+        "KodeEmiten": "BNBA",
+        "der": 1.61,
+        "roe": 0.61,
+        "per": 157.99,
+        "marketCap": 3083080040448
+    },
+    {
+        "KodeEmiten": "PSKT",
+        "der": 0.02,
+        "roe": -2.85,
+        "per": -37.71,
+        "marketCap": 3063964762112
+    },
+    {
+        "KodeEmiten": "BGTG",
+        "der": 1.82,
+        "roe": 6.87,
+        "per": 12.64,
+        "marketCap": 3044316545024
+    },
+    {
+        "KodeEmiten": "MARK",
+        "der": 0.04,
+        "roe": 30.82,
+        "per": 11.13,
+        "marketCap": 3002000211968
+    },
+    {
+        "KodeEmiten": "SMIL",
+        "der": 0.48,
+        "roe": 13.83,
+        "per": 29.26,
+        "marketCap": 2993070538752
+    },
+    {
+        "KodeEmiten": "BCIC",
+        "der": 9.48,
+        "roe": -2.4,
+        "per": 43.53,
+        "marketCap": 2970027032576
+    },
+    {
+        "KodeEmiten": "MKAP",
+        "der": 0.38,
+        "roe": 18.15,
+        "per": 133.24,
+        "marketCap": 2957499957248
+    },
+    {
+        "KodeEmiten": "SIPD",
+        "der": 0.74,
+        "roe": 1.84,
+        "per": 133.33,
+        "marketCap": 2942563254272
+    },
+    {
+        "KodeEmiten": "IATA",
+        "der": 0.34,
+        "roe": 1.38,
+        "per": 4.69,
+        "marketCap": 2939927920640
+    },
+    {
+        "KodeEmiten": "SRIL",
+        "der": -1.58,
+        "roe": 0,
+        "per": -1.56,
+        "marketCap": 2937422800000
+    },
+    {
+        "KodeEmiten": "FUTR",
+        "der": 0.03,
+        "roe": 3.9,
+        "per": -110.08,
+        "marketCap": 2906371653632
+    },
+    {
+        "KodeEmiten": "KAEF",
+        "der": 2.35,
+        "roe": -20.02,
+        "per": -1.95,
+        "marketCap": 2866793152512
+    },
+    {
+        "KodeEmiten": "VICO",
+        "der": 5.04,
+        "roe": 9.95,
+        "per": 6.05,
+        "marketCap": 2815158910976
+    },
+    {
+        "KodeEmiten": "MCOR",
+        "der": 3.75,
+        "roe": 4.41,
+        "per": 9.19,
+        "marketCap": 2806060154880
+    },
+    {
+        "KodeEmiten": "JAWA",
+        "der": 1.58,
+        "roe": 2.17,
+        "per": 113.16,
+        "marketCap": 2792067694592
+    },
+    {
+        "KodeEmiten": "TOTO",
+        "der": 0.08,
+        "roe": 14.79,
+        "per": 7.5,
+        "marketCap": 2765759971328
+    },
+    {
+        "KodeEmiten": "FOLK",
+        "der": 0.01,
+        "roe": -27.27,
+        "per": 124.56,
+        "marketCap": 2763698995200
+    },
+    {
+        "KodeEmiten": "SMBR",
+        "der": 0.16,
+        "roe": 7.31,
+        "per": 11.58,
+        "marketCap": 2761244540928
+    },
+    {
+        "KodeEmiten": "MDIA",
+        "der": 2.94,
+        "roe": -70.03,
+        "per": -0.46,
+        "marketCap": 2745087557632
+    },
+    {
+        "KodeEmiten": "MAHA",
+        "der": 0.27,
+        "roe": 8.44,
+        "per": 17.58,
+        "marketCap": 2737960124416
+    },
+    {
+        "KodeEmiten": "TRUE",
+        "der": 1.2,
+        "roe": -21.91,
+        "per": 6.89,
+        "marketCap": 2665029828608
+    },
+    {
+        "KodeEmiten": "RALS",
+        "der": 0.12,
+        "roe": 9.51,
+        "per": 7.95,
+        "marketCap": 2657206140928
+    },
+    {
+        "KodeEmiten": "BISI",
+        "der": 0.11,
+        "roe": 4.29,
+        "per": 18.62,
+        "marketCap": 2654999937024
+    },
+    {
+        "KodeEmiten": "SFAN",
+        "der": 0.04,
+        "roe": -17.06,
+        "per": -69.41,
+        "marketCap": 2645071757312
+    },
+    {
+        "KodeEmiten": "HATM",
+        "der": 0.11,
+        "roe": 10.65,
+        "per": 18.67,
+        "marketCap": 2638719746048
+    },
+    {
+        "KodeEmiten": "BABP",
+        "der": 4.31,
+        "roe": 2.33,
+        "per": 30.05,
+        "marketCap": 2578621661184
+    },
+    {
+        "KodeEmiten": "DNAR",
+        "der": 2.11,
+        "roe": 3.81,
+        "per": 18.35,
+        "marketCap": 2525005611008
+    },
+    {
+        "KodeEmiten": "PKPK",
+        "der": 1.04,
+        "roe": 15.27,
+        "per": 1418.87,
+        "marketCap": 2508000067584
+    },
+    {
+        "KodeEmiten": "DWGL",
+        "der": 1.2,
+        "roe": 50.36,
+        "per": 14.9,
+        "marketCap": 2498261680128
+    },
+    {
+        "KodeEmiten": "TRAM",
+        "der": 3.09,
+        "roe": -61.9813,
+        "per": 0,
+        "marketCap": 2484137999999
+    },
+    {
+        "KodeEmiten": "MGRO",
+        "der": 4.94,
+        "roe": -1.46,
+        "per": 132.38,
+        "marketCap": 2450076467200
+    },
+    {
+        "KodeEmiten": "OASA",
+        "der": 0.06,
+        "roe": -12.43,
+        "per": 106.42,
+        "marketCap": 2450026921984
+    },
+    {
+        "KodeEmiten": "TEBE",
+        "der": 0.07,
+        "roe": 11.46,
+        "per": 19.15,
+        "marketCap": 2447924789248
+    },
+    {
+        "KodeEmiten": "GMTD",
+        "der": 0,
+        "roe": 8.76,
+        "per": 33.72,
+        "marketCap": 2447065743360
+    },
+    {
+        "KodeEmiten": "PNGO",
+        "der": 0.25,
+        "roe": 28.75,
+        "per": 8.25,
+        "marketCap": 2429687431168
+    },
+    {
+        "KodeEmiten": "NICE",
+        "der": 0.44,
+        "roe": 55.55,
+        "per": 17.63,
+        "marketCap": 2420643987456
+    },
+    {
+        "KodeEmiten": "BOLT",
+        "der": 0.33,
+        "roe": 16.14,
+        "per": 17.61,
+        "marketCap": 2402343714816
+    },
+    {
+        "KodeEmiten": "BMTR",
+        "der": 0.19,
+        "roe": 2.62,
+        "per": 4.55,
+        "marketCap": 2387466780672
+    },
+    {
+        "KodeEmiten": "BEEF",
+        "der": 2.49,
+        "roe": 58.07,
+        "per": 15.08,
+        "marketCap": 2371112927232
+    },
+    {
+        "KodeEmiten": "ACST",
+        "der": 7.27,
+        "roe": -187.78,
+        "per": -2.69,
+        "marketCap": 2368471302144
+    },
+    {
+        "KodeEmiten": "BLTZ",
+        "der": 2.97,
+        "roe": -12.2,
+        "per": 49.45,
+        "marketCap": 2359630233600
+    },
+    {
+        "KodeEmiten": "FAST",
+        "der": 126.67,
+        "roe": -347.3,
+        "per": -1.42,
+        "marketCap": 2350609334272
+    },
+    {
+        "KodeEmiten": "BCAP",
+        "der": 0.66,
+        "roe": 2.44,
+        "per": 17.57,
+        "marketCap": 2344036859904
+    },
+    {
+        "KodeEmiten": "KETR",
+        "der": 0.59,
+        "roe": 12.45,
+        "per": 5.78,
+        "marketCap": 2315629101056
+    },
+    {
+        "KodeEmiten": "WINS",
+        "der": 0.17,
+        "roe": 9.89,
+        "per": 11.49,
+        "marketCap": 2306193752064
+    },
+    {
+        "KodeEmiten": "IPCC",
+        "der": 0.34,
+        "roe": 19.58,
+        "per": 9.04,
+        "marketCap": 2300256714752
+    },
+    {
+        "KodeEmiten": "RIMO",
+        "der": 0.09,
+        "roe": 1.1694,
+        "per": 0,
+        "marketCap": 2283551200000
+    },
+    {
+        "KodeEmiten": "DOID",
+        "der": 10.97,
+        "roe": -76.15,
+        "per": 469.55,
+        "marketCap": 2280722530304
+    },
+    {
+        "KodeEmiten": "IMJS",
+        "der": 5.49,
+        "roe": 2.73,
+        "per": 9.03,
+        "marketCap": 2278345146368
+    },
+    {
+        "KodeEmiten": "MTMH",
+        "der": 0.49,
+        "roe": 3.17,
+        "per": 44.53,
+        "marketCap": 2275379773440
+    },
+    {
+        "KodeEmiten": "DMMX",
+        "der": 0.03,
+        "roe": 3.7,
+        "per": 95.38,
+        "marketCap": 2250424975360
+    },
+    {
+        "KodeEmiten": "BKSW",
+        "der": 1.51,
+        "roe": 0.05,
+        "per": 1066.67,
+        "marketCap": 2250115121152
+    },
+    {
+        "KodeEmiten": "BLUE",
+        "der": 0.01,
+        "roe": 14.69,
+        "per": 191.92,
+        "marketCap": 2246749978624
+    },
+    {
+        "KodeEmiten": "KMTR",
+        "der": 1.04,
+        "roe": 12.58,
+        "per": 0.11,
+        "marketCap": 2234579681280
+    },
+    {
+        "KodeEmiten": "IFII",
+        "der": 0.19,
+        "roe": 16.18,
+        "per": 10.37,
+        "marketCap": 2221231833088
+    },
+    {
+        "KodeEmiten": "PRDA",
+        "der": 0.01,
+        "roe": 8.07,
+        "per": 11.42,
+        "marketCap": 2212500078592
+    },
+    {
+        "KodeEmiten": "ITMA",
+        "der": 0.13,
+        "roe": 9.98,
+        "per": 100.69,
+        "marketCap": 2187926437888
+    },
+    {
+        "KodeEmiten": "SCCO",
+        "der": 0.11,
+        "roe": 5.77,
+        "per": 7.85,
+        "marketCap": 2187407261696
+    },
+    {
+        "KodeEmiten": "PTPP",
+        "der": 1.42,
+        "roe": 0.44,
+        "per": 14.08,
+        "marketCap": 2177240137728
+    },
+    {
+        "KodeEmiten": "ELTY",
+        "der": 0.17,
+        "roe": -0.12,
+        "per": 416.67,
+        "marketCap": 2176095617024
+    },
+    {
+        "KodeEmiten": "PNBS",
+        "der": 0.66,
+        "roe": 1.32,
+        "per": 56.57,
+        "marketCap": 2173563961344
+    },
+    {
+        "KodeEmiten": "STRK",
+        "der": 0.03,
+        "roe": -15.95,
+        "per": -21.11,
+        "marketCap": 2165810921472
+    },
+    {
+        "KodeEmiten": "MLIA",
+        "der": 0.15,
+        "roe": 1.31,
+        "per": 31.5,
+        "marketCap": 2156489998336
+    },
+    {
+        "KodeEmiten": "BVIC",
+        "der": 6.48,
+        "roe": 3.98,
+        "per": 11.94,
+        "marketCap": 2151761575936
+    },
+    {
+        "KodeEmiten": "POLI",
+        "der": 0.65,
+        "roe": 4.36,
+        "per": 24.04,
+        "marketCap": 2121105408000
+    },
+    {
+        "KodeEmiten": "AMAG",
+        "der": 2.19,
+        "roe": 9.79,
+        "per": 8.32,
+        "marketCap": 2119350091776
+    },
+    {
+        "KodeEmiten": "NRCA",
+        "der": 0.19,
+        "roe": 11.93,
+        "per": 13.65,
+        "marketCap": 2092264325120
+    },
+    {
+        "KodeEmiten": "WOOD",
+        "der": 0.57,
+        "roe": 3.68,
+        "per": 12.58,
+        "marketCap": 2079633702912
+    },
+    {
+        "KodeEmiten": "HILL",
+        "der": 2.1,
+        "roe": -8.35,
+        "per": 72,
+        "marketCap": 2078551441408
+    },
+    {
+        "KodeEmiten": "MLPL",
+        "der": 0.2,
+        "roe": -1.97,
+        "per": 8.05,
+        "marketCap": 2076576972800
+    },
+    {
+        "KodeEmiten": "LPPF",
+        "der": 14.8,
+        "roe": 548.74,
+        "per": 4.93,
+        "marketCap": 2071292149760
+    },
+    {
+        "KodeEmiten": "IPTV",
+        "der": 0.07,
+        "roe": -2.69,
+        "per": -8,
+        "marketCap": 2067699597312
+    },
+    {
+        "KodeEmiten": "BRAM",
+        "der": 0.01,
+        "roe": 0.44,
+        "per": 10.06,
+        "marketCap": 2052259840000
+    },
+    {
+        "KodeEmiten": "ASGR",
+        "der": 0.01,
+        "roe": 12.09,
+        "per": 8.68,
+        "marketCap": 2043402518528
+    },
+    {
+        "KodeEmiten": "INDR",
+        "der": 0.23,
+        "roe": -3.85,
+        "per": -5.34,
+        "marketCap": 2021946687488
+    },
+    {
+        "KodeEmiten": "MBAP",
+        "der": 0.12,
+        "roe": 1.77,
+        "per": 30.67,
+        "marketCap": 2018862301184
+    },
+    {
+        "KodeEmiten": "TPMA",
+        "der": 0.77,
+        "roe": 17.13,
+        "per": 5.37,
+        "marketCap": 2010476183552
+    },
+    {
+        "KodeEmiten": "MSJA",
+        "der": 0.16,
+        "roe": 5.96,
+        "per": 24.1,
+        "marketCap": 2000000122880
+    },
+    {
+        "KodeEmiten": "SUNI",
+        "der": 0.21,
+        "roe": 23.38,
+        "per": 10.77,
+        "marketCap": 1987500048384
+    },
+    {
+        "KodeEmiten": "ADHI",
+        "der": 0.88,
+        "roe": 2.21,
+        "per": 10.49,
+        "marketCap": 1967380496384
+    },
+    {
+        "KodeEmiten": "INDO",
+        "der": 0,
+        "roe": 2.62,
+        "per": 0.73,
+        "marketCap": 1962564911104
+    },
+    {
+        "KodeEmiten": "LPGI",
+        "der": 0,
+        "roe": 12.85,
+        "per": 16.13,
+        "marketCap": 1934999945216
+    },
+    {
+        "KodeEmiten": "CSRA",
+        "der": 0.51,
+        "roe": 22.38,
+        "per": 52.4,
+        "marketCap": 1926999965696
+    },
+    {
+        "KodeEmiten": "DVLA",
+        "der": 0,
+        "roe": 11.49,
+        "per": 10.78,
+        "marketCap": 1847999987712
+    },
+    {
+        "KodeEmiten": "PSSI",
+        "der": 0.1,
+        "roe": 1.11,
+        "per": 70.12,
+        "marketCap": 1843702005760
+    },
+    {
+        "KodeEmiten": "BTEL",
+        "der": -1.01,
+        "roe": 0,
+        "per": 24.5,
+        "marketCap": 1841055900000
+    },
+    {
+        "KodeEmiten": "PADI",
+        "der": 0.05,
+        "roe": 24.91,
+        "per": 42.41,
+        "marketCap": 1831773929472
+    },
+    {
+        "KodeEmiten": "PTSN",
+        "der": 0.25,
+        "roe": 9.64,
+        "per": 9.43,
+        "marketCap": 1817505562624
+    },
+    {
+        "KodeEmiten": "ERAL",
+        "der": 0.16,
+        "roe": 10.26,
+        "per": 10.56,
+        "marketCap": 1784500060160
+    },
+    {
+        "KodeEmiten": "ABDA",
+        "der": 0.8,
+        "roe": 6.56,
+        "per": 16.98,
+        "marketCap": 1781715042304
+    },
+    {
+        "KodeEmiten": "CSAP",
+        "der": 1.21,
+        "roe": 3.58,
+        "per": 14.63,
+        "marketCap": 1773150535680
+    },
+    {
+        "KodeEmiten": "VISI",
+        "der": 0.47,
+        "roe": 2.32,
+        "per": 399.31,
+        "marketCap": 1768124973056
+    },
+    {
+        "KodeEmiten": "UCID",
+        "der": 0.03,
+        "roe": 0.36,
+        "per": 424,
+        "marketCap": 1762386640896
+    },
+    {
+        "KodeEmiten": "HERO",
+        "der": 0.99,
+        "roe": -8.34,
+        "per": 73.69,
+        "marketCap": 1757126197248
+    },
+    {
+        "KodeEmiten": "IPCM",
+        "der": 0.03,
+        "roe": 14.41,
+        "per": 9.4,
+        "marketCap": 1751888035840
+    },
+    {
+        "KodeEmiten": "BBSS",
+        "der": 0.02,
+        "roe": -0.42,
+        "per": 59.77,
+        "marketCap": 1747205750784
+    },
+    {
+        "KodeEmiten": "MAIN",
+        "der": 0.66,
+        "roe": 10.34,
+        "per": 6.56,
+        "marketCap": 1737838034944
+    },
+    {
+        "KodeEmiten": "OMRE",
+        "der": 0.04,
+        "roe": -4.15,
+        "per": -7.47,
+        "marketCap": 1737674457088
+    },
+    {
+        "KodeEmiten": "PPRE",
+        "der": 0.52,
+        "roe": 8.17,
+        "per": 0.18,
+        "marketCap": 1719756128256
+    },
+    {
+        "KodeEmiten": "FMII",
+        "der": 0.08,
+        "roe": 3.42,
+        "per": 72.88,
+        "marketCap": 1702399967232
+    },
+    {
+        "KodeEmiten": "SPTO",
+        "der": 0.1,
+        "roe": 12.25,
+        "per": 6.47,
+        "marketCap": 1700999987200
+    },
+    {
+        "KodeEmiten": "DEPO",
+        "der": 0.22,
+        "roe": 6.83,
+        "per": 19.13,
+        "marketCap": 1697499971584
+    },
+    {
+        "KodeEmiten": "BBRM",
+        "der": 0.08,
+        "roe": 16.92,
+        "per": 15.36,
+        "marketCap": 1695898140672
+    },
+    {
+        "KodeEmiten": "KINO",
+        "der": 1.01,
+        "roe": 8.62,
+        "per": 12.26,
+        "marketCap": 1689053167616
+    },
+    {
+        "KodeEmiten": "NEST",
+        "der": 0,
+        "roe": 6.26,
+        "per": 72.31,
+        "marketCap": 1686125019136
+    },
+    {
+        "KodeEmiten": "IIKP",
+        "der": 0.13,
+        "roe": -23.9466,
+        "per": -39.14,
+        "marketCap": 1679572499999
+    },
+    {
+        "KodeEmiten": "MKTR",
+        "der": 1.19,
+        "roe": 11.45,
+        "per": 23.22,
+        "marketCap": 1652278689792
+    },
+    {
+        "KodeEmiten": "RMKO",
+        "der": 0.66,
+        "roe": -29.02,
+        "per": 23.06,
+        "marketCap": 1637500059648
+    },
+    {
+        "KodeEmiten": "BSBK",
+        "der": 0.16,
+        "roe": 17.66,
+        "per": 4.78,
+        "marketCap": 1630972411904
+    },
+    {
+        "KodeEmiten": "BMHS",
+        "der": 0.61,
+        "roe": 0.87,
+        "per": 135,
+        "marketCap": 1626045677568
+    },
+    {
+        "KodeEmiten": "AYAM",
+        "der": 0.23,
+        "roe": -8.05,
+        "per": 50.63,
+        "marketCap": 1616000057344
+    },
+    {
+        "KodeEmiten": "GSMF",
+        "der": 0.19,
+        "roe": 1.85,
+        "per": 40.36,
+        "marketCap": 1608035205120
+    },
+    {
+        "KodeEmiten": "EURO",
+        "der": 0.1,
+        "roe": 2.88,
+        "per": 50.72,
+        "marketCap": 1605760581632
+    },
+    {
+        "KodeEmiten": "RAAM",
+        "der": 0.23,
+        "roe": -6.39,
+        "per": -34.74,
+        "marketCap": 1594387070976
+    },
+    {
+        "KodeEmiten": "PMJS",
+        "der": 0.04,
+        "roe": 3.76,
+        "per": 16.59,
+        "marketCap": 1581893943296
+    },
+    {
+        "KodeEmiten": "KKGI",
+        "der": 0.01,
+        "roe": 1.93,
+        "per": 21.5,
+        "marketCap": 1578958585856
+    },
+    {
+        "KodeEmiten": "DOOH",
+        "der": 0.24,
+        "roe": 0.96,
+        "per": 453.33,
+        "marketCap": 1578733797376
+    },
+    {
+        "KodeEmiten": "DLTA",
+        "der": 0.01,
+        "roe": 17.84,
+        "per": 11.13,
+        "marketCap": 1577298427904
+    },
+    {
+        "KodeEmiten": "CARS",
+        "der": 0.89,
+        "roe": 20.04,
+        "per": 7.55,
+        "marketCap": 1575000080384
+    },
+    {
+        "KodeEmiten": "BEKS",
+        "der": 3.57,
+        "roe": 2.51,
+        "per": 36.59,
+        "marketCap": 1556113129472
+    },
+    {
+        "KodeEmiten": "AMFG",
+        "der": 0.28,
+        "roe": 3.08,
+        "per": 11.19,
+        "marketCap": 1553720016896
+    },
+    {
+        "KodeEmiten": "SKLT",
+        "der": 0.28,
+        "roe": 15.62,
+        "per": 11.36,
+        "marketCap": 1508801249280
+    },
+    {
+        "KodeEmiten": "TRGU",
+        "der": 1.53,
+        "roe": -3.28,
+        "per": -106.61,
+        "marketCap": 1493737537536
+    },
+    {
+        "KodeEmiten": "TIFA",
+        "der": 0.45,
+        "roe": 4.95,
+        "per": 24.93,
+        "marketCap": 1477720670208
+    },
+    {
+        "KodeEmiten": "GWSA",
+        "der": 0.03,
+        "roe": 1.01,
+        "per": 20.53,
+        "marketCap": 1458742099968
+    },
+    {
+        "KodeEmiten": "CEKA",
+        "der": 0.24,
+        "roe": 14.12,
+        "per": 5.46,
+        "marketCap": 1457750016000
+    },
+    {
+        "KodeEmiten": "BELL",
+        "der": 0.65,
+        "roe": 2.88,
+        "per": 3061.54,
+        "marketCap": 1435273789440
+    },
+    {
+        "KodeEmiten": "MERK",
+        "der": 0.02,
+        "roe": 22.84,
+        "per": 8.02,
+        "marketCap": 1433600000000
+    },
+    {
+        "KodeEmiten": "DILD",
+        "der": 0.57,
+        "roe": -0.01,
+        "per": 4.67,
+        "marketCap": 1430487826432
+    },
+    {
+        "KodeEmiten": "ALDO",
+        "der": 0.55,
+        "roe": 0.27,
+        "per": 277.49,
+        "marketCap": 1430076129280
+    },
+    {
+        "KodeEmiten": "BBLD",
+        "der": 4.22,
+        "roe": 3.08,
+        "per": 32.72,
+        "marketCap": 1415384662016
+    },
+    {
+        "KodeEmiten": "ATIC",
+        "der": 1.97,
+        "roe": 55.87,
+        "per": 6.4,
+        "marketCap": 1412370399232
+    },
+    {
+        "KodeEmiten": "BLES",
+        "der": 0.57,
+        "roe": 7.76,
+        "per": 16.41,
+        "marketCap": 1395762397184
+    },
+    {
+        "KodeEmiten": "TAMU",
+        "der": 0.72,
+        "roe": -52.7,
+        "per": 17.29,
+        "marketCap": 1387499880448
+    },
+    {
+        "KodeEmiten": "LUCY",
+        "der": 0.57,
+        "roe": -21.93,
+        "per": -24.48,
+        "marketCap": 1386018111488
+    },
+    {
+        "KodeEmiten": "SONA",
+        "der": 0.17,
+        "roe": 11.02,
+        "per": 19.19,
+        "marketCap": 1384416018432
+    },
+    {
+        "KodeEmiten": "KDTN",
+        "der": 0.14,
+        "roe": 2.04,
+        "per": 91.15,
+        "marketCap": 1362525421568
+    },
+    {
+        "KodeEmiten": "JKON",
+        "der": 0.05,
+        "roe": 3.82,
+        "per": 11.45,
+        "marketCap": 1337298649088
+    },
+    {
+        "KodeEmiten": "GZCO",
+        "der": 0.23,
+        "roe": 8.03,
+        "per": 13.69,
+        "marketCap": 1295999959040
+    },
+    {
+        "KodeEmiten": "PPRO",
+        "der": 0.21,
+        "roe": -5.8,
+        "per": -0.69,
+        "marketCap": 1295189147648
+    },
+    {
+        "KodeEmiten": "JIHD",
+        "der": 0.04,
+        "roe": 5.98,
+        "per": 11.65,
+        "marketCap": 1292617383936
+    },
+    {
+        "KodeEmiten": "TRST",
+        "der": 0.76,
+        "roe": 1.86,
+        "per": 32.21,
+        "marketCap": 1291679956992
+    },
+    {
+        "KodeEmiten": "ARTA",
+        "der": 0.07,
+        "roe": 0.78,
+        "per": 238.34,
+        "marketCap": 1290888413184
+    },
+    {
+        "KodeEmiten": "LIVE",
+        "der": 0.52,
+        "roe": 4.84,
+        "per": 41.09,
+        "marketCap": 1286041370624
+    },
+    {
+        "KodeEmiten": "KBLI",
+        "der": 0,
+        "roe": 7.82,
+        "per": 5.87,
+        "marketCap": 1282315255808
+    },
+    {
+        "KodeEmiten": "CFIN",
+        "der": 0.66,
+        "roe": 3.33,
+        "per": 6.72,
+        "marketCap": 1275046526976
+    },
+    {
+        "KodeEmiten": "COCO",
+        "der": 2.97,
+        "roe": -219.07,
+        "per": 49.21,
+        "marketCap": 1274285260800
+    },
+    {
+        "KodeEmiten": "MITI",
+        "der": 0.01,
+        "roe": 3.14,
+        "per": 137.4,
+        "marketCap": 1267678052352
+    },
+    {
+        "KodeEmiten": "TCID",
+        "der": 0.01,
+        "roe": -0.25,
+        "per": -21.17,
+        "marketCap": 1266720047104
+    },
+    {
+        "KodeEmiten": "ADCP",
+        "der": 0.48,
+        "roe": 0.29,
+        "per": 162.86,
+        "marketCap": 1266666569728
+    },
+    {
+        "KodeEmiten": "TDPM",
+        "der": 8.64,
+        "roe": -375.6601,
+        "per": 0,
+        "marketCap": 1248371200000
+    },
+    {
+        "KodeEmiten": "CAMP",
+        "der": 0.16,
+        "roe": 9.06,
+        "per": 14.69,
+        "marketCap": 1247620104192
+    },
+    {
+        "KodeEmiten": "CITY",
+        "der": 0.11,
+        "roe": 1.92,
+        "per": 74.68,
+        "marketCap": 1243193540608
+    },
+    {
+        "KodeEmiten": "SUGI",
+        "der": 2.13,
+        "roe": -51.5875,
+        "per": 0,
+        "marketCap": 1240623000000
+    },
+    {
+        "KodeEmiten": "LTLS",
+        "der": 0.51,
+        "roe": 5.27,
+        "per": 7.99,
+        "marketCap": 1237662040064
+    },
+    {
+        "KodeEmiten": "IBOS",
+        "der": 0.06,
+        "roe": -0.13,
+        "per": 39.64,
+        "marketCap": 1217934262272
+    },
+    {
+        "KodeEmiten": "WSBP",
+        "der": -3.96,
+        "roe": 0,
+        "per": -7.08,
+        "marketCap": 1208574279680
+    },
+    {
+        "KodeEmiten": "BUAH",
+        "der": 0.01,
+        "roe": 30.56,
+        "per": 19.75,
+        "marketCap": 1199999942656
+    },
+    {
+        "KodeEmiten": "RANC",
+        "der": 1.21,
+        "roe": -18.97,
+        "per": 139.5,
+        "marketCap": 1181188096000
+    },
+    {
+        "KodeEmiten": "DPUM",
+        "der": 1.59,
+        "roe": -8.99,
+        "per": -2.06,
+        "marketCap": 1149412966400
+    },
+    {
+        "KodeEmiten": "ENAK",
+        "der": 2.4,
+        "roe": -14.73,
+        "per": 32.41,
+        "marketCap": 1137500094464
+    },
+    {
+        "KodeEmiten": "ATAP",
+        "der": 0.31,
+        "roe": -5.27,
+        "per": 276.34,
+        "marketCap": 1131250057216
+    },
+    {
+        "KodeEmiten": "BLTA",
+        "der": 1,
+        "roe": 4.26,
+        "per": 24.16,
+        "marketCap": 1114093912064
+    },
+    {
+        "KodeEmiten": "HOME",
+        "der": 0.16,
+        "roe": -1.6502,
+        "per": 0,
+        "marketCap": 1101458800000
+    },
+    {
+        "KodeEmiten": "WOMF",
+        "der": 2.64,
+        "roe": 11.63,
+        "per": 5.12,
+        "marketCap": 1100148113408
+    },
+    {
+        "KodeEmiten": "BOLA",
+        "der": 0.03,
+        "roe": 3.93,
+        "per": 12.64,
+        "marketCap": 1092000022528
+    },
+    {
+        "KodeEmiten": "PANS",
+        "der": 0.01,
+        "roe": 6.47,
+        "per": 11.26,
+        "marketCap": 1088486047744
+    },
+    {
+        "KodeEmiten": "GDST",
+        "der": 0.81,
+        "roe": 7.41,
+        "per": 9.85,
+        "marketCap": 1081372508160
+    },
+    {
+        "KodeEmiten": "BEST",
+        "der": 0.27,
+        "roe": 0.17,
+        "per": 141.77,
+        "marketCap": 1080498847744
+    },
+    {
+        "KodeEmiten": "RSCH",
+        "der": 1.06,
+        "roe": -12.88,
+        "per": -1504.25,
+        "marketCap": 1065299935232
+    },
+    {
+        "KodeEmiten": "TBMS",
+        "der": 0.38,
+        "roe": 8.64,
+        "per": 76315.79,
+        "marketCap": 1065285976064
+    },
+    {
+        "KodeEmiten": "WIRG",
+        "der": 0.15,
+        "roe": 10.73,
+        "per": 66.92,
+        "marketCap": 1062537396224
+    },
+    {
+        "KodeEmiten": "JGLE",
+        "der": 0.16,
+        "roe": -0.52,
+        "per": -3.43,
+        "marketCap": 1061349752832
+    },
+    {
+        "KodeEmiten": "ZINC",
+        "der": 3.32,
+        "roe": -36.47,
+        "per": -3.33,
+        "marketCap": 1060500013056
+    },
+    {
+        "KodeEmiten": "ARII",
+        "der": 1.06,
+        "roe": 8.41,
+        "per": 7.81,
+        "marketCap": 1057500037120
+    },
+    {
+        "KodeEmiten": "MTWI",
+        "der": 0.01,
+        "roe": 24.57,
+        "per": 80.18,
+        "marketCap": 1041117216768
+    },
+    {
+        "KodeEmiten": "AREA",
+        "der": 0.15,
+        "roe": 3.78,
+        "per": 10.95,
+        "marketCap": 1036157190144
+    },
+    {
+        "KodeEmiten": "ASLC",
+        "der": 0.03,
+        "roe": 5.19,
+        "per": 29.67,
+        "marketCap": 1032454733824
+    },
+    {
+        "KodeEmiten": "SHID",
+        "der": 0.59,
+        "roe": -7.2,
+        "per": -43.65,
+        "marketCap": 1029780144128
+    },
+    {
+        "KodeEmiten": "MGNA",
+        "der": 1.51,
+        "roe": 17.93,
+        "per": 8.27,
+        "marketCap": 1016417681408
+    },
+    {
+        "KodeEmiten": "CHIP",
+        "der": 0.5,
+        "roe": 6.87,
+        "per": 215.27,
+        "marketCap": 1011530006528
+    },
+    {
+        "KodeEmiten": "VOKS",
+        "der": 0.77,
+        "roe": -16.13,
+        "per": -69.1,
+        "marketCap": 1005655818240
+    },
+    {
+        "KodeEmiten": "PEVE",
+        "der": 1,
+        "roe": 20.06,
+        "per": 11.22,
+        "marketCap": 988749955072
+    },
+    {
+        "KodeEmiten": "MFMI",
+        "der": 2.26,
+        "roe": 13.2,
+        "per": 37.84,
+        "marketCap": 984855281664
+    },
+    {
+        "KodeEmiten": "SMGA",
+        "der": 0.28,
+        "roe": 12.44,
+        "per": 35.08,
+        "marketCap": 980000047104
+    },
+    {
+        "KodeEmiten": "NIKL",
+        "der": 0.71,
+        "roe": 2.33,
+        "per": 45.95,
+        "marketCap": 974013136896
+    },
+    {
+        "KodeEmiten": "BTEK",
+        "der": 6.31,
+        "roe": -101.69,
+        "per": -2.43,
+        "marketCap": 971827445760
+    },
+    {
+        "KodeEmiten": "SPMA",
+        "der": 0.28,
+        "roe": 2.41,
+        "per": 16.14,
+        "marketCap": 967674888192
+    },
+    {
+        "KodeEmiten": "GHON",
+        "der": 0.6,
+        "roe": 10.93,
+        "per": 10.74,
+        "marketCap": 965249990656
+    },
+    {
+        "KodeEmiten": "BUDI",
+        "der": 1.16,
+        "roe": 5.73,
+        "per": 10.86,
+        "marketCap": 961574797312
+    },
+    {
+        "KodeEmiten": "RELI",
+        "der": 0.05,
+        "roe": 0.6,
+        "per": 45.51,
+        "marketCap": 954000015360
+    },
+    {
+        "KodeEmiten": "CMPP",
+        "der": -1.67,
+        "roe": 0,
+        "per": -1.14,
+        "marketCap": 950976118784
+    },
+    {
+        "KodeEmiten": "PDPP",
+        "der": 0.39,
+        "roe": 7.84,
+        "per": 29.67,
+        "marketCap": 949015871488
+    },
+    {
+        "KodeEmiten": "PBRX",
+        "der": 0.69,
+        "roe": 1281.99,
+        "per": 0.63,
+        "marketCap": 945209278464
+    },
+    {
+        "KodeEmiten": "KOCI",
+        "der": 0,
+        "roe": 13.13,
+        "per": 8.11,
+        "marketCap": 940838354944
+    },
+    {
+        "KodeEmiten": "POLL",
+        "der": 0.22,
+        "roe": 2.08,
+        "per": 85.5,
+        "marketCap": 931708207104
+    },
+    {
+        "KodeEmiten": "UNIQ",
+        "der": 0.36,
+        "roe": 11.79,
+        "per": 17.16,
+        "marketCap": 929138933760
+    },
+    {
+        "KodeEmiten": "GRIA",
+        "der": 0.14,
+        "roe": 1.73,
+        "per": 135.87,
+        "marketCap": 921965035520
+    },
+    {
+        "KodeEmiten": "SKBM",
+        "der": 0.6,
+        "roe": 2.24,
+        "per": 34.26,
+        "marketCap": 916954677248
+    },
+    {
+        "KodeEmiten": "NELY",
+        "der": 0.24,
+        "roe": 12.13,
+        "per": 13.99,
+        "marketCap": 916500054016
+    },
+    {
+        "KodeEmiten": "RSGK",
+        "der": 0.03,
+        "roe": 4.22,
+        "per": 22.93,
+        "marketCap": 911081537536
+    },
+    {
+        "KodeEmiten": "MTFN",
+        "der": -2.21,
+        "roe": 0,
+        "per": -6.83,
+        "marketCap": 891578351616
+    },
+    {
+        "KodeEmiten": "MMIX",
+        "der": 1.02,
+        "roe": 12.75,
+        "per": -10.63,
+        "marketCap": 888078729216
+    },
+    {
+        "KodeEmiten": "LEAD",
+        "der": 1.2,
+        "roe": 7.38,
+        "per": 22.32,
+        "marketCap": 881541709824
+    },
+    {
+        "KodeEmiten": "PJAA",
+        "der": 0.43,
+        "roe": 7.75,
+        "per": 6.47,
+        "marketCap": 879999975424
+    },
+    {
+        "KodeEmiten": "PTPW",
+        "der": 0.04,
+        "roe": 7.04,
+        "per": 13.14,
+        "marketCap": 869405622272
+    },
+    {
+        "KodeEmiten": "AMAN",
+        "der": 0.44,
+        "roe": 8.51,
+        "per": 14.11,
+        "marketCap": 867664003072
+    },
+    {
+        "KodeEmiten": "NICK",
+        "der": 0,
+        "roe": 48.13,
+        "per": 3.99,
+        "marketCap": 856262246400
+    },
+    {
+        "KodeEmiten": "MSKY",
+        "der": 0.07,
+        "roe": -7.8,
+        "per": -0.87,
+        "marketCap": 847607431168
+    },
+    {
+        "KodeEmiten": "MHKI",
+        "der": 0.02,
+        "roe": 8.05,
+        "per": 21.36,
+        "marketCap": 847500017664
+    },
+    {
+        "KodeEmiten": "WTON",
+        "der": 0.12,
+        "roe": 0.89,
+        "per": 21.18,
+        "marketCap": 845400244224
+    },
+    {
+        "KodeEmiten": "ADMG",
+        "der": 0,
+        "roe": -4.17,
+        "per": -2.24,
+        "marketCap": 840062795776
+    },
+    {
+        "KodeEmiten": "PANR",
+        "der": 0.15,
+        "roe": 42.23,
+        "per": 21.2,
+        "marketCap": 839437516800
+    },
+    {
+        "KodeEmiten": "TALF",
+        "der": 0.24,
+        "roe": 2.74,
+        "per": 40.76,
+        "marketCap": 839129694208
+    },
+    {
+        "KodeEmiten": "NFCX",
+        "der": 0.33,
+        "roe": -8.63,
+        "per": -2.84,
+        "marketCap": 828015378432
+    },
+    {
+        "KodeEmiten": "HITS",
+        "der": 0.91,
+        "roe": 0.09,
+        "per": 24.22,
+        "marketCap": 823725850624
+    },
+    {
+        "KodeEmiten": "INRU",
+        "der": 4.33,
+        "roe": -33.95,
+        "per": null,
+        "marketCap": 819441172480
+    },
+    {
+        "KodeEmiten": "FUJI",
+        "der": 0,
+        "roe": 7.52,
+        "per": 62.63,
+        "marketCap": 812499992576
+    },
+    {
+        "KodeEmiten": "MOLI",
+        "der": 0.09,
+        "roe": 3.19,
+        "per": 23.52,
+        "marketCap": 811762909184
+    },
+    {
+        "KodeEmiten": "AMOR",
+        "der": 0.03,
+        "roe": 23.95,
+        "per": 11.09,
+        "marketCap": 809344172032
+    },
+    {
+        "KodeEmiten": "PACK",
+        "der": 0.42,
+        "roe": 4.3282,
+        "per": 167.22,
+        "marketCap": 806686490624
+    },
+    {
+        "KodeEmiten": "HDFA",
+        "der": 5.27,
+        "roe": -9.49,
+        "per": -13.37,
+        "marketCap": 798178344960
+    },
+    {
+        "KodeEmiten": "UNSP",
+        "der": -1.67,
+        "roe": 0,
+        "per": 0.12,
+        "marketCap": 790051291136
+    },
+    {
+        "KodeEmiten": "WMUU",
+        "der": 1.59,
+        "roe": -10.67,
+        "per": -0.51,
+        "marketCap": 789411790848
+    },
+    {
+        "KodeEmiten": "BDKR",
+        "der": 0.31,
+        "roe": -2.22,
+        "per": 14.31,
+        "marketCap": 789091975168
+    },
+    {
+        "KodeEmiten": "BPFI",
+        "der": 0.95,
+        "roe": 6.97,
+        "per": 10.05,
+        "marketCap": 786154586112
+    },
+    {
+        "KodeEmiten": "IPOL",
+        "der": 0.92,
+        "roe": 0.53,
+        "per": 45.52,
+        "marketCap": 786092326912
+    },
+    {
+        "KodeEmiten": "PADA",
+        "der": 0.86,
+        "roe": -6.4,
+        "per": -3.12,
+        "marketCap": 781199998976
+    },
+    {
+        "KodeEmiten": "SULI",
+        "der": 0.67,
+        "roe": -33.76,
+        "per": -4.16,
+        "marketCap": 777455534080
+    },
+    {
+        "KodeEmiten": "MABA",
+        "der": 6.84,
+        "roe": -92.12,
+        "per": 0,
+        "marketCap": 769585800000
+    },
+    {
+        "KodeEmiten": "ESTA",
+        "der": 0.82,
+        "roe": -2.74,
+        "per": 6.92,
+        "marketCap": 751859793920
+    },
+    {
+        "KodeEmiten": "TIRA",
+        "der": 0.66,
+        "roe": 0.01,
+        "per": 338.6,
+        "marketCap": 743819968512
+    },
+    {
+        "KodeEmiten": "BABY",
+        "der": 0.19,
+        "roe": -9.87,
+        "per": -12.54,
+        "marketCap": 737775976448
+    },
+    {
+        "KodeEmiten": "JECC",
+        "der": 1.12,
+        "roe": 14.29,
+        "per": 6.03,
+        "marketCap": 737099972608
+    },
+    {
+        "KodeEmiten": "RODA",
+        "der": 0.51,
+        "roe": -2.86,
+        "per": -17.25,
+        "marketCap": 733974953984
+    },
+    {
+        "KodeEmiten": "HOMI",
+        "der": 0.13,
+        "roe": -1.96,
+        "per": 260.81,
+        "marketCap": 733950050304
+    },
+    {
+        "KodeEmiten": "BIKE",
+        "der": 0.11,
+        "roe": 12.84,
+        "per": 21.68,
+        "marketCap": 731062796288
+    },
+    {
+        "KodeEmiten": "ZATA",
+        "der": 0.19,
+        "roe": 0.34,
+        "per": 9.57,
+        "marketCap": 730656014336
+    },
+    {
+        "KodeEmiten": "KDSI",
+        "der": 0.17,
+        "roe": 4.28,
+        "per": 2.51,
+        "marketCap": 728999985152
+    },
+    {
+        "KodeEmiten": "MDLN",
+        "der": 1.55,
+        "roe": -2.04,
+        "per": -3.19,
+        "marketCap": 728786272256
+    },
+    {
+        "KodeEmiten": "KOKA",
+        "der": 0.05,
+        "roe": -6.88,
+        "per": -44.64,
+        "marketCap": 726778576896
+    },
+    {
+        "KodeEmiten": "HOKI",
+        "der": 0.59,
+        "roe": -3.74,
+        "per": 34.91,
+        "marketCap": 725831450624
+    },
+    {
+        "KodeEmiten": "PIPA",
+        "der": 0.1,
+        "roe": 2.49,
+        "per": 170.73,
+        "marketCap": 719480422400
+    },
+    {
+        "KodeEmiten": "LFLO",
+        "der": 0.2,
+        "roe": 27.17,
+        "per": 7.93,
+        "marketCap": 719254192128
+    },
+    {
+        "KodeEmiten": "PTMR",
+        "der": 0.2,
+        "roe": -20.72,
+        "per": 25.95,
+        "marketCap": 713217998848
+    },
+    {
+        "KodeEmiten": "AXIO",
+        "der": 0.31,
+        "roe": 11.22,
+        "per": 10.23,
+        "marketCap": 712495398912
+    },
+    {
+        "KodeEmiten": "BRNA",
+        "der": 0.91,
+        "roe": 3.69,
+        "per": 45.06,
+        "marketCap": 704959217664
+    },
+    {
+        "KodeEmiten": "APEX",
+        "der": 1.72,
+        "roe": 1.65,
+        "per": 44.87,
+        "marketCap": 698653933568
+    },
+    {
+        "KodeEmiten": "GTBO",
+        "der": 0.01,
+        "roe": -9.42,
+        "per": -6,
+        "marketCap": 689999970304
+    },
+    {
+        "KodeEmiten": "SOFA",
+        "der": 0.01,
+        "roe": -1.93,
+        "per": 188.16,
+        "marketCap": 684579880960
+    },
+    {
+        "KodeEmiten": "PGJO",
+        "der": 0.49,
+        "roe": -110.34,
+        "per": -13.82,
+        "marketCap": 684438781952
+    },
+    {
+        "KodeEmiten": "BEER",
+        "der": 0.06,
+        "roe": 3.04,
+        "per": 168.69,
+        "marketCap": 680000028672
+    },
+    {
+        "KodeEmiten": "VIVA",
+        "der": 10.57,
+        "roe": 0,
+        "per": 0.12,
+        "marketCap": 675035086848
+    },
+    {
+        "KodeEmiten": "MPPA",
+        "der": 23.29,
+        "roe": -103.6,
+        "per": -8.4,
+        "marketCap": 674265235456
+    },
+    {
+        "KodeEmiten": "IKBI",
+        "der": 0.12,
+        "roe": 9.76,
+        "per": 5.2,
+        "marketCap": 673200013312
+    },
+    {
+        "KodeEmiten": "AHAP",
+        "der": 0.16,
+        "roe": -1.09,
+        "per": 20.18,
+        "marketCap": 671299993600
+    },
+    {
+        "KodeEmiten": "GTRA",
+        "der": 1.69,
+        "roe": 16.77,
+        "per": 5.01,
+        "marketCap": 670608785408
+    },
+    {
+        "KodeEmiten": "SQMI",
+        "der": 8.37,
+        "roe": -596.58,
+        "per": -5.19,
+        "marketCap": 668116451328
+    },
+    {
+        "KodeEmiten": "DGIK",
+        "der": 0.36,
+        "roe": 8.92,
+        "per": 10.73,
+        "marketCap": 652900696064
+    },
+    {
+        "KodeEmiten": "EKAD",
+        "der": 0.02,
+        "roe": 2.55,
+        "per": 1.26,
+        "marketCap": 642872967168
+    },
+    {
+        "KodeEmiten": "SWID",
+        "der": 0.6,
+        "roe": 14.88,
+        "per": 31.28,
+        "marketCap": 640817299456
+    },
+    {
+        "KodeEmiten": "GUNA",
+        "der": 0.11,
+        "roe": 15.13,
+        "per": 16.66,
+        "marketCap": 640000000000
+    },
+    {
+        "KodeEmiten": "PZZA",
+        "der": 0.41,
+        "roe": 3.95,
+        "per": 16.02,
+        "marketCap": 637163995136
+    },
+    {
+        "KodeEmiten": "LCGP",
+        "der": 0.03,
+        "roe": 0.0201,
+        "per": 0,
+        "marketCap": 636996000000
+    },
+    {
+        "KodeEmiten": "SOSS",
+        "der": 0.21,
+        "roe": -3.7,
+        "per": 17.97,
+        "marketCap": 635534311424
+    },
+    {
+        "KodeEmiten": "FORU",
+        "der": 0.05,
+        "roe": -5.55,
+        "per": -191.88,
+        "marketCap": 630378528768
+    },
+    {
+        "KodeEmiten": "PEGE",
+        "der": 0.31,
+        "roe": -15.69,
+        "per": -4.23,
+        "marketCap": 629018591232
+    },
+    {
+        "KodeEmiten": "SMRU",
+        "der": 13.88,
+        "roe": -190.9923,
+        "per": -6.51,
+        "marketCap": 625104700000
+    },
+    {
+        "KodeEmiten": "TRON",
+        "der": 0.23,
+        "roe": -18.27,
+        "per": 44.68,
+        "marketCap": 619500011520
+    },
+    {
+        "KodeEmiten": "MAMI",
+        "der": 0.43,
+        "roe": -2.9132,
+        "per": 0,
+        "marketCap": 616975000000
+    },
+    {
+        "KodeEmiten": "HOPE",
+        "der": 0.85,
+        "roe": -19.6496,
+        "per": -2.9,
+        "marketCap": 613543706624
+    },
+    {
+        "KodeEmiten": "KOTA",
+        "der": 0.31,
+        "roe": -1.95,
+        "per": -4.75,
+        "marketCap": 611678748672
+    },
+    {
+        "KodeEmiten": "IRRA",
+        "der": 1.58,
+        "roe": 15.02,
+        "per": 7.83,
+        "marketCap": 609158234112
+    },
+    {
+        "KodeEmiten": "BOAT",
+        "der": 0.37,
+        "roe": 0.298,
+        "per": 839.43,
+        "marketCap": 605790666752
+    },
+    {
+        "KodeEmiten": "WEGE",
+        "der": 0.08,
+        "roe": -1.15,
+        "per": 8.47,
+        "marketCap": 603035992064
+    },
+    {
+        "KodeEmiten": "GLVA",
+        "der": 0.89,
+        "roe": 12.83,
+        "per": 12.11,
+        "marketCap": 596999995392
+    },
+    {
+        "KodeEmiten": "FITT",
+        "der": 0.35,
+        "roe": -8.63,
+        "per": -14.4,
+        "marketCap": 594748047360
+    },
+    {
+        "KodeEmiten": "AWAN",
+        "der": 0.15,
+        "roe": 4.4,
+        "per": 461.68,
+        "marketCap": 590820016128
+    },
+    {
+        "KodeEmiten": "TRIS",
+        "der": 0.26,
+        "roe": 12.91,
+        "per": 52.22,
+        "marketCap": 590601781248
+    },
+    {
+        "KodeEmiten": "PNSE",
+        "der": 0.29,
+        "roe": 0.92,
+        "per": 20.66,
+        "marketCap": 590381973504
+    },
+    {
+        "KodeEmiten": "SMKL",
+        "der": 1.09,
+        "roe": 1.97,
+        "per": 5.18,
+        "marketCap": 584492580864
+    },
+    {
+        "KodeEmiten": "AMMS",
+        "der": 0.04,
+        "roe": 0.22,
+        "per": 162.12,
+        "marketCap": 583060094976
+    },
+    {
+        "KodeEmiten": "UNTD",
+        "der": 1.03,
+        "roe": -1.39,
+        "per": 27.77,
+        "marketCap": 579999956992
+    },
+    {
+        "KodeEmiten": "KONI",
+        "der": 0.11,
+        "roe": 10.87,
+        "per": 35.35,
+        "marketCap": 577199996928
+    },
+    {
+        "KodeEmiten": "VTNY",
+        "der": 2.25,
+        "roe": 3.57,
+        "per": 33.33,
+        "marketCap": 570132594688
+    },
+    {
+        "KodeEmiten": "WINE",
+        "der": 0.28,
+        "roe": 12.75,
+        "per": 14.08,
+        "marketCap": 563680051200
+    },
+    {
+        "KodeEmiten": "ELIT",
+        "der": 0.4,
+        "roe": 21.11,
+        "per": 7.7,
+        "marketCap": 562664112128
+    },
+    {
+        "KodeEmiten": "DART",
+        "der": 2.71,
+        "roe": -19.56,
+        "per": -1.86,
+        "marketCap": 562308972544
+    },
+    {
+        "KodeEmiten": "HAIS",
+        "der": 0.63,
+        "roe": 13.09,
+        "per": 9.88,
+        "marketCap": 556765020160
+    },
+    {
+        "KodeEmiten": "IDPR",
+        "der": 0.7,
+        "roe": 3.78,
+        "per": 22.5,
+        "marketCap": 548822024192
+    },
+    {
+        "KodeEmiten": "AISA",
+        "der": 0.21,
+        "roe": 8.65,
+        "per": 14.4,
+        "marketCap": 548023697408
+    },
+    {
+        "KodeEmiten": "SURI",
+        "der": 0.01,
+        "roe": -2.93,
+        "per": 65.8,
+        "marketCap": 544756236288
+    },
+    {
+        "KodeEmiten": "MDRN",
+        "der": -1.6,
+        "roe": 0,
+        "per": 22.76,
+        "marketCap": 541883924480
+    },
+    {
+        "KodeEmiten": "LABS",
+        "der": 0.18,
+        "roe": 12.3656,
+        "per": 30.23,
+        "marketCap": 541150019584
+    },
+    {
+        "KodeEmiten": "URBN",
+        "der": 0.4,
+        "roe": -0.26,
+        "per": 4.38,
+        "marketCap": 539690467328
+    },
+    {
+        "KodeEmiten": "MREI",
+        "der": 2.37,
+        "roe": 5.82,
+        "per": 5.79,
+        "marketCap": 533325414400
+    },
+    {
+        "KodeEmiten": "GPRA",
+        "der": 0.21,
+        "roe": 8.7,
+        "per": 4.5,
+        "marketCap": 526028603392
+    },
+    {
+        "KodeEmiten": "CNKO",
+        "der": -1.74,
+        "roe": 0,
+        "per": 2.86,
+        "marketCap": 519468908544
+    },
+    {
+        "KodeEmiten": "VERN",
+        "der": 0.11,
+        "roe": 10.3035,
+        "per": 24,
+        "marketCap": 519455670272
+    },
+    {
+        "KodeEmiten": "INTA",
+        "der": -2.11,
+        "roe": 0,
+        "per": -0.59,
+        "marketCap": 518309937152
+    },
+    {
+        "KodeEmiten": "KING",
+        "der": 0.13,
+        "roe": 5.59,
+        "per": 38.91,
+        "marketCap": 515261628416
+    },
+    {
+        "KodeEmiten": "BSML",
+        "der": 0.23,
+        "roe": 2.84,
+        "per": 83.61,
+        "marketCap": 510662115328
+    },
+    {
+        "KodeEmiten": "LAPD",
+        "der": 4.75,
+        "roe": -15.3639,
+        "per": -12.13,
+        "marketCap": 499760103424
+    },
+    {
+        "KodeEmiten": "MDKI",
+        "der": 0.01,
+        "roe": 3.44,
+        "per": 12.68,
+        "marketCap": 495909371904
+    },
+    {
+        "KodeEmiten": "COAL",
+        "der": 0.47,
+        "roe": 5.74,
+        "per": 7.46,
+        "marketCap": 493749993472
+    },
+    {
+        "KodeEmiten": "KMDS",
+        "der": 0.01,
+        "roe": 25.93,
+        "per": 6.75,
+        "marketCap": 491999985664
+    },
+    {
+        "KodeEmiten": "MAXI",
+        "der": 0.89,
+        "roe": -0.66,
+        "per": -313.68,
+        "marketCap": 490115072000
+    },
+    {
+        "KodeEmiten": "TGUK",
+        "der": 0.13,
+        "roe": -62.97,
+        "per": -9.71,
+        "marketCap": 489288925184
+    },
+    {
+        "KodeEmiten": "APLI",
+        "der": 0.19,
+        "roe": -0.21,
+        "per": 27.97,
+        "marketCap": 487836352512
+    },
+    {
+        "KodeEmiten": "UFOE",
+        "der": 0.57,
+        "roe": 8.33,
+        "per": 31.51,
+        "marketCap": 486907969536
+    },
+    {
+        "KodeEmiten": "HALO",
+        "der": 0,
+        "roe": -3.4,
+        "per": 71.19,
+        "marketCap": 485857165312
+    },
+    {
+        "KodeEmiten": "CLPI",
+        "der": 0.15,
+        "roe": 11.02,
+        "per": 7.21,
+        "marketCap": 473292963840
+    },
+    {
+        "KodeEmiten": "MCAS",
+        "der": 0.32,
+        "roe": -8.4,
+        "per": -436.41,
+        "marketCap": 472832245760
+    },
+    {
+        "KodeEmiten": "VRNA",
+        "der": 3,
+        "roe": -1.66,
+        "per": 120.46,
+        "marketCap": 472050368512
+    },
+    {
+        "KodeEmiten": "CRAB",
+        "der": 0.21,
+        "roe": 13.72,
+        "per": 22.96,
+        "marketCap": 471899996160
+    },
+    {
+        "KodeEmiten": "BAYU",
+        "der": 0.93,
+        "roe": 20.68,
+        "per": 56.72,
+        "marketCap": 471549739008
+    },
+    {
+        "KodeEmiten": "TIRT",
+        "der": -1.3,
+        "roe": 0,
+        "per": -0.95,
+        "marketCap": 471487021056
+    },
+    {
+        "KodeEmiten": "NIPS",
+        "der": 1.2,
+        "roe": 1.6198,
+        "per": 0,
+        "marketCap": 464841600000
+    },
+    {
+        "KodeEmiten": "IGAR",
+        "der": 0,
+        "roe": 9.15,
+        "per": 8.22,
+        "marketCap": 458323623936
+    },
+    {
+        "KodeEmiten": "REAL",
+        "der": 0.05,
+        "roe": 6.67,
+        "per": 539.06,
+        "marketCap": 457719119872
+    },
+    {
+        "KodeEmiten": "ARMY",
+        "der": 0.16,
+        "roe": 0.3736,
+        "per": 0,
+        "marketCap": 457622000000
+    },
+    {
+        "KodeEmiten": "GULA",
+        "der": 0.52,
+        "roe": -4.6,
+        "per": 516.53,
+        "marketCap": 455974420480
+    },
+    {
+        "KodeEmiten": "NASA",
+        "der": 0.03,
+        "roe": 0.57,
+        "per": 71.93,
+        "marketCap": 451202088960
+    },
+    {
+        "KodeEmiten": "RIGS",
+        "der": 0,
+        "roe": 10.99,
+        "per": 4.98,
+        "marketCap": 450756182016
+    },
+    {
+        "KodeEmiten": "MAGP",
+        "der": 10.07,
+        "roe": -83.665,
+        "per": 0,
+        "marketCap": 450205600000
+    },
+    {
+        "KodeEmiten": "GDYR",
+        "der": 0.02,
+        "roe": 7.24,
+        "per": 182500,
+        "marketCap": 448950009856
+    },
+    {
+        "KodeEmiten": "CCSI",
+        "der": 0.17,
+        "roe": 0.88,
+        "per": 10.15,
+        "marketCap": 440000020480
+    },
+    {
+        "KodeEmiten": "KBRI",
+        "der": 6.45,
+        "roe": -25.2201,
+        "per": 0,
+        "marketCap": 435039999999
+    },
+    {
+        "KodeEmiten": "IKPM",
+        "der": 0.8,
+        "roe": -12.18,
+        "per": 34.44,
+        "marketCap": 434642944000
+    },
+    {
+        "KodeEmiten": "HDTX",
+        "der": -3.11,
+        "roe": 0,
+        "per": -18.8,
+        "marketCap": 432437500000
+    },
+    {
+        "KodeEmiten": "VAST",
+        "der": 0.24,
+        "roe": 4.39,
+        "per": 2.12,
+        "marketCap": 427801640960
+    },
+    {
+        "KodeEmiten": "ZONE",
+        "der": 0.58,
+        "roe": 2.12,
+        "per": 8.68,
+        "marketCap": 426383998976
+    },
+    {
+        "KodeEmiten": "TYRE",
+        "der": 0.58,
+        "roe": 7.19,
+        "per": 21.86,
+        "marketCap": 424630943744
+    },
+    {
+        "KodeEmiten": "KRAH",
+        "der": 16.33,
+        "roe": -266.4965,
+        "per": 0,
+        "marketCap": 423437699999
+    },
+    {
+        "KodeEmiten": "CSIS",
+        "der": 0.21,
+        "roe": 4.99,
+        "per": 33.25,
+        "marketCap": 420853972992
+    },
+    {
+        "KodeEmiten": "POSA",
+        "der": -3.17,
+        "roe": 0,
+        "per": -3.04,
+        "marketCap": 420756000000
+    },
+    {
+        "KodeEmiten": "GOLD",
+        "der": 0.12,
+        "roe": 4.41,
+        "per": 27.62,
+        "marketCap": 418946547712
+    },
+    {
+        "KodeEmiten": "SOLA",
+        "der": 0.24,
+        "roe": 18.13,
+        "per": 129.27,
+        "marketCap": 417496629248
+    },
+    {
+        "KodeEmiten": "PTPS",
+        "der": 0.01,
+        "roe": 21.09,
+        "per": 9.94,
+        "marketCap": 416162840576
+    },
+    {
+        "KodeEmiten": "SCNP",
+        "der": 0.16,
+        "roe": 4.32,
+        "per": 8.71,
+        "marketCap": 415000002560
+    },
+    {
+        "KodeEmiten": "NINE",
+        "der": 0.04,
+        "roe": -18.41,
+        "per": -51.96,
+        "marketCap": 411986984960
+    },
+    {
+        "KodeEmiten": "SMLE",
+        "der": 0.47,
+        "roe": -1.07,
+        "per": 50.12,
+        "marketCap": 407426793472
+    },
+    {
+        "KodeEmiten": "BKDP",
+        "der": 0.97,
+        "roe": -10.84,
+        "per": -9.45,
+        "marketCap": 405755592704
+    },
+    {
+        "KodeEmiten": "KREN",
+        "der": 0.17,
+        "roe": -11.53,
+        "per": -3.3,
+        "marketCap": 400493445120
+    },
+    {
+        "KodeEmiten": "PDES",
+        "der": 1.84,
+        "roe": 38.88,
+        "per": 18.66,
+        "marketCap": 400399990784
+    },
+    {
+        "KodeEmiten": "IOTF",
+        "der": 0.14,
+        "roe": 0.35,
+        "per": 179.42,
+        "marketCap": 396772343808
+    },
+    {
+        "KodeEmiten": "LPLI",
+        "der": 0,
+        "roe": 13.6,
+        "per": 1.18,
+        "marketCap": 395606261760
+    },
+    {
+        "KodeEmiten": "CBPE",
+        "der": 0.04,
+        "roe": 15.57,
+        "per": 3.89,
+        "marketCap": 390599999488
+    },
+    {
+        "KodeEmiten": "INAF",
+        "der": -1.78,
+        "roe": 0,
+        "per": -0.56,
+        "marketCap": 390507724800
+    },
+    {
+        "KodeEmiten": "EAST",
+        "der": 0.01,
+        "roe": 6.87,
+        "per": 22.69,
+        "marketCap": 387882090496
+    },
+    {
+        "KodeEmiten": "JATI",
+        "der": 0.02,
+        "roe": 11.36,
+        "per": 48.86,
+        "marketCap": 384977371136
+    },
+    {
+        "KodeEmiten": "NUSA",
+        "der": 0.09,
+        "roe": -1.5507,
+        "per": 0,
+        "marketCap": 384106500000
+    },
+    {
+        "KodeEmiten": "HYGN",
+        "der": 0.08,
+        "roe": 12.18,
+        "per": 21.16,
+        "marketCap": 383528861696
+    },
+    {
+        "KodeEmiten": "KOBX",
+        "der": 2.94,
+        "roe": -37.38,
+        "per": 27833.33,
+        "marketCap": 379507507200
+    },
+    {
+        "KodeEmiten": "NAIK",
+        "der": 0,
+        "roe": 19.6375,
+        "per": 10.28,
+        "marketCap": 379314405376
+    },
+    {
+        "KodeEmiten": "DYAN",
+        "der": 0.28,
+        "roe": 4.5,
+        "per": 7.2,
+        "marketCap": 376020860928
+    },
+    {
+        "KodeEmiten": "ASRM",
+        "der": 0.28,
+        "roe": 2.9,
+        "per": 19.3,
+        "marketCap": 375729651712
+    },
+    {
+        "KodeEmiten": "BMSR",
+        "der": 0.42,
+        "roe": -9.8,
+        "per": 2.21,
+        "marketCap": 375580786688
+    },
+    {
+        "KodeEmiten": "SRSN",
+        "der": 0.32,
+        "roe": 6.42,
+        "per": 7.73,
+        "marketCap": 373239971840
+    },
+    {
+        "KodeEmiten": "BIPP",
+        "der": 0.63,
+        "roe": 0.06,
+        "per": 172.09,
+        "marketCap": 372121534464
+    },
+    {
+        "KodeEmiten": "DADA",
+        "der": 0.28,
+        "roe": 0.52,
+        "per": 14.95,
+        "marketCap": 371576537088
+    },
+    {
+        "KodeEmiten": "YPAS",
+        "der": 0.53,
+        "roe": -3.08,
+        "per": 55.28,
+        "marketCap": 370740035584
+    },
+    {
+        "KodeEmiten": "INPS",
+        "der": 18.07,
+        "roe": -397.4444,
+        "per": -1.51,
+        "marketCap": 367250014208
+    },
+    {
+        "KodeEmiten": "KBLM",
+        "der": 0.27,
+        "roe": 3.37,
+        "per": 104.76,
+        "marketCap": 365119995904
+    },
+    {
+        "KodeEmiten": "BAIK",
+        "der": 0.01,
+        "roe": 2.49,
+        "per": 7.02,
+        "marketCap": 364502712320
+    },
+    {
+        "KodeEmiten": "CRSN",
+        "der": 0.46,
+        "roe": 6.65,
+        "per": 15.8,
+        "marketCap": 364391989248
+    },
+    {
+        "KodeEmiten": "TARA",
+        "der": 0.02,
+        "roe": -0.21,
+        "per": -69.15,
+        "marketCap": 362507239424
+    },
+    {
+        "KodeEmiten": "DGNS",
+        "der": 0.4,
+        "roe": -1.22,
+        "per": 5.59,
+        "marketCap": 362499997696
+    },
+    {
+        "KodeEmiten": "ASHA",
+        "der": 0.1,
+        "roe": -27.43,
+        "per": -2.91,
+        "marketCap": 359999995904
+    },
+    {
+        "KodeEmiten": "HAJJ",
+        "der": 0.52,
+        "roe": 10.34,
+        "per": 73.06,
+        "marketCap": 357902843904
+    },
+    {
+        "KodeEmiten": "TFAS",
+        "der": 0.29,
+        "roe": -0.01,
+        "per": 1661.54,
+        "marketCap": 357872435200
+    },
+    {
+        "KodeEmiten": "KBAG",
+        "der": 0.03,
+        "roe": -5.97,
+        "per": -7.87,
+        "marketCap": 357500125184
+    },
+    {
+        "KodeEmiten": "WMPP",
+        "der": 4.34,
+        "roe": -98.9058,
+        "per": -0.39,
+        "marketCap": 353921100000
+    },
+    {
+        "KodeEmiten": "ATLA",
+        "der": 0.01,
+        "roe": 1.55,
+        "per": 135.71,
+        "marketCap": 353374306304
+    },
+    {
+        "KodeEmiten": "MUTU",
+        "der": 0.25,
+        "roe": 8.63,
+        "per": 7,
+        "marketCap": 345724583936
+    },
+    {
+        "KodeEmiten": "SATU",
+        "der": 2.87,
+        "roe": -16.09,
+        "per": -86.06,
+        "marketCap": 343750017024
+    },
+    {
+        "KodeEmiten": "MPXL",
+        "der": 1.12,
+        "roe": -5.6,
+        "per": 15.43,
+        "marketCap": 340002504704
+    },
+    {
+        "KodeEmiten": "UVCR",
+        "der": 0.8,
+        "roe": -0.08,
+        "per": 48.7,
+        "marketCap": 336024338432
+    },
+    {
+        "KodeEmiten": "ESTI",
+        "der": 1.53,
+        "roe": 6.31,
+        "per": 165999.98,
+        "marketCap": 334524645376
+    },
+    {
+        "KodeEmiten": "TRUS",
+        "der": 0.15,
+        "roe": 4.91,
+        "per": 15.46,
+        "marketCap": 332800000000
+    },
+    {
+        "KodeEmiten": "ETWA",
+        "der": -3.05,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 327924800000
+    },
+    {
+        "KodeEmiten": "BATR",
+        "der": 0.26,
+        "roe": 8.48,
+        "per": 18.34,
+        "marketCap": 323678994432
+    },
+    {
+        "KodeEmiten": "HBAT",
+        "der": 0,
+        "roe": 8.2,
+        "per": 3.72,
+        "marketCap": 322629632000
+    },
+    {
+        "KodeEmiten": "PART",
+        "der": 0.73,
+        "roe": 17.68,
+        "per": 15.05,
+        "marketCap": 318095360000
+    },
+    {
+        "KodeEmiten": "CGAS",
+        "der": 0.14,
+        "roe": 3.92,
+        "per": 35.24,
+        "marketCap": 317098328064
+    },
+    {
+        "KodeEmiten": "KLAS",
+        "der": 0.66,
+        "roe": 20.38,
+        "per": 42.13,
+        "marketCap": 317064183808
+    },
+    {
+        "KodeEmiten": "LMPI",
+        "der": 2.12,
+        "roe": -28.71,
+        "per": -4.47,
+        "marketCap": 316674572288
+    },
+    {
+        "KodeEmiten": "AKPI",
+        "der": 0.73,
+        "roe": 0.41,
+        "per": 46.73,
+        "marketCap": 315307720704
+    },
+    {
+        "KodeEmiten": "BPTR",
+        "der": 2.48,
+        "roe": 3.26,
+        "per": 10.75,
+        "marketCap": 314526007296
+    },
+    {
+        "KodeEmiten": "SAFE",
+        "der": 3.08,
+        "roe": 161.6,
+        "per": 13.29,
+        "marketCap": 313701269504
+    },
+    {
+        "KodeEmiten": "KIAS",
+        "der": 0.05,
+        "roe": -1.59,
+        "per": -11.56,
+        "marketCap": 313511084032
+    },
+    {
+        "KodeEmiten": "PPRI",
+        "der": 0.14,
+        "roe": 4.76,
+        "per": 35.8,
+        "marketCap": 311757930496
+    },
+    {
+        "KodeEmiten": "ITIC",
+        "der": 0.31,
+        "roe": 4.93,
+        "per": 15.36,
+        "marketCap": 310437609472
+    },
+    {
+        "KodeEmiten": "VINS",
+        "der": 0.01,
+        "roe": 6.14,
+        "per": 25.22,
+        "marketCap": 309132722176
+    },
+    {
+        "KodeEmiten": "EMDE",
+        "der": 0.2,
+        "roe": 3.69,
+        "per": 4.34,
+        "marketCap": 308200013824
+    },
+    {
+        "KodeEmiten": "MICE",
+        "der": 0.31,
+        "roe": 5.07,
+        "per": 6.45,
+        "marketCap": 307790086144
+    },
+    {
+        "KodeEmiten": "GPSO",
+        "der": 0.08,
+        "roe": -14.42,
+        "per": -1282.7,
+        "marketCap": 306700910592
+    },
+    {
+        "KodeEmiten": "WGSH",
+        "der": 0.06,
+        "roe": 7.95,
+        "per": 49.08,
+        "marketCap": 304410001408
+    },
+    {
+        "KodeEmiten": "ASPI",
+        "der": 0.05,
+        "roe": 0.57,
+        "per": -47.24,
+        "marketCap": 299509121024
+    },
+    {
+        "KodeEmiten": "OKAS",
+        "der": 0.73,
+        "roe": 22.05,
+        "per": 6.56,
+        "marketCap": 299054596096
+    },
+    {
+        "KodeEmiten": "ASMI",
+        "der": 0,
+        "roe": 6.87,
+        "per": 11.3,
+        "marketCap": 295626539008
+    },
+    {
+        "KodeEmiten": "WICO",
+        "der": -5.15,
+        "roe": 0,
+        "per": -3.12,
+        "marketCap": 294426378240
+    },
+    {
+        "KodeEmiten": "AKSI",
+        "der": 0.37,
+        "roe": -5.69,
+        "per": 16.02,
+        "marketCap": 293760008192
+    },
+    {
+        "KodeEmiten": "DOSS",
+        "der": 0.04,
+        "roe": 16.85,
+        "per": 12.4,
+        "marketCap": 293249974272
+    },
+    {
+        "KodeEmiten": "IKAI",
+        "der": 0.27,
+        "roe": -11.11,
+        "per": 24.18,
+        "marketCap": 292727586816
+    },
+    {
+        "KodeEmiten": "AGAR",
+        "der": 0.44,
+        "roe": 1.96,
+        "per": 145.73,
+        "marketCap": 290000011264
+    },
+    {
+        "KodeEmiten": "AMIN",
+        "der": 0.03,
+        "roe": 11.48,
+        "per": 8.03,
+        "marketCap": 289440006144
+    },
+    {
+        "KodeEmiten": "TOSK",
+        "der": 0.2,
+        "roe": 4.18,
+        "per": 28.49,
+        "marketCap": 288768294912
+    },
+    {
+        "KodeEmiten": "ACRO",
+        "der": 0.22,
+        "roe": 4.72,
+        "per": 72.45,
+        "marketCap": 287955681280
+    },
+    {
+        "KodeEmiten": "CANI",
+        "der": -1.39,
+        "roe": 0,
+        "per": -1.37,
+        "marketCap": 286703353856
+    },
+    {
+        "KodeEmiten": "ERTX",
+        "der": 1.31,
+        "roe": 9.64,
+        "per": 221999.98,
+        "marketCap": 285611819008
+    },
+    {
+        "KodeEmiten": "SPRE",
+        "der": 0.07,
+        "roe": 5.35,
+        "per": 50.61,
+        "marketCap": 284799991808
+    },
+    {
+        "KodeEmiten": "BINO",
+        "der": 0.17,
+        "roe": -11.68,
+        "per": 22.35,
+        "marketCap": 284414541824
+    },
+    {
+        "KodeEmiten": "WINR",
+        "der": 0.24,
+        "roe": 6.08,
+        "per": 0.06,
+        "marketCap": 282707066880
+    },
+    {
+        "KodeEmiten": "ALMI",
+        "der": 3.5,
+        "roe": -101.86,
+        "per": -1.76,
+        "marketCap": 282384007168
+    },
+    {
+        "KodeEmiten": "SAGE",
+        "der": 0.08,
+        "roe": -1.5,
+        "per": 198.6,
+        "marketCap": 281173458944
+    },
+    {
+        "KodeEmiten": "HRME",
+        "der": 0.43,
+        "roe": -6.22,
+        "per": -2.98,
+        "marketCap": 280061247488
+    },
+    {
+        "KodeEmiten": "BAJA",
+        "der": 12.22,
+        "roe": -95.42,
+        "per": -12.58,
+        "marketCap": 278999990272
+    },
+    {
+        "KodeEmiten": "MYTX",
+        "der": -7.02,
+        "roe": 0,
+        "per": -1.43,
+        "marketCap": 278902145024
+    },
+    {
+        "KodeEmiten": "PUDP",
+        "der": 0.04,
+        "roe": -0.19,
+        "per": 21.34,
+        "marketCap": 278148644864
+    },
+    {
+        "KodeEmiten": "DEWI",
+        "der": 0.13,
+        "roe": 4.29,
+        "per": -435.86,
+        "marketCap": 278000009216
+    },
+    {
+        "KodeEmiten": "WAPO",
+        "der": 0,
+        "roe": -14.17,
+        "per": 41.11,
+        "marketCap": 277966782464
+    },
+    {
+        "KodeEmiten": "PRIM",
+        "der": 0.12,
+        "roe": -0.75,
+        "per": -28.84,
+        "marketCap": 277022244864
+    },
+    {
+        "KodeEmiten": "ASJT",
+        "der": 0.59,
+        "roe": 2.27,
+        "per": -54.12,
+        "marketCap": 274400002048
+    },
+    {
+        "KodeEmiten": "GRPM",
+        "der": 0.26,
+        "roe": 5.72,
+        "per": 15.02,
+        "marketCap": 273481580544
+    },
+    {
+        "KodeEmiten": "ECII",
+        "der": 0.05,
+        "roe": -2.19,
+        "per": -52.54,
+        "marketCap": 272133521408
+    },
+    {
+        "KodeEmiten": "DFAM",
+        "der": 9.22,
+        "roe": -60.89,
+        "per": -7.48,
+        "marketCap": 267879251968
+    },
+    {
+        "KodeEmiten": "FWCT",
+        "der": 0.68,
+        "roe": 20.62,
+        "per": 2.94,
+        "marketCap": 265005006848
+    },
+    {
+        "KodeEmiten": "BTON",
+        "der": 0.5,
+        "roe": 11.98,
+        "per": 27.2,
+        "marketCap": 262080004096
+    },
+    {
+        "KodeEmiten": "KBLV",
+        "der": -7.35,
+        "roe": 0.55,
+        "per": 6.82,
+        "marketCap": 261325193216
+    },
+    {
+        "KodeEmiten": "POLA",
+        "der": 0.03,
+        "roe": -5.43,
+        "per": -2.97,
+        "marketCap": 254681743360
+    },
+    {
+        "KodeEmiten": "ANDI",
+        "der": 1.09,
+        "roe": -8.05,
+        "per": 2.29,
+        "marketCap": 252449996800
+    },
+    {
+        "KodeEmiten": "LCKM",
+        "der": 0.03,
+        "roe": 1.66,
+        "per": 166.23,
+        "marketCap": 251999993856
+    },
+    {
+        "KodeEmiten": "PEHA",
+        "der": 1.8,
+        "roe": -38.66,
+        "per": -5.83,
+        "marketCap": 251999993856
+    },
+    {
+        "KodeEmiten": "ASDM",
+        "der": 2.08,
+        "roe": 6.28,
+        "per": 7.98,
+        "marketCap": 251519991808
+    },
+    {
+        "KodeEmiten": "INOV",
+        "der": 1.69,
+        "roe": 22.27,
+        "per": 7.49,
+        "marketCap": 251342848000
+    },
+    {
+        "KodeEmiten": "SAPX",
+        "der": 0.82,
+        "roe": 0.49,
+        "per": 264.29,
+        "marketCap": 246666657792
+    },
+    {
+        "KodeEmiten": "RELF",
+        "der": 0.15,
+        "roe": 5.07,
+        "per": 12.81,
+        "marketCap": 246296772608
+    },
+    {
+        "KodeEmiten": "ALKA",
+        "der": 0.26,
+        "roe": -2.44,
+        "per": 17.67,
+        "marketCap": 246238248960
+    },
+    {
+        "KodeEmiten": "LPPS",
+        "der": 0,
+        "roe": 14.27,
+        "per": 1.85,
+        "marketCap": 245883764736
+    },
+    {
+        "KodeEmiten": "AKKU",
+        "der": 0.17,
+        "roe": -2.25,
+        "per": 336.28,
+        "marketCap": 245079621632
+    },
+    {
+        "KodeEmiten": "ENZO",
+        "der": 0.93,
+        "roe": -6.38,
+        "per": 23.01,
+        "marketCap": 244367835136
+    },
+    {
+        "KodeEmiten": "COWL",
+        "der": -133.29,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 243506400000
+    },
+    {
+        "KodeEmiten": "PTMP",
+        "der": 0.25,
+        "roe": -19.78,
+        "per": 14.11,
+        "marketCap": 240859217920
+    },
+    {
+        "KodeEmiten": "NTBK",
+        "der": 0.09,
+        "roe": 0.86,
+        "per": 397.32,
+        "marketCap": 240305766400
+    },
+    {
+        "KodeEmiten": "JMAS",
+        "der": 2.14,
+        "roe": 1.382,
+        "per": 187.5,
+        "marketCap": 240000008192
+    },
+    {
+        "KodeEmiten": "SDPC",
+        "der": 2.82,
+        "roe": 5.65,
+        "per": 14.18,
+        "marketCap": 238238007296
+    },
+    {
+        "KodeEmiten": "TRJA",
+        "der": 0.87,
+        "roe": -0.88,
+        "per": 4.86,
+        "marketCap": 235591204864
+    },
+    {
+        "KodeEmiten": "BAUT",
+        "der": 0.13,
+        "roe": -10.58,
+        "per": -8.16,
+        "marketCap": 230408781824
+    },
+    {
+        "KodeEmiten": "PPGL",
+        "der": 0.51,
+        "roe": 6.43,
+        "per": 12.46,
+        "marketCap": 229811060736
+    },
+    {
+        "KodeEmiten": "SLIS",
+        "der": 0.13,
+        "roe": -2.73,
+        "per": 12.05,
+        "marketCap": 226627125248
+    },
+    {
+        "KodeEmiten": "MEJA",
+        "der": 0.18,
+        "roe": 2.8389,
+        "per": 246.26,
+        "marketCap": 226319319040
+    },
+    {
+        "KodeEmiten": "BEBS",
+        "der": 0,
+        "roe": -4.5,
+        "per": -5.98,
+        "marketCap": 224999997440
+    },
+    {
+        "KodeEmiten": "SDMU",
+        "der": 5.31,
+        "roe": -49.01,
+        "per": 0.9,
+        "marketCap": 222818418688
+    },
+    {
+        "KodeEmiten": "FIRE",
+        "der": 0.06,
+        "roe": -3.42,
+        "per": 3.47,
+        "marketCap": 222779850752
+    },
+    {
+        "KodeEmiten": "OBMD",
+        "der": 0.05,
+        "roe": 18.41,
+        "per": 7.81,
+        "marketCap": 222454054912
+    },
+    {
+        "KodeEmiten": "DUCK",
+        "der": 0.46,
+        "roe": 4.4587,
+        "per": 0,
+        "marketCap": 221503200000
+    },
+    {
+        "KodeEmiten": "MANG",
+        "der": 0.18,
+        "roe": -4.43,
+        "per": -184.43,
+        "marketCap": 221128966144
+    },
+    {
+        "KodeEmiten": "PURA",
+        "der": 0.21,
+        "roe": 1.27,
+        "per": 24.19,
+        "marketCap": 220567584768
+    },
+    {
+        "KodeEmiten": "CASH",
+        "der": 0.11,
+        "roe": -31.39,
+        "per": -2.66,
+        "marketCap": 220393324544
+    },
+    {
+        "KodeEmiten": "NPGF",
+        "der": 0.36,
+        "roe": 1.54,
+        "per": 3400,
+        "marketCap": 220336029696
+    },
+    {
+        "KodeEmiten": "LAJU",
+        "der": 0.8,
+        "roe": -1.36,
+        "per": 14.24,
+        "marketCap": 219294187520
+    },
+    {
+        "KodeEmiten": "NANO",
+        "der": 0.11,
+        "roe": 0.06,
+        "per": 19.56,
+        "marketCap": 218557448192
+    },
+    {
+        "KodeEmiten": "LION",
+        "der": 0.05,
+        "roe": -3.7,
+        "per": -17.47,
+        "marketCap": 218467205120
+    },
+    {
+        "KodeEmiten": "WOWS",
+        "der": 0.14,
+        "roe": 1.56,
+        "per": -38.96,
+        "marketCap": 217863356416
+    },
+    {
+        "KodeEmiten": "NZIA",
+        "der": 0.12,
+        "roe": -1.85,
+        "per": 75.29,
+        "marketCap": 217556516864
+    },
+    {
+        "KodeEmiten": "TAXI",
+        "der": 0.21,
+        "roe": -6.25,
+        "per": -19.5,
+        "marketCap": 214696574976
+    },
+    {
+        "KodeEmiten": "APII",
+        "der": 0.38,
+        "roe": 2.21,
+        "per": 10.6,
+        "marketCap": 214076243968
+    },
+    {
+        "KodeEmiten": "PURI",
+        "der": 1.57,
+        "roe": -7.29,
+        "per": 38.92,
+        "marketCap": 211999997952
+    },
+    {
+        "KodeEmiten": "PTSP",
+        "der": 0.39,
+        "roe": 11.48,
+        "per": 11.21,
+        "marketCap": 209767596032
+    },
+    {
+        "KodeEmiten": "PAMG",
+        "der": 0.27,
+        "roe": 1.14,
+        "per": 67.81,
+        "marketCap": 209375002624
+    },
+    {
+        "KodeEmiten": "DIVA",
+        "der": 0.13,
+        "roe": 1.05,
+        "per": 142.31,
+        "marketCap": 207198158848
+    },
+    {
+        "KodeEmiten": "CAKK",
+        "der": 1.62,
+        "roe": -22.27,
+        "per": 14.34,
+        "marketCap": 206967635968
+    },
+    {
+        "KodeEmiten": "KLIN",
+        "der": 0.23,
+        "roe": -8.02,
+        "per": 116.8,
+        "marketCap": 202667212800
+    },
+    {
+        "KodeEmiten": "ABBA",
+        "der": -3.13,
+        "roe": 0,
+        "per": -9.38,
+        "marketCap": 200730525696
+    },
+    {
+        "KodeEmiten": "CINT",
+        "der": 0.17,
+        "roe": 7.26,
+        "per": 16.97,
+        "marketCap": 198000001024
+    },
+    {
+        "KodeEmiten": "ZYRX",
+        "der": 0.37,
+        "roe": 5.39,
+        "per": 2.84,
+        "marketCap": 197333516288
+    },
+    {
+        "KodeEmiten": "KARW",
+        "der": -1.39,
+        "roe": 0,
+        "per": 3306.42,
+        "marketCap": 197283315712
+    },
+    {
+        "KodeEmiten": "RUIS",
+        "der": 0.9,
+        "roe": 2.7,
+        "per": 12.98,
+        "marketCap": 197120000000
+    },
+    {
+        "KodeEmiten": "DSFI",
+        "der": 0.41,
+        "roe": 5.61,
+        "per": 11.29,
+        "marketCap": 196856365056
+    },
+    {
+        "KodeEmiten": "KOPI",
+        "der": 1.9,
+        "roe": -24.98,
+        "per": 117.5,
+        "marketCap": 195234676736
+    },
+    {
+        "KodeEmiten": "AYLS",
+        "der": 0.04,
+        "roe": -5.79,
+        "per": -80.43,
+        "marketCap": 194580496384
+    },
+    {
+        "KodeEmiten": "MRAT",
+        "der": 0.2,
+        "roe": -0.96,
+        "per": -9.36,
+        "marketCap": 193455996928
+    },
+    {
+        "KodeEmiten": "WEHA",
+        "der": 0.4,
+        "roe": 9.2,
+        "per": 8.73,
+        "marketCap": 191332696064
+    },
+    {
+        "KodeEmiten": "MARI",
+        "der": 16.82,
+        "roe": -367.416,
+        "per": -3.08,
+        "marketCap": 189095182336
+    },
+    {
+        "KodeEmiten": "BOBA",
+        "der": 0,
+        "roe": 12.72,
+        "per": 9.61,
+        "marketCap": 188387246080
+    },
+    {
+        "KodeEmiten": "MTRA",
+        "der": -2.86,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 188058000000
+    },
+    {
+        "KodeEmiten": "LPIN",
+        "der": 0.08,
+        "roe": 8.95,
+        "per": 7.16,
+        "marketCap": 186149994496
+    },
+    {
+        "KodeEmiten": "INAI",
+        "der": 5.04,
+        "roe": -57.2,
+        "per": -0.69,
+        "marketCap": 185011208192
+    },
+    {
+        "KodeEmiten": "SMKM",
+        "der": 0.02,
+        "roe": 1.57,
+        "per": 10.11,
+        "marketCap": 184190992384
+    },
+    {
+        "KodeEmiten": "GOLL",
+        "der": 5.01,
+        "roe": -21.2879,
+        "per": 0,
+        "marketCap": 183245800000
+    },
+    {
+        "KodeEmiten": "PSDN",
+        "der": 1.9,
+        "roe": -64.102,
+        "per": 19.94,
+        "marketCap": 181440004096
+    },
+    {
+        "KodeEmiten": "LOPI",
+        "der": 0.17,
+        "roe": 8.01,
+        "per": 17.81,
+        "marketCap": 180401848320
+    },
+    {
+        "KodeEmiten": "GAMA",
+        "der": 0.31,
+        "roe": -3.2764,
+        "per": 0,
+        "marketCap": 178222899999
+    },
+    {
+        "KodeEmiten": "HOTL",
+        "der": 0.26,
+        "roe": -0.4032,
+        "per": 0,
+        "marketCap": 176952000000
+    },
+    {
+        "KodeEmiten": "HELI",
+        "der": 1.18,
+        "roe": 28.67,
+        "per": 9.05,
+        "marketCap": 176566829056
+    },
+    {
+        "KodeEmiten": "TRUK",
+        "der": 0.2,
+        "roe": -15,
+        "per": -8.97,
+        "marketCap": 172957401088
+    },
+    {
+        "KodeEmiten": "GLOB",
+        "der": -1.01,
+        "roe": 0,
+        "per": -0.91,
+        "marketCap": 172222349312
+    },
+    {
+        "KodeEmiten": "YELO",
+        "der": 0.01,
+        "roe": -1.47,
+        "per": 5.4,
+        "marketCap": 170236919808
+    },
+    {
+        "KodeEmiten": "IPAC",
+        "der": 0.02,
+        "roe": 2.63,
+        "per": 46.82,
+        "marketCap": 170026450944
+    },
+    {
+        "KodeEmiten": "MTPS",
+        "der": 0.78,
+        "roe": -21.94,
+        "per": -2.91,
+        "marketCap": 168872919040
+    },
+    {
+        "KodeEmiten": "BAPI",
+        "der": 0.39,
+        "roe": -1.44,
+        "per": -29.54,
+        "marketCap": 167759396864
+    },
+    {
+        "KodeEmiten": "LAND",
+        "der": 0.31,
+        "roe": 0.07,
+        "per": 500,
+        "marketCap": 167557201920
+    },
+    {
+        "KodeEmiten": "NAYZ",
+        "der": 0.01,
+        "roe": -3.16,
+        "per": 89.46,
+        "marketCap": 165750734848
+    },
+    {
+        "KodeEmiten": "FOOD",
+        "der": 10.46,
+        "roe": -476.8142,
+        "per": -3.86,
+        "marketCap": 165099995136
+    },
+    {
+        "KodeEmiten": "CHEM",
+        "der": 0.32,
+        "roe": 0.29,
+        "per": 24.85,
+        "marketCap": 164903174144
+    },
+    {
+        "KodeEmiten": "ISAP",
+        "der": 0.03,
+        "roe": -0.98,
+        "per": 36.91,
+        "marketCap": 164829609984
+    },
+    {
+        "KodeEmiten": "SEMA",
+        "der": 0.34,
+        "roe": 5.69,
+        "per": 6.98,
+        "marketCap": 164365582336
+    },
+    {
+        "KodeEmiten": "HKMU",
+        "der": -6.69,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 161422800000
+    },
+    {
+        "KodeEmiten": "PTIS",
+        "der": 0.02,
+        "roe": 0.27,
+        "per": 216.42,
+        "marketCap": 159547932672
+    },
+    {
+        "KodeEmiten": "INTD",
+        "der": 0.1,
+        "roe": -5.03,
+        "per": 54.12,
+        "marketCap": 158609899520
+    },
+    {
+        "KodeEmiten": "SNLK",
+        "der": 0.17,
+        "roe": -3.16,
+        "per": 75.01,
+        "marketCap": 158400004096
+    },
+    {
+        "KodeEmiten": "MBTO",
+        "der": 0.45,
+        "roe": -6.7,
+        "per": -3.24,
+        "marketCap": 158359994368
+    },
+    {
+        "KodeEmiten": "INCI",
+        "der": 0,
+        "roe": 6.18,
+        "per": 9.03,
+        "marketCap": 157819027456
+    },
+    {
+        "KodeEmiten": "TMPO",
+        "der": 0.27,
+        "roe": -0.7,
+        "per": 33.11,
+        "marketCap": 157691658240
+    },
+    {
+        "KodeEmiten": "KRYA",
+        "der": 1.18,
+        "roe": -104.63,
+        "per": 39.29,
+        "marketCap": 153082789888
+    },
+    {
+        "KodeEmiten": "IBFN",
+        "der": -1.55,
+        "roe": 0,
+        "per": -0.24,
+        "marketCap": 151733239808
+    },
+    {
+        "KodeEmiten": "GEMA",
+        "der": 0.99,
+        "roe": 4.65,
+        "per": 8.09,
+        "marketCap": 150400008192
+    },
+    {
+        "KodeEmiten": "DEFI",
+        "der": 0.04,
+        "roe": -10.05,
+        "per": -299.47,
+        "marketCap": 148719992832
+    },
+    {
+        "KodeEmiten": "ASBI",
+        "der": 0,
+        "roe": 5.17,
+        "per": 8.62,
+        "marketCap": 147715866624
+    },
+    {
+        "KodeEmiten": "TOOL",
+        "der": 0.1,
+        "roe": -3.24,
+        "per": 8.72,
+        "marketCap": 141451411456
+    },
+    {
+        "KodeEmiten": "LABA",
+        "der": 0.01,
+        "roe": 4.13,
+        "per": 4.55,
+        "marketCap": 141235519488
+    },
+    {
+        "KodeEmiten": "RAFI",
+        "der": 0.21,
+        "roe": -18.39,
+        "per": 2.45,
+        "marketCap": 140766330880
+    },
+    {
+        "KodeEmiten": "MPIX",
+        "der": 0.02,
+        "roe": 7.02,
+        "per": 3.87,
+        "marketCap": 137506209792
+    },
+    {
+        "KodeEmiten": "ISEA",
+        "der": 1.26,
+        "roe": 1.24,
+        "per": 37.7,
+        "marketCap": 136221302784
+    },
+    {
+        "KodeEmiten": "RGAS",
+        "der": 0.06,
+        "roe": 3.98,
+        "per": 10.57,
+        "marketCap": 135708770304
+    },
+    {
+        "KodeEmiten": "RBMS",
+        "der": 0.28,
+        "roe": -2.36,
+        "per": -2.26,
+        "marketCap": 135466852352
+    },
+    {
+        "KodeEmiten": "IDEA",
+        "der": 0.15,
+        "roe": 3.08,
+        "per": 57.08,
+        "marketCap": 132804689920
+    },
+    {
+        "KodeEmiten": "KIOS",
+        "der": 0.1,
+        "roe": -3.52,
+        "per": -1.79,
+        "marketCap": 131255271424
+    },
+    {
+        "KodeEmiten": "AIMS",
+        "der": 12.04,
+        "roe": -141.03,
+        "per": 31.9,
+        "marketCap": 130900000768
+    },
+    {
+        "KodeEmiten": "PMMP",
+        "der": 2.81,
+        "roe": -26.05,
+        "per": 12500,
+        "marketCap": 129415004160
+    },
+    {
+        "KodeEmiten": "MIRA",
+        "der": 0.28,
+        "roe": -5.41,
+        "per": -3.65,
+        "marketCap": 126766465024
+    },
+    {
+        "KodeEmiten": "KUAS",
+        "der": 0.63,
+        "roe": 7.17,
+        "per": 17.65,
+        "marketCap": 124109586432
+    },
+    {
+        "KodeEmiten": "CSMI",
+        "der": 1.04,
+        "roe": -55.47,
+        "per": -2888.29,
+        "marketCap": 123225284608
+    },
+    {
+        "KodeEmiten": "JAST",
+        "der": 0.35,
+        "roe": 6.98,
+        "per": 28.36,
+        "marketCap": 122331062272
+    },
+    {
+        "KodeEmiten": "PTDU",
+        "der": -39.87,
+        "roe": 0,
+        "per": 13.11,
+        "marketCap": 121500000256
+    },
+    {
+        "KodeEmiten": "CPRI",
+        "der": 0.14,
+        "roe": -1.9974,
+        "per": 0,
+        "marketCap": 121288200000
+    },
+    {
+        "KodeEmiten": "FLMC",
+        "der": 0.1,
+        "roe": -70.62,
+        "per": 9.61,
+        "marketCap": 121093750784
+    },
+    {
+        "KodeEmiten": "LMAX",
+        "der": 0.14,
+        "roe": 1.01,
+        "per": 25.01,
+        "marketCap": 120251621376
+    },
+    {
+        "KodeEmiten": "PGLI",
+        "der": 1.02,
+        "roe": -4.79,
+        "per": -2.52,
+        "marketCap": 119071997952
+    },
+    {
+        "KodeEmiten": "SBMA",
+        "der": 0.12,
+        "roe": 5.96,
+        "per": 10.83,
+        "marketCap": 119030562816
+    },
+    {
+        "KodeEmiten": "EPAC",
+        "der": 1.39,
+        "roe": -13.6,
+        "per": -1.15,
+        "marketCap": 118922395648
+    },
+    {
+        "KodeEmiten": "MEDS",
+        "der": 0.14,
+        "roe": -15.82,
+        "per": -37.43,
+        "marketCap": 118749995008
+    },
+    {
+        "KodeEmiten": "POOL",
+        "der": 0.03,
+        "roe": -8.3858,
+        "per": 0,
+        "marketCap": 118725600000
+    },
+    {
+        "KodeEmiten": "OLIV",
+        "der": 0.17,
+        "roe": -13.41,
+        "per": 67.91,
+        "marketCap": 117804548096
+    },
+    {
+        "KodeEmiten": "MTSM",
+        "der": 0.09,
+        "roe": -9.86,
+        "per": -47.37,
+        "marketCap": 116423999488
+    },
+    {
+        "KodeEmiten": "OPMS",
+        "der": 0,
+        "roe": -10.17,
+        "per": -7.99,
+        "marketCap": 115434291200
+    },
+    {
+        "KodeEmiten": "SICO",
+        "der": 0.17,
+        "roe": 11.05,
+        "per": 13.07,
+        "marketCap": 112849641472
+    },
+    {
+        "KodeEmiten": "CTTH",
+        "der": 1.82,
+        "roe": -15.55,
+        "per": -4.11,
+        "marketCap": 112006422528
+    },
+    {
+        "KodeEmiten": "RCCC",
+        "der": 0.97,
+        "roe": 7.61,
+        "per": 64.3,
+        "marketCap": 111825002496
+    },
+    {
+        "KodeEmiten": "POLY",
+        "der": -1.19,
+        "roe": 0,
+        "per": 44000,
+        "marketCap": 109813153792
+    },
+    {
+        "KodeEmiten": "HDIT",
+        "der": 0.02,
+        "roe": -8.51,
+        "per": -0.56,
+        "marketCap": 108252274688
+    },
+    {
+        "KodeEmiten": "BCIP",
+        "der": 0.04,
+        "roe": 3.67,
+        "per": 6.47,
+        "marketCap": 107243667456
+    },
+    {
+        "KodeEmiten": "JSKY",
+        "der": 1.41,
+        "roe": -45.3024,
+        "per": 0,
+        "marketCap": 106022399999
+    },
+    {
+        "KodeEmiten": "PICO",
+        "der": 0.51,
+        "roe": 1.7,
+        "per": 69.4,
+        "marketCap": 105717743616
+    },
+    {
+        "KodeEmiten": "DPNS",
+        "der": 0.08,
+        "roe": 2.47,
+        "per": 4.3,
+        "marketCap": 102650281984
+    },
+    {
+        "KodeEmiten": "SCPI",
+        "der": 0.7,
+        "roe": 10.4035,
+        "per": 0.98,
+        "marketCap": 102042000000
+    },
+    {
+        "KodeEmiten": "NASI",
+        "der": 0.21,
+        "roe": -5.32,
+        "per": 25.03,
+        "marketCap": 101732401152
+    },
+    {
+        "KodeEmiten": "FORZ",
+        "der": 1.05,
+        "roe": 4.3359,
+        "per": 0,
+        "marketCap": 99120200000
+    },
+    {
+        "KodeEmiten": "INCF",
+        "der": 1.72,
+        "roe": -0.57,
+        "per": 38.37,
+        "marketCap": 97809186816
+    },
+    {
+        "KodeEmiten": "OILS",
+        "der": 1.04,
+        "roe": 8.61,
+        "per": 21.23,
+        "marketCap": 97168105472
+    },
+    {
+        "KodeEmiten": "BATA",
+        "der": 199.37,
+        "roe": -10458.9356,
+        "per": -0.27,
+        "marketCap": 96199999488
+    },
+    {
+        "KodeEmiten": "PLAN",
+        "der": 0.42,
+        "roe": -7.74,
+        "per": -33.92,
+        "marketCap": 95051210752
+    },
+    {
+        "KodeEmiten": "LUCK",
+        "der": 0.25,
+        "roe": -5.39,
+        "per": -20.59,
+        "marketCap": 93763198976
+    },
+    {
+        "KodeEmiten": "CBMF",
+        "der": 0.47,
+        "roe": -2.1841,
+        "per": 0,
+        "marketCap": 93556000000
+    },
+    {
+        "KodeEmiten": "JAYA",
+        "der": 0.45,
+        "roe": 1.92,
+        "per": 39.06,
+        "marketCap": 92625928192
+    },
+    {
+        "KodeEmiten": "TAYS",
+        "der": 4.78,
+        "roe": -81.1,
+        "per": 13.85,
+        "marketCap": 91210350592
+    },
+    {
+        "KodeEmiten": "ENVY",
+        "der": -1.42,
+        "roe": 0,
+        "per": -3.1,
+        "marketCap": 90104400000
+    },
+    {
+        "KodeEmiten": "KOIN",
+        "der": -13.19,
+        "roe": 0,
+        "per": -1.88,
+        "marketCap": 89256779776
+    },
+    {
+        "KodeEmiten": "IKAN",
+        "der": 0.62,
+        "roe": 1.05,
+        "per": 54.08,
+        "marketCap": 88333295616
+    },
+    {
+        "KodeEmiten": "RUNS",
+        "der": 0.16,
+        "roe": -9.1896,
+        "per": -8.08,
+        "marketCap": 88278245376
+    },
+    {
+        "KodeEmiten": "ICON",
+        "der": 0.06,
+        "roe": -1.93,
+        "per": -8,
+        "marketCap": 88269750272
+    },
+    {
+        "KodeEmiten": "MPOW",
+        "der": 0.32,
+        "roe": -7.04,
+        "per": 16.42,
+        "marketCap": 88235679744
+    },
+    {
+        "KodeEmiten": "KJEN",
+        "der": 0.03,
+        "roe": 0.1,
+        "per": 775.71,
+        "marketCap": 86999998464
+    },
+    {
+        "KodeEmiten": "TNCA",
+        "der": 0.03,
+        "roe": 1.06,
+        "per": 64.15,
+        "marketCap": 86857842688
+    },
+    {
+        "KodeEmiten": "ESIP",
+        "der": 0.02,
+        "roe": 1.4,
+        "per": 25.75,
+        "marketCap": 85466439680
+    },
+    {
+        "KodeEmiten": "SOUL",
+        "der": 0.06,
+        "roe": -10.85,
+        "per": -13.9,
+        "marketCap": 82271993856
+    },
+    {
+        "KodeEmiten": "MSIE",
+        "der": 0.02,
+        "roe": -1.03,
+        "per": -23.69,
+        "marketCap": 78840422400
+    },
+    {
+        "KodeEmiten": "LRNA",
+        "der": 0.03,
+        "roe": -5.53,
+        "per": -2.12,
+        "marketCap": 78400004096
+    },
+    {
+        "KodeEmiten": "MENN",
+        "der": 0.04,
+        "roe": -9.17,
+        "per": 65.06,
+        "marketCap": 76004753408
+    },
+    {
+        "KodeEmiten": "TGRA",
+        "der": 0.34,
+        "roe": -9.14,
+        "per": -6.18,
+        "marketCap": 74250002432
+    },
+    {
+        "KodeEmiten": "AEGS",
+        "der": 0.04,
+        "roe": 0.87,
+        "per": 29.45,
+        "marketCap": 72437809152
+    },
+    {
+        "KodeEmiten": "BOSS",
+        "der": -4.78,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 70030800000
+    },
+    {
+        "KodeEmiten": "ARKA",
+        "der": 1.74,
+        "roe": 3.05,
+        "per": 19.77,
+        "marketCap": 70000001024
+    },
+    {
+        "KodeEmiten": "PURE",
+        "der": -7.35,
+        "roe": 0,
+        "per": -0.76,
+        "marketCap": 69948399999
+    },
+    {
+        "KodeEmiten": "PRAS",
+        "der": 4.82,
+        "roe": -87.4632,
+        "per": 0,
+        "marketCap": 66795300000
+    },
+    {
+        "KodeEmiten": "TELE",
+        "der": -1.02,
+        "roe": 0,
+        "per": -0.59,
+        "marketCap": 65798365184
+    },
+    {
+        "KodeEmiten": "TAMA",
+        "der": 3.8,
+        "roe": -25.25,
+        "per": -1.74,
+        "marketCap": 64800034816
+    },
+    {
+        "KodeEmiten": "IPPE",
+        "der": 0.02,
+        "roe": 0.64,
+        "per": 16.55,
+        "marketCap": 64399998976
+    },
+    {
+        "KodeEmiten": "TECH",
+        "der": 0.15,
+        "roe": 1.9944,
+        "per": 0,
+        "marketCap": 62535900000
+    },
+    {
+        "KodeEmiten": "WIDI",
+        "der": 0,
+        "roe": -3.72,
+        "per": -27.72,
+        "marketCap": 62401236992
+    },
+    {
+        "KodeEmiten": "HADE",
+        "der": 0.15,
+        "roe": -30.73,
+        "per": -29.85,
+        "marketCap": 61480001536
+    },
+    {
+        "KodeEmiten": "KICI",
+        "der": 0.25,
+        "roe": -9.32,
+        "per": 3,
+        "marketCap": 61271998464
+    },
+    {
+        "KodeEmiten": "DIGI",
+        "der": -2.4,
+        "roe": 0,
+        "per": -11.5,
+        "marketCap": 60124995584
+    },
+    {
+        "KodeEmiten": "TRIL",
+        "der": 0.17,
+        "roe": -3.0851,
+        "per": 0,
+        "marketCap": 59981600000
+    },
+    {
+        "KodeEmiten": "BAPA",
+        "der": 0.03,
+        "roe": -4.02,
+        "per": -6.38,
+        "marketCap": 59560607744
+    },
+    {
+        "KodeEmiten": "INDX",
+        "der": 0.6,
+        "roe": -31.61,
+        "per": 1743.59,
+        "marketCap": 59556249600
+    },
+    {
+        "KodeEmiten": "GRPH",
+        "der": 0.24,
+        "roe": 4.29,
+        "per": 27.25,
+        "marketCap": 59000000512
+    },
+    {
+        "KodeEmiten": "PLAS",
+        "der": 0.2,
+        "roe": -0.2435,
+        "per": 0,
+        "marketCap": 58516200000
+    },
+    {
+        "KodeEmiten": "RICY",
+        "der": 10.14,
+        "roe": -56.468,
+        "per": -0.57,
+        "marketCap": 57754574848
+    },
+    {
+        "KodeEmiten": "BMBL",
+        "der": 0.02,
+        "roe": -12.16,
+        "per": -20.7,
+        "marketCap": 56654454784
+    },
+    {
+        "KodeEmiten": "KPAL",
+        "der": 3.15,
+        "roe": -8.2419,
+        "per": 0,
+        "marketCap": 53307799999
+    },
+    {
+        "KodeEmiten": "KKES",
+        "der": 0.46,
+        "roe": -9.58,
+        "per": 15.24,
+        "marketCap": 51000000512
+    },
+    {
+        "KodeEmiten": "BIMA",
+        "der": 2.47,
+        "roe": -41.45,
+        "per": -9.12,
+        "marketCap": 49870409728
+    },
+    {
+        "KodeEmiten": "SWAT",
+        "der": 2.13,
+        "roe": -5.94,
+        "per": 5.08,
+        "marketCap": 48307200000
+    },
+    {
+        "KodeEmiten": "KPAS",
+        "der": 0.98,
+        "roe": -28.3599,
+        "per": 0,
+        "marketCap": 48027400000
+    },
+    {
+        "KodeEmiten": "PCAR",
+        "der": 0.22,
+        "roe": 1.07,
+        "per": 36.11,
+        "marketCap": 45500002304
+    },
+    {
+        "KodeEmiten": "OCAP",
+        "der": -1.02,
+        "roe": 0,
+        "per": -4.07,
+        "marketCap": 43214400000
+    },
+    {
+        "KodeEmiten": "LMAS",
+        "der": 1.75,
+        "roe": 1.6177,
+        "per": 0,
+        "marketCap": 39488000000
+    },
+    {
+        "KodeEmiten": "ALTO",
+        "der": 1.91,
+        "roe": -13.36,
+        "per": -0.82,
+        "marketCap": 39453667328
+    },
+    {
+        "KodeEmiten": "TOPS",
+        "der": 1.01,
+        "roe": -51.09,
+        "per": -0.12,
+        "marketCap": 33329999872
+    },
+    {
+        "KodeEmiten": "BIKA",
+        "der": -7.74,
+        "roe": 0,
+        "per": 0.52,
+        "marketCap": 32575399936
+    },
+    {
+        "KodeEmiten": "SKYB",
+        "der": 0.26,
+        "roe": -2.8251,
+        "per": 0,
+        "marketCap": 29907900000
+    },
+    {
+        "KodeEmiten": "CNTX",
+        "der": -2.29,
+        "roe": 0,
+        "per": -0.1,
+        "marketCap": 28400001024
+    },
+    {
+        "KodeEmiten": "FIMP",
+        "der": 0.16,
+        "roe": 9.1,
+        "per": -15.46,
+        "marketCap": 27600066560
+    },
+    {
+        "KodeEmiten": "ZBRA",
+        "der": 0.94,
+        "roe": -28.34,
+        "per": -0.98,
+        "marketCap": 26710364160
+    },
+    {
+        "KodeEmiten": "UNIT",
+        "der": 0.47,
+        "roe": 0.1384,
+        "per": 0,
+        "marketCap": 24698000000
+    },
+    {
+        "KodeEmiten": "LMSH",
+        "der": 0.22,
+        "roe": -5.25,
+        "per": 12.19,
+        "marketCap": 24576000000
+    },
+    {
+        "KodeEmiten": "SIMA",
+        "der": -130.53,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 22080000000
+    },
+    {
+        "KodeEmiten": "ARTI",
+        "der": -4.41,
+        "roe": 0,
+        "per": 1.07,
+        "marketCap": 15680000000
+    },
+    {
+        "KodeEmiten": "KAYU",
+        "der": 0.24,
+        "roe": 1.2754,
+        "per": 0,
+        "marketCap": 12145500000
+    },
+    {
+        "KodeEmiten": "TOYS",
+        "der": 0.41,
+        "roe": -5.36,
+        "per": -0.84,
+        "marketCap": 11480005632
+    },
+    {
+        "KodeEmiten": "JKSW",
+        "der": -1.32,
+        "roe": 0,
+        "per": -4.97,
+        "marketCap": 9928200000
+    },
+    {
+        "KodeEmiten": "DEAL",
+        "der": -3.64,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 6849600000
+    },
+    {
+        "KodeEmiten": "MKNT",
+        "der": -9.96,
+        "roe": 0,
+        "per": 0,
+        "marketCap": 5500000256
+    },
+    {
+        "KodeEmiten": "SBAT",
+        "der": 2.29,
+        "roe": -39.72,
+        "per": 0,
+        "marketCap": 4752982528
     }
 ]
