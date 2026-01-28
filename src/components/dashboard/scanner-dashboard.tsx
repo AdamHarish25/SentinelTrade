@@ -6,6 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Radar, RefreshCcw, TrendingUp, Filter, Diamond, Layers, Briefcase, Database } from "lucide-react";
 import type { WatchlistItem } from "@/lib/types";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../ui/tooltip";
 
 // SUB-COMPONENTS
 const HotStockCard = ({ stock, onSelect, isSelected }: { stock: WatchlistItem, onSelect: any, isSelected: boolean }) => (
@@ -64,7 +65,21 @@ const ExplorerTable = ({ stocks, onSelect, selectedSymbol }: { stocks: Watchlist
                             className={`px-4 py-3 text-sm grid grid-cols-12 gap-2 items-center cursor-pointer border-b border-border/50 last:border-0 hover:bg-muted/50 ${selectedSymbol === stock.symbol ? 'bg-muted/80' : ''}`}
                         >
                             <div className="col-span-3 font-bold flex items-center gap-2">
-                                {stock.symbol}
+                                <p>
+                                    {stock.symbol}
+                                    {stock.isStealth && (
+                                        <TooltipProvider>
+                                            <Tooltip>
+                                                <TooltipTrigger asChild>
+                                                    <Radar className="h-4 w-4 text-pelorous-blue animate-pulse ml-1" />
+                                                </TooltipTrigger>
+                                                <TooltipContent className="bg-deep-navy border-border text-xs max-w-[200px]">
+                                                    <p>Stealth Accumulation Detected. High Broker Concentration in Sideways Market.</p>
+                                                </TooltipContent>
+                                            </Tooltip>
+                                        </TooltipProvider>
+                                    )}
+                                </p>
                                 {stock.fundamental?.conglomerate && (
                                     <span className="md:hidden inline-block w-1.5 h-1.5 rounded-full bg-purple-400" />
                                 )}
