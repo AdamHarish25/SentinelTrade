@@ -58,14 +58,13 @@ export const DEFAULT_QUALITY_FILTER: QualityFilterParams = {
 export class FundamentalService {
 
     // In-memory cache of the joined dataset
-    private static _joinedData: CompanyProfile[] = [];
-    private static _initialized = false;
+    // REMOVED static caching to ensure hot-reload of JSON data works during development
+    // private static _joinedData: CompanyProfile[] = [];
+    // private static _initialized = false;
 
-    private static initialize() {
-        if (this._initialized) return;
-
+    private static getJoinedData(): CompanyProfile[] {
         // JOIN LOGIC: (AllCompanies + Financials + Summaries)
-        this._joinedData = (allCompanies as RawCompany[]).map(comp => {
+        return (allCompanies as RawCompany[]).map(comp => {
             const ratio = (financialRatios as RawFinancialRatio[]).find(r => r.KodeEmiten === comp.KodeEmiten);
             const summary = (companySummaries as RawSummary[]).find(s => s.KodeEmiten === comp.KodeEmiten);
 
@@ -97,15 +96,13 @@ export class FundamentalService {
                 conglomerate
             };
         }).filter(Boolean) as CompanyProfile[]; // Remove nulls
-
-        this._initialized = true;
     }
 
     static getTickers(filter: QualityFilterParams = DEFAULT_QUALITY_FILTER): string[] {
-        this.initialize();
+        const data = this.getJoinedData();
         const T = 1_000_000_000_000;
 
-        const filtered = this._joinedData.filter(company => {
+        const filtered = data.filter(company => {
             // 1. LIQUIDITY & SIZE GATE
             if (company.marketCap < filter.minMarketCapT * T) return false;
 
@@ -133,17 +130,16 @@ export class FundamentalService {
     }
 
     static getAllData(): CompanyProfile[] {
-        this.initialize();
-        return this._joinedData;
+        return this.getJoinedData();
     }
 
     static getMetrics(): { total: number, passed: number } {
-        this.initialize();
+        const data = this.getJoinedData();
         // This is just a helper, ideally we'd pass filter params to get 'passed' count dynamically
         // Use default filter for summary
         const passed = this.getTickers(DEFAULT_QUALITY_FILTER).length;
         return {
-            total: this._joinedData.length,
+            total: data.length,
             passed
         };
     }
